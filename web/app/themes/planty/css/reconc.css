@@ -1,0 +1,444 @@
+.title-ren {
+  color: var(--contessa);
+  font-family: var(--font-family-syne);
+  font-size: var(--font-size-xl);
+  font-weight: 800;
+  height: 46px;
+  letter-spacing: 0;
+  margin-left: 5%;
+}
+
+.fleur {
+  height: 168px;
+  margin-top: 11%;
+  position: relative;
+  width: 167px;
+  left: 17%;
+}
+
+.chez-planty-nous-som {
+  height: 72px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 18px;
+  text-align: center;
+  width: 669px;
+  margin-bottom: 6%;
+ margin-left:312px !important;
+}
+
+.lquipe {
+  height: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  margin: 58px;
+  white-space: nowrap;
+}
+
+.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) {
+  display: flex;
+  justify-content: center;
+}
+
+.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) img {
+  flex: 1 0 0%;
+  height: 50%;
+  object-fit: cover;
+  width: 40%;
+  margin: 20px 130px;
+}
+
+.wp-image-272 {
+  position: relative;
+  left: 35%
+}
+
+.wp-image-274 {
+  position: relative;
+  right: 35%;
+}
+
+.flex1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.item1 {
+  margin-top: 25px;
+
+}
+
+.flex2 {
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.ceo {
+  right: 7%;
+  position: relative;
+}
+
+.selv {
+  right: 34%;
+  position: relative;
+}
+
+.nous-cont1 {
+  height: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  white-space: nowrap;
+  margin-top: 5%;
+}
+
+.recta2 {
+
+  border-radius: 7px !important;
+  box-shadow: 0px 4px 14px #0000000a !important;
+  height: 51px;
+  width: 400px !important;
+  border: solid white;
+
+
+}
+
+.flex3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.recta3 {
+
+  border-radius: 7px !important;
+  box-shadow: 0px 4px 14px #0000000a !important;
+  height: 200px;
+  width: 400px !important;
+  border: solid white;
+  position: relative;
+  background-position: top 40px left -20px;
+}
+
+.recta3::before {
+  content: "";
+  position: absolute;
+  top: 79px;
+  right: 275px;
+  width: 200px;
+  height: 200px;
+  background-image: url(http://localhost:8080/app/uploads/2023/06/feuille-1.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.wp-block-button__link {
+  background-color: var(--shilo);
+  border-radius: 5px;
+  display: flex;
+  overflow: hidden;
+  padding: 8px 72px;
+  height: 60px;
+  letter-spacing: 0;
+  line-height: 37px;
+  min-width: 53px;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 5px;
+  margin-top: 20px;
+  border-color: var(--shilo);
+}
+
+.wp-block-button__link:hover {
+
+  background-color: var(--brick-red) !important;
+}
+
+.nom {
+  height: 24px;
+  letter-spacing: 0;
+  white-space: nowrap;
+  padding: 8%;
+  position: relative;
+  right: 6%;
+}
+
+.e-mail {
+  height: 24px;
+  letter-spacing: 0;
+  white-space: nowrap;
+  padding: 8%;
+  position: relative;
+  right: 6%;
+}
+
+.message {
+  height: 24px;
+  letter-spacing: 0;
+  white-space: nowrap;
+  padding: 12%;
+  position: relative;
+  right: 10%;
+
+}
+
+.linee {
+  line-height: 3;
+}
+
+.margee {
+  top: 13%;
+  left: 13%;
+  position: relative;
+}
+
+.margee1 {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.marg {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.wp-container-1616 {
+  margin-top: -17% !important;
+}
+@media only screen and (min-width: 375px) {
+  .title-ren {
+    color: var(--contessa);
+    font-family: var(--font-family-syne);
+    font-size: var(--font-size-xl);
+    font-weight: 800;
+    height: 46px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 170.1px;
+    text-align: center;
+    width: 680px;
+    position: relative;
+    right: 390px;
+  }
+  
+  .fleur {
+    height: 168px;
+    margin-top: 11%;
+    position: relative;
+    width: 167px;
+    left: 17%;
+  }
+  
+  .chez-planty-nous-som {
+    height: 72px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 279px;
+    margin-top: 18px;
+    text-align: center;
+    width: 669px;
+    margin-bottom: 6%;
+  
+  }
+  
+  .lquipe {
+    height: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    margin: 58px;
+    white-space: nowrap;
+  }
+  
+  .wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) img {
+    flex: 1 0 0%;
+    height: 50%;
+    object-fit: cover;
+    width: 40%;
+    margin: 20px 130px;
+  }
+  
+  .wp-image-272 {
+    position: relative;
+    left: 35%
+  }
+  
+  .wp-image-274 {
+    position: relative;
+    right: 35%;
+  }
+  
+  .flex1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .item1 {
+    margin-top: 25px;
+  
+  }
+  
+  .flex2 {
+    display: flex;
+    justify-content: flex-start;
+  
+  }
+  
+  .ceo {
+    right: 7%;
+    position: relative;
+  }
+  
+  .selv {
+    right: 34%;
+    position: relative;
+  }
+  
+  .nous-cont1 {
+    height: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 5%;
+  }
+  
+  .recta2 {
+  
+    border-radius: 7px !important;
+    box-shadow: 0px 4px 14px #0000000a !important;
+    height: 51px;
+    width: 400px !important;
+    border: solid white;
+  
+  
+  }
+  
+  .flex3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .recta3 {
+  
+    border-radius: 7px !important;
+    box-shadow: 0px 4px 14px #0000000a !important;
+    height: 200px;
+    width: 400px !important;
+    border: solid white;
+    position: relative;
+    background-position: top 40px left -20px;
+  }
+  
+  .recta3::before {
+    content: "";
+    position: absolute;
+    top: 79px;
+    right: 275px;
+    width: 200px;
+    height: 200px;
+    background-image: url(http://localhost:8080/app/uploads/2023/06/feuille-1.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+  
+  .wp-block-button__link {
+    background-color: var(--shilo);
+    border-radius: 5px;
+    display: flex;
+    overflow: hidden;
+    padding: 8px 72px;
+    height: 60px;
+    letter-spacing: 0;
+    line-height: 37px;
+    min-width: 53px;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 5px;
+    margin-top: 20px;
+    border-color: var(--shilo);
+  }
+  
+  .wp-block-button__link:hover {
+  
+    background-color: var(--brick-red) !important;
+  }
+  
+  .nom {
+    height: 24px;
+    letter-spacing: 0;
+    white-space: nowrap;
+    padding: 8%;
+    position: relative;
+    right: 6%;
+  }
+  
+  .e-mail {
+    height: 24px;
+    letter-spacing: 0;
+    white-space: nowrap;
+    padding: 8%;
+    position: relative;
+    right: 6%;
+  }
+  
+  .message {
+    height: 24px;
+    letter-spacing: 0;
+    white-space: nowrap;
+    padding: 12%;
+    position: relative;
+    right: 10%;
+  
+  }
+  
+  .linee {
+    line-height: 3;
+  }
+  
+  .margee {
+    top: 13%;
+    left: 13%;
+    position: relative;
+  }
+  
+  .margee1 {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  
+  .marg {
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .wp-container-1616 {
+    margin-top: -17% !important;
+  }
+}
