@@ -13,7 +13,7 @@ function enqueue_commander_css() {
     wp_enqueue_style('etiquette-boisson-css', get_stylesheet_directory_uri() . '/css/etiquette-boisson.css');
   }
 }
-add_action('wp_enqueue_scripts', 'enqueue_commander_css');
+add_action('wp_enqueue_scripts', 'enqueue_commander_css');*/
 
 function child_theme_img_directory() {
   return get_stylesheet_directory_uri() . '/img/';
