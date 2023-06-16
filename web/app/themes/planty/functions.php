@@ -2,7 +2,7 @@
 function enqueue_child_planty_styles() {
   wp_enqueue_style('child-planty-style', get_stylesheet_uri());
 }
-function enqueue_commander_css() {
+/*function enqueue_commander_css() {
   if (is_page() && get_post_field('post_name') === 'commander') {
     wp_enqueue_style('commander-css', get_stylesheet_directory_uri() . '/css/commander.css');
   }
@@ -67,7 +67,7 @@ function custom_form_script() {
   <?php
 }
 // Fonction pour traiter la soumission du formulaire
-function process_form_submission() {
+/*function process_form_submission() {
   if (isset($_POST['submit'])) { // Vérifier si le formulaire a été soumis
       global $wpdb;
       
@@ -102,4 +102,4 @@ function process_form_submission() {
       echo 'Votre commande a été enregistrée avec succès.';
   }
 }
-add_action('init', 'process_form_submission'); // Exécuter la fonction lors de l'initialisation de WordPress
+add_action('init', 'process_form_submission'); // Exécuter la fonction lors de l'initialisation de WordPress*/
