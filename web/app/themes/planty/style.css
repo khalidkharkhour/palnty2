@@ -141,7 +141,6 @@ Version: 1.0
   display: flex;
   min-width: 100%;
 }
-
 .header {
   align-items: center;
   background-color: var(--white);
@@ -152,13 +151,6 @@ Version: 1.0
   width: 100%;
   position: sticky;
 }
-/*.wp-block-button__link {
-  margin-top: 5%;
-  border-color: var(--petite-orchid);
-}
-/*.wp-block-buttons > .wp-block-button.has-custom-width .wp-block-button__link {
-  width: 36%;
-  margin-left: 31%;}*/
 .nous-rencontrer {
   height: 5%;
   letter-spacing: 0;
@@ -168,7 +160,6 @@ Version: 1.0
   white-space: nowrap;
   margin-left: 32%;
 }
-
 .nous-rencontrer-1 {
   height: 5%;
   letter-spacing: 0;
@@ -177,47 +168,35 @@ Version: 1.0
   position: relative;
   min-width: 2%;
   white-space: nowrap;
- 
 }
-
 .bouton-nav {
   background-color: var(--petite-orchid);
   height: 20%;
   position: relative;
   width: 16%;
   padding: 29px 61px;
-  
-
 }
-
 .bouton-n {
   background-color: var(--petite-orchid);
 }
-
 .bouton-nav:hover {
   background-color: var(--brick-red);
 }
-
 .bouton-nav-2 {
   background-color: var(--petite-orchid);
-  height: 80px;
+  height: 5rem;
   position: relative;
   min-width: 16%;
   padding: 29px 61px;
-
 }
-
 .bouton-nav-2:hover {
   background-color: var(--brick-red);
 }
-
 .commander {
   height: 19px;
   line-height: normal;
   min-width: 5%;
 }
-
-
 .boisson-nergisante-100-naturelle {
   color: var(--goblin) !important;
   font-family: var(--font-family-syne);
@@ -228,7 +207,6 @@ Version: 1.0
   line-height: normal;
   margin-top: 4%;
 }
-
 .planty-cest-la-pre {
   height: 53px;
   letter-spacing: normal;
@@ -236,13 +214,11 @@ Version: 1.0
   position: relative;
   margin-top: -7%;
 }
-
 .background-img22 {
   background-repeat: no-repeat;
-  height: 300px;
+  height: 18.75rem;
   padding: 20px;
 }
-
 .lnergie-des-plantes {
   height: 100%;
   letter-spacing: 0;
@@ -250,34 +226,26 @@ Version: 1.0
   text-align: center;
   white-space: nowrap;
   width: 100%;
-
-
 }
-
-
 .les-gots {
   color: var(--contessa);
   font-family: var(--font-family-syne);
   font-size: var(--font-size-xl);
   font-weight: 800;
-
 }
-
 .contenair-2-2 {
   position: relative;
-  top: 50%
+  top: 50% 
 }
-
 .nous-avons-une-saveu {
   height: 24px;
   letter-spacing: 0;
   line-height: normal;
   margin-top: 7px;
-  min-width: 548px;
+  min-width: 34.25rem;
   text-align: center;
   white-space: nowrap;
 }
-
 .container-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(393px, 1fr));
@@ -288,30 +256,22 @@ Version: 1.0
   left: 25%;
   bottom: 5%;
 }
-
 .container-grid > div {
-  margin-top: 20px; /* Espacement vertical entre les conteneurs */
+  margin-top: 20px;
 }
-
-
-
 .image-grid {
-  height: 262px;
+  height: 16.375rem;
   min-width: 393px;
   position: relative;
   top:20%;
 }
-
-
 .title {
-  height: 58px;
+  height: 3.625rem;
   letter-spacing: 0;
   line-height: normal;
   min-width: 295px;
   text-align: center;
 }
-
-
 .titl {
   color: var(--white) !important;
   font-family: var(--font-family-syne) !important;
@@ -325,15 +285,13 @@ Version: 1.0
   width: 75% !important;
   margin-bottom: 2%;
 }
-
 .pample-mousse {
-  height: 116px;
+  height: 17.25rem;
   letter-spacing: 0;
   line-height: normal;
-  min-width: 358px;
+  min-width: 22.375rem;
   text-align: center;
 }
-
 .overlap-group-container-1 {
   align-items: flex-start;
   display: flex;
@@ -342,8 +300,6 @@ Version: 1.0
   margin-top: 40px;
   min-width: 818px;
 }
-
-
 .fram-boise {
   height: 116px;
   letter-spacing: 0;
@@ -351,7 +307,6 @@ Version: 1.0
   min-width: 245px;
   text-align: center;
 }
-
 .citron {
   height: 58px;
   letter-spacing: 0;
@@ -359,7 +314,6 @@ Version: 1.0
   min-width: 322px;
   text-align: center;
 }
-
 .bouton {
   background-color: var(--shilo);
   border-radius: 5px;
@@ -371,33 +325,28 @@ Version: 1.0
   margin-top: 50% !important;
   margin-bottom: 3%;
 }
-
 .bouton:hover {
   background-color: var(--brick-red);
 }
-
 .commander-1 {
   height: 37px;
   line-height: 37px;
   min-width: 85px;
 }
-.rectangle-5 {
+/*.rectangle-5 {
   height: 425px;
   object-fit: cover;
   background: no-repeat;
   width: 100%;
 }
-
-
- .rectangle-6 {
+*/
+.rectangle-6 {
   height: 415px;
   width: 100%;
 }
-
 .gutena-forms-submit-buttons {
   margin-top: 2% !important;
 }
-
 .mask-group-1 {
   height: fit;
   left: 0;
@@ -405,7 +354,6 @@ Version: 1.0
   bottom: 0%;
   width: 1440px;
 }
-
 .ce-quils-en-pensent {
   color: var(--goblin);
   font-family: var(--font-family-syne);
@@ -418,31 +366,24 @@ Version: 1.0
   white-space: nowrap;
   position: relative;
   margin-top: 5%;
-
 }
-
 .wp-image-268 {
   position: relative;
   top: 90%;
 }
-
 .contenair23 {
   width: 100%;
   display: flex;
   justify-content: center;
   position: relative;
   height: max-content;
-  height: 450px;
+  height: 350px;
   margin-top: 10%;
-  
-
 }
-
 .mask-group {
   height: 139px;
   width: 126px;
 }
-
 .flex-col-1 {
   align-items: flex-start;
   display: flex;
@@ -452,7 +393,6 @@ Version: 1.0
   min-height: 104px;
   width: 198px;
 }
-
 .fatiha {
   height: 36px;
   letter-spacing: 0;
@@ -460,22 +400,17 @@ Version: 1.0
   text-align: center;
   white-space: nowrap;
   position: relative;
-
   margin-bottom: 20%;
 }
-
 .la-meilleure-boisson {
   height: 57px;
   letter-spacing: 0;
   line-height: normal;
   position: relative;
-
 }
-
 a {
   text-decoration: none;
 }
-
 .group-9 {
   align-items: center;
   display: flex;
@@ -486,7 +421,6 @@ a {
   position: absolute;
   top: 253px;
 }
-
 .flex-col {
   align-items: flex-start;
   display: flex;
@@ -496,7 +430,6 @@ a {
   min-height: 104px;
   width: 196px;
 }
-
 .name {
   height: 36px;
   letter-spacing: 0;
@@ -506,7 +439,6 @@ a {
   right: 50%;
   margin-bottom: 20%;
 }
-
 .un-boost-dnergie-s {
   height: 57px;
   letter-spacing: 0;
@@ -515,7 +447,6 @@ a {
   position: relative;
   right: 50%;
 }
-
 .group-10 {
   align-items: center;
   display: flex;
@@ -526,7 +457,6 @@ a {
   position: absolute;
   top: 253px;
 }
-
 .vro {
   height: 36px;
   letter-spacing: 0;
@@ -536,34 +466,27 @@ a {
   right: 90%;
   margin-bottom: 20%;
 }
-
 .frais-fruit-cest {
   height: 57px;
   letter-spacing: 0;
   line-height: normal;
   width: 196px;
   position: relative;
-  right: 90%
+  right: 90% 
 }
-
 .bouton-n {
   align-items: flex-start;
   display: flex;
 }
-
 .commander-2 {
   letter-spacing: 0;
   text-align: center;
   white-space: nowrap;
 }
-
-
-
 .screen a {
   display: contents;
   text-decoration: none;
 }
-
 .container-center-horizontal {
   display: flex;
   flex-direction: row;
@@ -571,198 +494,84 @@ a {
   pointer-events: none;
   width: 100%;
 }
-
 .container-center-horizontal>* {
   flex-shrink: 0;
   pointer-events: auto;
 }
-
 .valign-text-middle {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 * {
   box-sizing: border-box;
 }
-
 .logo {
   height: 19px;
   margin-left: 37px;
   margin-top: 1.0px;
   width: 201px;
 }
-
 .footer {
   align-items: flex-start;
   background-color: var(--white);
   display: flex;
   flex-direction: row;
   flex-shrink: 1;
-  height: 60px;
+  height: 3.75rem;
   justify-content: flex-start;
   mix-blend-mode: normal;
-  padding: 19px 660px;
-  width: 1440px;
+  padding: 19px 41.25rem;
+  width: 100%;
 }
-
 .mentions-lgales {
   height: 19px;
   letter-spacing: 0;
   line-height: normal;
-  margin-left: -80px;
+  margin-left: -48px;
   min-width: 119px;
   text-align: center;
   white-space: nowrap;
 }
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline
+  vertical-align: baseline 
 }
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block 
 }
-
 body {
-  line-height: 1
+  line-height: 1 
 }
-
-ol,
-ul {
-  list-style: none
+ol, ul {
+  list-style: none 
 }
-
-blockquote,
-q {
-  quotes: none
+blockquote, q {
+  quotes: none 
 }
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote:before, blockquote:after, q:before, q:after {
   content: '';
-  content: none
+  content: none 
 }
-
 table {
   border-collapse: collapse;
-  border-spacing: 0
+  border-spacing: 0 
 }
-
 .border {
   border-bottom: 0px inset var(--bizarre);
   border-radius: 50% / 0% 0% 5% 5%;
-
 }
-
 .border2 {
   border-top: 0px inset var(--bizarre);
   border-radius: 50% / 0% 0% 5% 5%;
 }
-
 .column1 {
-  transform: translateY(-30%); 
-  
+  transform: translateY(-30%);
 }
-
 .wp-bl-image img {
   box-sizing: border-box;
   height: 650px;
@@ -771,25 +580,16 @@ table {
   margin-bottom: 10%;
   margin-top: -8%;
   object-fit: cover;
-
 }
-
-
-
-
-
 .valign-text-middle-2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding-top: 3%;
 }
-
 .canette {
   position: relative;
-
 }
-
 .canette::before {
   content: "";
   position: absolute;
@@ -801,87 +601,29 @@ table {
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
   mix-blend-mode: multiply;
 }
-
+.wp-image-258{
+  transform: translateY(4%);
+}
 .wp-image-269 {
   position: relative;
   left: 10%;
 }
-
 .wp-image-271 {
   position: relative;
   left: 70%;
 }
-
 .wp-image-270 {
   position: relative;
   right: 30%;
 }
-
 .flex23-1 {
   margin-top: 75%;
   margin-right: 50%;
 }
-
-@media (max-width: 768px) {
-
-
-  .header {
-    flex-direction: column;
-
-  }
-
-  .nous-rencontrer,
-  .nous-rencontrer-1,
-  .bouton-nav,
-  .bouton-nav-2,
-  .commander,
-
-
-  html {
-    width: fit-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-
-  }
-
-  .contenair23 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 50%;
-    gap: 1px;
-  }
-
-
-}
-/*.wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
-  font-size: var(--font-size-m);
-  font-family: var(--font-family-syne);
-  font-weight: 800;
-  max-height: 50%;
-  text-align: center;
-  width: 100%;
-  background: none !important;
-  display: flex;
-  justify-content: center;
-  left: -14%;
-  position: relative;
-  bottom: 36%;
-  align-items: center;
-  left: 5%;
-}*/
-
 .wp-block-galler1 {
   width: 193.29px;
   height: 128.86px;
 }
-
-
-
 .flex-row-1 {
   align-items: flex-start;
   display: flex;
@@ -890,58 +632,37 @@ table {
   margin-top: 51px;
   min-width: 855px;
 }
-
-
 .vos-informations {
   height: 36px;
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
-
 }
-
-
-
 .recta {
-
   border-radius: 7px !important;
   box-shadow: 0px 4px 14px #0000000a !important;
   height: 71px;
   width: 400px !important;
   border: solid white;
-
 }
-
-
-.nom {
+.nom,.e-mail {
   height: 24px;
   letter-spacing: 0;
   white-space: nowrap;
   padding: 8%;
 }
-
 .prnom {
   height: 24px;
   letter-spacing: 0;
   white-space: nowrap;
   padding: 8%;
+  right: 6%;
+  position: relative;
 }
-
-
-.e-mail {
-  height: 24px;
-  letter-spacing: 0;
-  white-space: nowrap;
-  padding: 8%;
-}
-
 .line-6 {
   height: 447px;
   width: 2px;
-
-
 }
-
 .livraison {
   height: 36px;
   letter-spacing: 0;
@@ -949,30 +670,14 @@ table {
   white-space: nowrap;
   margin-left: -22%;
 }
-
-.adresse-de-livraison {
+.adresse-de-livraison ,.code-postal, .place {
   height: 24px;
   letter-spacing: 0;
   padding: 8%;
   white-space: nowrap;
+  right: 6%;
+  position: relative;
 }
-
-.code-postal {
-  height: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-  padding: 8%;
-  white-space: nowrap;
-}
-
-.place {
-  height: 24px;
-  letter-spacing: 0;
-  white-space: nowrap;
-  padding: 8%;
-}
-
-
 .bouton-2 {
   background-color: var(--shilo) !important;
   border-radius: 5px;
@@ -982,40 +687,26 @@ table {
   padding: 8px 56px;
   width: 198px;
 }
-
 .bouton-2:hover {
-
   background-color: var(--brick-red) !important;
 }
-
 .commander-4 {
   height: 1.7rem;
-line-height: 1.7rem;
-min-width: 10%;
+  line-height: 1.7rem;
+  min-width: 10%;
 }
-
 .align {
   width: 75% !important;
-
 }
-
 .image-container {
   display: flex;
   justify-content: center;
 }
-
-/*.image-container img {
-  padding-left: 25%;
-
-}*/
-
-
 .formulaire2 {
   margin-left: -40% !important;
-position: relative;
-left:20%;
+  position: relative;
+  left:20%;
 }
-
 .wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
   font-size: var(--font-size-m);
   font-family: var(--font-family-syne);
@@ -1029,30 +720,22 @@ left:20%;
   align-items: center;
   position: relative;
   bottom: 50%;
-
 }
-
-
 .custom-form {
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-
 .input-wrapper {
   display: flex;
   align-items: center;
 }
-
 .button-group {
   display: flex;
   flex-direction: column;
 }
-
 .plus-button {
   margin-bottom: -14px;
-
-
   background-color: var(--shilo);
   position: relative;
   left: 244%;
@@ -1062,7 +745,6 @@ left:20%;
   border: solid var(--shilo);
   color: var(--white);
 }
-
 .minus-button {
   margin-bottom: 5px;
   color: var(--white);
@@ -1074,7 +756,6 @@ left:20%;
   border-radius: 0 0 7px 0;
   border: solid var(--shilo);
 }
-
 .separatorr {
   width: 33px;
   height: 1px;
@@ -1084,7 +765,6 @@ left:20%;
   left: 244%;
   top: 5px;
 }
-
 .input-field {
   height: 56px;
   width: 80px;
@@ -1093,15 +773,10 @@ left:20%;
   text-align: center;
   border-radius: 7px;
   -moz-appearance: textfield;
-  
 }
-
-.input-field::-webkit-inner-spin-button,
-.input-field::-webkit-outer-spin-button {
+.input-field::-webkit-inner-spin-button, .input-field::-webkit-outer-spin-button {
   display: none;
-  
 }
-
 .ok-button {
   background-color: #e0b9b4;
   color: white;
@@ -1113,11 +788,9 @@ left:20%;
   border-radius: 5px;
   margin-left: 9px;
 }
-
 .ok-button:hover {
   background-color: var(--brick-red);
 }
-
 .containerr {
   display: flex;
   flex-direction: row;
@@ -1125,38 +798,24 @@ left:20%;
   justify-content: space-around;
   position: relative;
   bottom: 60px;
-
-
 }
-
-
 .wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) img {
   width: 241px;
   height: 128.86px;
 }
-
-
-
 .text2 {
   position: relative;
   left: -327px;
   padding: 40px;
 }
-
-/*.wp-block-column.is-vertically-aligned-center {
-  margin-top: -40px !important;
-  margin-right: 50px !important;
-}*/
-
 .wp-block-button__link {
   background-color: var(--shilo) !important;
   position: relative;
   width: 189px;
   height: 58px;
   border-color: var(--shilo) ;
-  transform: translateY(40%); 
+  transform: translateY(40%);
 }
-
 .wp-block-button__link:hover {
   background-color: var(--brick-red) !important;
 }
@@ -1175,29 +834,29 @@ left:20%;
 }
 .title2{
   display: flex;
-font-family: var(--font-family-syne);
-font-size: var(--font-size-xl);
-font-weight: 800;
-height: 93px;
-letter-spacing: 0;
-line-height: normal;
-text-align: center;
-width: 680px;
-justify-content: center;
-align-items: center;
-margin-top: 12%;
-margin-bottom: 3%;
+  font-family: var(--font-family-syne);
+  font-size: var(--font-size-xl);
+  font-weight: 800;
+  height: 93px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 680px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12%;
+  margin-bottom: 3%;
 }
 .box{
   display: flex;
-justify-content: flex-start;
-align-items: flex-end;
-position: relative;
-right: 3%;
+  justify-content: flex-start;
+  align-items: flex-end;
+  position: relative;
+  right: 3%;
 }
 .lin{
-position: relative;
-left:5%;
+  position: relative;
+  left:5%;
 }
 .title-ren {
   color: var(--contessa);
@@ -1206,7 +865,6 @@ left:5%;
   font-weight: 800;
   height: 46px;
   letter-spacing: 0;
-   
 }
 .contenair25{
   transform: translateY(-30%);
@@ -1218,7 +876,6 @@ left:5%;
   width: 167px;
   left: 17%;
 }
-
 .chez-planty-nous-som {
   height: 72px;
   letter-spacing: 0;
@@ -1227,9 +884,8 @@ left:5%;
   text-align: center;
   width: 669px;
   margin-bottom: 6%;
- margin-left:312px !important;
+  margin-left:312px !important;
 }
-
 .lquipe {
   height: 36px;
   letter-spacing: 0;
@@ -1238,58 +894,46 @@ left:5%;
   margin: 58px;
   white-space: nowrap;
 }
-
 .wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) {
   display: flex;
   justify-content: center;
 }
-
 .wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) img {
   flex: 1 0 0%;
-height: 128px;
-object-fit: cover;
-width: 197px;
-margin: 20px 37px;
+  height: 128px;
+  object-fit: cover;
+  width: 197px;
+  margin: 20px 37px;
 }
-
 .wp-image-272 {
   position: relative;
-  left: 35%
+  left: 35% 
 }
-
 .wp-image-274 {
   position: relative;
   right: 35%;
 }
-
 .flex1 {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
 }
-
 .item1 {
   margin-top: 25px;
-
 }
-
 .flex2 {
   display: flex;
   justify-content: flex-start;
-
 }
-
 .ceo {
   right: 7%;
   position: relative;
 }
-
 .selv {
   right: 34%;
   position: relative;
 }
-
 .nous-cont1 {
   height: 36px;
   letter-spacing: 0;
@@ -1298,27 +942,20 @@ margin: 20px 37px;
   white-space: nowrap;
   margin-top: 5%;
 }
-
 .recta2 {
-
   border-radius: 7px !important;
   box-shadow: 0px 4px 14px #0000000a !important;
   height: 51px;
   width: 400px !important;
   border: solid white;
-
-
 }
-
 .flex3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
 .recta3 {
-
   border-radius: 7px !important;
   box-shadow: 0px 4px 14px #0000000a !important;
   height: 200px;
@@ -1327,7 +964,6 @@ margin: 20px 37px;
   position: relative;
   background-position: top 40px left -20px;
 }
-
 .recta3::before {
   content: "";
   position: absolute;
@@ -1339,8 +975,6 @@ margin: 20px 37px;
   background-repeat: no-repeat;
   background-position: top left;
 }
-
-
 .nom {
   height: 24px;
   letter-spacing: 0;
@@ -1349,7 +983,6 @@ margin: 20px 37px;
   position: relative;
   right: 6%;
 }
-
 .e-mail {
   height: 24px;
   letter-spacing: 0;
@@ -1358,7 +991,6 @@ margin: 20px 37px;
   position: relative;
   right: 6%;
 }
-
 .message {
   height: 24px;
   letter-spacing: 0;
@@ -1366,35 +998,26 @@ margin: 20px 37px;
   padding: 12%;
   position: relative;
   right: 10%;
-
 }
-
 .linee {
   line-height: 3;
 }
-
 .margee {
   top: 13%;
   left: 13%;
   position: relative;
 }
-
 .margee1 {
-
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-
-
 .marg {
   margin: 50px;
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
-
 .wp-container-1616 {
   margin-top: -17% !important;
 }
