@@ -362,22 +362,22 @@ Version: 1.0
   min-width: 85px;
 }
 
-.rectangle-6 {
+/*.rectangle-6 {
   height: 415px;
   width: 100%;
-}
+}*/
 
 .gutena-forms-submit-buttons {
   margin-top: 2% !important;
 }
 
-.mask-group-1 {
+/*.mask-group-1 {
   height: fit;
   left: 0;
   position: absolute;
   bottom: 0%;
   width: 1440px;
-}
+}*/
 
 .ce-quils-en-pensent {
   color: var(--goblin);
@@ -464,7 +464,7 @@ a {
   white-space: nowrap;
   position: relative;
  
-  margin-bottom: 20%;*/
+  margin-bottom: 20%;
 }
 
 .un-boost-dnergie-s {
@@ -522,7 +522,7 @@ a {
   text-decoration: none;
 }
 
-.container-center-horizontal {
+/*.container-center-horizontal {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -533,7 +533,7 @@ a {
 .container-center-horizontal>* {
   flex-shrink: 0;
   pointer-events: auto;
-}
+}*/
 
 .valign-text-middle {
   display: flex;
@@ -874,7 +874,12 @@ table {
   display: flex;
   justify-content: center;
 }
-
+.body2{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
 .formulaire2 {
   margin-left: -40% !important;
   position: relative;
@@ -1037,16 +1042,16 @@ table {
   width: 42.5rem;
   justify-content: center;
   align-items: center;
-  margin-top: 12%;
-  margin-bottom: 3%;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 
 .box {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  position: relative;
-  right: 3%;
+justify-content: center;
+align-items: center;
+position: relative;
+left: 7%;
 }
 
 .lin {
@@ -1076,14 +1081,17 @@ table {
 }
 
 .chez-planty-nous-som {
-  height: 4.5rem;
+    height: 4.5rem;
   letter-spacing: 0;
   line-height: normal;
-  margin-top: 18px;
+  margin-top: 2%;
   text-align: center;
   width: 41.8125rem;
-  margin-bottom: 6%;
+  margin-bottom: 3%;
   margin-left: 312px !important;
+  top: 13%;
+  position: relative;
+
 }
 
 .lquipe {
@@ -1185,7 +1193,8 @@ table {
   right: 17.1875rem;
   width: 12.5rem;
   height: 12.5rem;
-  background-image: url(http://localhost:8080/app/uploads/2023/06/feuille-1.png);
+ /* background-image: url(../img/feuille.png);*/
+	background-image:url(http://khalidkharkhour.com/wp-content/uploads/2023/06/feuille.png);
   background-repeat: no-repeat;
   background-position: top left;
 }
@@ -1244,50 +1253,6 @@ table {
   margin-top: -17% !important;
 }
 
-@media screen and (min-width: 360px) and (max-width:768px) {
-
-  
-  .nav-bar,
-  .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 10px 50px 20px;
-    padding: 0;
-  }
-
-  .nous-rencontrer,
-  .nav-bar,
-  .header {
-    margin-left: 1%;
-    margin-bottom: 0;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .bouton-n {
-    margin-left: 3%;
-  }
-
-  .boisson-nergisante-100-naturelle {
-    font-size: var(--font-size-xs) !important;
-  }
-
-  .wp-bl-image img {
-    height: auto;
-    width: 100%;
-    margin-bottom: 12%;
-    margin-top: -8%;
-    max-width: 370px;
-  }
-
-  .planty-cest-la-pre {
-    font-size: var(--font-size-xs) !important;
-    margin-top: -4%;
-  }
 
   .valign {
     overflow-wrap: break-word;
@@ -1300,8 +1265,144 @@ table {
   .ce-quils-en-pensent{
     font-size: var(--font-size-s);
   }
+@media screen and (min-width: 320px) and (max-width: 700px) {
+  .body, {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	  flex-direction:column;
+	  margin:0 auto;}
+	  .nav-bar,.header{
+		  display: flex;
+    justify-content: center;
+    align-items: center;
+	  flex-direction:column;
+		  gap:10px;
+	  }
+	.bouton-n{
+		width: 100%;
+height: 65px;
+	}
   
+	.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex-direction: column;
+		width:100%;
+		max-width:90px;
+		
+}
+
+.box34 {
+  order: 2;
+	display:flex;
+	position: relative;
+right: 52%;
+}
+
+.bout34 {
+ order: 2;
+display: flex;
+position: relative;
+right: 52%;
+}
+
+.formulaire2 {
+  order: 2;
+	display:flex;
+}
+
+	 .line-6 {
+    display: none;
+  }
+	.vos-informations {
+  position: relative;
+		left: 39%;}
+	/*.wp-block-button__link{
+		position:relative;
+		right:54%;
+		bottom: 8rem !important;*/
+	
+	.overlap-grou6,.overlap-grou7,.overlap-grou8{
+		display:none;
+	}
+	.image-container {
+		
+		position:relative;
+		right:11%;
+	}
+	.overlap-grou5{
+		display:flex;
+		justify-content:center;
+		 margin-top: 8% !important;
+	}
+.recta2{
+	width:50%;
+}
+	.recta{
+		width: 122% !important;
+		position: relative;
+left: 43%;
+	}
+	.adresse-de-livraison,
+.code-postal,
+	.place,.prnom,.nom,
+	.e-mail {
+		position:relative;
+		left:20%;
+	}
+	.title2{
+		font-size: var(--font-size-l);
+		margin-top:15%;
+	}
+	.text2{
+		font-size: var(--font-size-m);
+	}
+	.wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
+  font-size: var(--font-size-xxs)
+	  position: relative;
+left: 26%;
+		
+	}
+	.livraison {
+  margin-left: -13%;
+}
+.nous-rencontrer{
+	margin-left:6%;
+}
+.commander {
+  left: 25%;
+  position: relative
+}
+.title-ren {
+  
+  font-size: var(--font-size-m);
+  
+}
+	
+
+  .chez-planty-nous-som {
+  height: 4.5rem;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 12%;
+  text-align: center;
+  width: 18.813rem;
+  margin-bottom: 3%;
+  margin-left: 7px !important;
+  top: 1%;
+  position: relative;
+  font-size: var( --font-size-xxs);
+}
+.recta2, .recta3{
  
-  
+  width: 17rem !important;
+	}
 
 }
+
+
+
+
+
