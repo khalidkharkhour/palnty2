@@ -135,7 +135,9 @@ Version: 1.0
   font-weight: 700;
 }
 
-
+#layout{
+	margin:0 auto;
+}
 .nav-bar {
   align-items: flex-start;
   display: flex;
@@ -196,12 +198,7 @@ Version: 1.0
   min-width: 16%;
   padding: 29px 61px;
 }
-html, body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
+
 .bouton-nav-2:hover {
   background-color: var(--brick-red);
 }
@@ -367,11 +364,6 @@ html, body {
   min-width: 85px;
 }
 
-/*.rectangle-6 {
-  height: 415px;
-  width: 100%;
-}*/
-
 .buttons {
   margin-top: 5% !important;
 }
@@ -380,13 +372,6 @@ html, body {
   margin-top: 15% !important;
 }
 
-/*.mask-group-1 {
-  height: fit;
-  left: 0;
-  position: absolute;
-  bottom: 0%;
-  width: 1440px;
-}*/
 
 .ce-quils-en-pensent {
   color: var(--goblin);
@@ -457,11 +442,12 @@ a {
 
 
 .flex-col {
-  align-items: flex-start;
-  display: flex;
+ /* align-items: flex-start;
+	justify-content:flex-end;*/
+ 
   flex-direction: column;
   gap: 11px;
-  margin-bottom: 1.0px;
+    display: flex;
   min-height: 104px;
   width: 196px;
 }
@@ -889,11 +875,16 @@ table {
   align-items: center;
   flex-direction: column;
 }
-
+.gutena-forms-contact-form{
+	padding-top:1rem !important;
+}
 .formulaire2 {
+
   margin-left: -40% !important;
   position: relative;
   left: 20%;
+	
+
 }
 
 .wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
@@ -1003,7 +994,9 @@ table {
 
 .wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) img {
   width: 15.O675rem;
-  height: 8.05375rem;
+  height: 8.0537display: flex;
+
+	
 }
 
 .text2 {
@@ -1024,7 +1017,7 @@ table {
   background-color: var(--brick-red) !important;
 }
 
-.body {
+/*.body {
   height: 83.75rem;
   margin: O;
   display: flex;
@@ -1032,7 +1025,7 @@ table {
   align-items: center;
   flex-direction: column;
   padding-bottom: 6.25rem;
-}
+}*/
 
 .marge3 {
   position: relative !important;
@@ -1102,17 +1095,21 @@ table {
 }
 
 .lquipe {
-  height: 36px;
+  height: 2.25rem;
   letter-spacing: 0;
   line-height: normal;
   text-align: center;
-  margin: 58px;
+  margin: 3.625rem;
   white-space: nowrap;
 }
 
 .wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) {
-  display: flex;
-  justify-content: center;
+ display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+margin: 0 auto;
+margin-left: 2%;
 }
 
 .wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) img {
@@ -1120,12 +1117,12 @@ table {
   height: 8rem;
   object-fit: cover;
   width: 12.3125rem;
-  margin: 20px 37px;
+  margin: 1.25rem 2.3125rem;
 }
 
 .wp-image-272 {
   position: relative;
-  left: 35%
+  left: 35%;
 }
 
 .wp-image-274 {
@@ -1141,7 +1138,7 @@ table {
 }
 
 .item1 {
-  margin-top: 25px;
+  margin-top: 1.5625rem;
 }
 
 .flex2 {
@@ -1160,7 +1157,7 @@ table {
 }
 
 .nous-cont1 {
-  height: 36px;
+  height: 2.25rem;
   letter-spacing: 0;
   line-height: normal;
   text-align: center;
@@ -1169,9 +1166,9 @@ table {
 }
 
 .recta2 {
-  border-radius: 7px !important;
-  box-shadow: 0px 4px 14px #0000000a !important;
-  height: 51px;
+  border-radius: 0.4375rem !important;
+  box-shadow: 0px 0.25rem 0.875rem #0000000a !important;
+  height: 3.1875rem;
   width: 25rem !important;
   border: solid white;
 }
@@ -1184,51 +1181,50 @@ table {
 }
 
 .recta3 {
-  border-radius: 7px !important;
-  box-shadow: 0px 4px 14px #0000000a !important;
+  border-radius: 0.4375rem !important;
+  box-shadow: 0px 0.25rem 0.875rem #0000000a !important;
   height: 12.5rem;
   width: 25rem !important;
   border: solid white;
   position: relative;
-  background-position: top 40px left -20px;
+  background-position: top 2.5rem left -1.25rem;
 }
 
 .recta3::before {
   content: "";
   position: absolute;
-  top: 79px;
+  top: 4.9375rem;
   right: 17.1875rem;
   width: 12.5rem;
   height: 12.5rem;
-  /* background-image: url(../img/feuille.png);*/
   background-image: url(http://khalidkharkhour.com/wp-content/uploads/2023/06/feuille.png);
   background-repeat: no-repeat;
   background-position: top left;
 }
 
 .nom {
-  height: 24px;
+  height: 1.5rem;
   letter-spacing: 0;
   white-space: nowrap;
-  padding: 8%;
+  padding: 0.5rem;
   position: relative;
-  right: 6%;
+right: 2%;
 }
 
 .e-mail {
-  height: 24px;
+  height: 1.5rem;
   letter-spacing: 0;
   white-space: nowrap;
-  padding: 8%;
+  padding: 0.5rem;
   position: relative;
-  right: 6%;
+  right: 2%;
 }
 
 .message {
-  height: 24px;
+  height: 1.5rem;
   letter-spacing: 0;
   white-space: nowrap;
-  padding: 12%;
+  padding: 0.75rem;
   position: relative;
   right: 10%;
 }
@@ -1238,8 +1234,8 @@ table {
 }
 
 .margee {
-  top: 13%;
-  left: 13%;
+  top: 1.625rem;
+  left: 1.625rem;
   position: relative;
 }
 
@@ -1260,264 +1256,563 @@ table {
   margin-top: -17% !important;
 }
 
-
 .valign {
   overflow-wrap: break-word;
-  margin-left: 37%;
-  max-width: 366px;
+  margin-left: 2.3125rem;
+  max-width: 22.875rem;
   display: inline-block;
   line-height: 2;
 }
 
 .ce-quils-en-pensent {
-  font-size: var(--font-size-s);
+  font-size: 0.875rem;
 }
 
-@media screen and (min-width: 320px) and (max-width: 810px) {
+/*@media screen and (min-width: 320px) and (max-width: 810px) {
+  .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  
+  .nav-bar,
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+  
+  .commander-2 .commander {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 0.9375rem;
+  }
+  
+  .bouton-n,
+  .bouton-nav-2 {
+    border-radius: 0.4375rem;
+    height: 6.875rem;
+    width: 100%;
+  }
+  
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 100%;
+    max-width: 5.625rem;
+  }
+  
+  .box34 {
+    order: 2;
+    display: flex;
+    position: relative;
+    right: 3.25rem;
+  }
+  
+  .bout34 {
+    order: 2;
+    display: flex;
+    position: relative;
+    right: 3.25rem;
+  }
+  
+  .formulaire2 {
+    order: 2;
+    display: flex;
+  }
+  
+  .line-6 {
+    display: none;
+  }
+  
+  .vos-informations {
+    position: relative;
+    left: 2.4375rem;
+  }
+  
+  .overlap-grou6,
+  .overlap-grou7,
+  .overlap-grou8 {
+    display: none;
+  }
+  
+  .image-container {
+    position: relative;
+    right: 1.6875rem;
+  }
+  
+  .overlap-grou5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.25rem !important;
+  }
+  
+  .recta2 {
+    width: 3.125rem;
+  }
+  
+  .recta {
+    width: 7.6875rem !important;
+    position: relative;
+    left: 2.6875rem;
+  }
+  
+  .adresse-de-livraison,
+  .code-postal,
+  .place,
+  .prnom,
+  .nom,
+  .e-mail {
+    position: relative;
+    left: 1.25rem;
+  }
+  
+  .title2 {
+    font-size: 1.875rem;
+    margin-top: 3.75rem;
+  }
+  
+  .text2 {
+    font-size: 1.5rem;
+  }
+  
+  .wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
+    font-size: 0.6875rem;
+    position: relative;
+    left: 1.625rem;
+  }
+  
+  .livraison {
+    margin-left: -0.8125rem;
+  }
+  
+  .nous-rencontrer {
+    margin-left: 0.375rem;
+  }
+  
+  .title-ren {
+    font-size: 1.5rem;
+  }
+  
+  .chez-planty-nous-som {
+    height: 4.5rem;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 3.75rem;
+    text-align: center;
+    width: 2.938rem;
+    margin-bottom: 0.9375rem;
+    margin-left: 7px !important;
+    top: 0.0625rem;
+    position: relative;
+    font-size: 0.625rem;
+  }
+  
+  .recta2,
+  .recta3 {
+    width: 2.6875rem !important;
+  }
+  
+  .flex3 {
+    height: fit-content 90vh;
+  }
+  
+  .boisson-nergisante-100-naturelle {
+    font-size: 1.5rem !important;
+  }
+  
+  .wp-bl-image img {
+    max-width: 100%;
+    height: 16.188rem;
+    margin-top: 0.3125rem;
+  }
+  
+  .lnergie-des-plantes {
+    font-size: 1.5rem;
+  }
+  
+  .planty-cest-la-pre {
+    margin-top: -3.75rem;
+    font-size: 0.6875rem;
+  }
+  
+  .les-gots {
+    font-size: 1.875rem;
+  }
+  
+  .text34 {
+    font-size: 1.5rem;
+    margin-top: 0.3125rem;
+  }
+  
+  .image-grid {
+    max-width: 100%;
+    height: 15.625rem;
+    position: relative;
+    right: 1.875rem;
+    top: 20%;
+  }
+  
+  .canettes {
+    position: relative;
+    bottom: 0;
+  }
+  
+  .command {
+    position: relative;
+    left: -1.25rem;
+    top: -7.0625rem;
+  }
+  
+  .buttons {
+    margin-top: 20% !important;
+  }
+  
+  .ce-quils-en-pensent {
+    font-size: 0.6875rem;
+    position: relative;
+    left: 3.1875rem;
+    top: -0.1875rem;
+    background-color: var(--white);
+  }
+  
+  .rectangle-5 {
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 66.875rem;
+  }
+  
+  .image12 {
+    width: 4.6875rem;
+    height: 4.6875rem;
+  }
+  
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .contenair23 {
+    padding-top: 20%;
+  }
+}*/
+@media screen and (min-width: 320px) and (max-width:728px) {
+  .nav-bar,
+  .header {
+   display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+	.bouton-nav:hover {
+  background-color: var(--brick-red);
+}
+  .commander-2 {
+  display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+   
+  }
+   .commander {
+   position:relative;
+	   left:38% !important;
+  }
+  
+  .bouton-n,
+  .bouton-nav-2 {
+    border-radius: 0.4375rem;
+    height: 3.875rem;
+    width: 100%;
+  }
+	.nous-rencontrer {
+    margin-left: 0;
+  }
 
-  .body,
-  {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 0 auto;
-}
+  .nous-rencontrer-1 {
+    min-width: 0;
+  }
 
-.nav-bar,
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 10px;
+  .bouton-nav {
+    width: 100%;
+    padding: 15px 30px;
+  }
+
+  .bouton-nav-2 {
+    min-width: 100%;
+    padding: 15px 30px;
+  }
+ .boisson-nergisante-100-naturelle {
+   font-size: var(--font-size-m) !important;
+  }
+  
+  .nous-avons-une-saveu {
+    min-width: 100%;
+  }
+
+  .container-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    left: 0;
+    bottom: 0;
+  }
+  .image-grid {
+    min-width: 100%;
+  }
+
+  .title {
+    min-width: 100%;
+  }
+
+  .pample-mousse {
+    min-width: 100%;
+  }
+
+  .overlap-group-container-1 {
+    margin-left: 0;
+    min-width: 100%;
+  }
+
+  .fram-boise {
+    min-width: 100%;
+  }
+
+  .citron {
+    min-width: 100%;
+  }
+
+  .bouton {
+    width: 100%;
+    padding: 15px 30px;
+    margin-top: 10%;
+    margin-bottom: 3%;
+  }  .les-gots {
+    font-size: 1.875rem;
+  }
+	
+	.fatiha {
+    right: 27%;
+  }
+  
+  .contenair23 {
+    right: 0;
+  }
+	.flex-col-1 {
+    width: 100%;
+  }
+
+  .flex-col {
+    margin-left:
 }
-.commander-2 .commander{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-	margin-left:3%;
-}
+	.wp-bl-image img {
+    max-width: 100%;
+    height: 16.188rem;
+    margin-top: 0.3125rem;
+  }
+	 .lnergie-des-plantes {
+    font-size: 1.5rem;
+  }
+	.planty-cest-la-pre {
+  margin-top: -6.75rem;
+font-size: var(--font-size-m);
+  }
+	.gutena-forms-submit-button{
+		margin-top:10% !important;
+	}
+	 .canettes {
+    position: relative;
+    bottom: 0;
+  }
 	 
-.bouton-n, .bouton-nav-2{
-border-radius:7px;
-  height: 65px;
-	width: 100%;
-      
-}
-
-.box {
+  .text34 {
+    font-size: 1.5rem;
+    margin-top: 0.3125rem;
+  }
+  
+  .canettes {
+    position: relative;
+    bottom: 0px;
+  }
+  
+  .command {
+    position: relative;
+    left: -1.25rem;
+    top: -7.0625rem;
+  }
+  
+  .buttons {
+    margin-top: 20% !important;
+  }
+  
+  .ce-quils-en-pensent {
+    font-size: 0.6875rem;
+    left: 9.188rem;
+top: -3.187rem;
+background-color: var(--white);
+    background-color: var(--white);
+  }
+	.column1{
+	transform: translateY(-42%);
+	}
+  .rectangle-5 {
+  max-width: 100%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: flex-end;
-  flex-direction: column;
-  width: 100%;
-  max-width: 90px;
-
+	  height: 52.875rem;}
+  
+  .image12 {
+    width: 4.6875rem;
+    height: 4.6875rem;
+  }
+  
+	body {
+  border: 5px solid var(--white);
 }
-
-.box34 {
-  order: 2;
+	 .chez-planty-nous-som {
+    line-height: 1.5;
+		 text-align: justify;
+  
+    text-align: center;
+    font-size: font-size: var(--font-size-xs);;
+  }
+	.title-ren {
+  margin-bottom:3%;
+  font-size: var(--font-size-m);
+  
+	
+	}
+	 
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 100%;
+    max-width: 5.625rem;
+  }
+	 .box34 {
+    order: 1;
+    display: flex;
+    position: relative;
+   right:44%;
+  }
+  
+  .bout34 {
+    order: 3;
+    display: flex;
+    position: relative;
+left: -1%;
+  }
+	.livr{
+		  order: 2;
   display: flex;
   position: relative;
-  right: 52%;
+ left: 13%;
 }
 
-.bout34 {
-  order: 2;
-  display: flex;
-  position: relative;
-  right: 52%;
-}
-
-.formulaire2 {
-  order: 2;
-  display: flex;
-}
-
-.line-6 {
-  display: none;
-}
-
-.vos-informations {
-  position: relative;
-  left: 39%;
-}
-
-/*.wp-block-button__link{
-		position:relative;
-		right:54%;
-		bottom: 8rem !important;*/
-
-.overlap-grou6,
-.overlap-grou7,
-.overlap-grou8 {
-  display: none;
-}
-
-.image-container {
-
-  position: relative;
-  right: 11%;
-}
-
-.overlap-grou5 {
+  
+  .line-6 {
+    display: none;
+  }
+  
+  .vos-informations {
+  
+  }
+  
+  .overlap-grou6,
+  .overlap-grou7,
+  .overlap-grou8 {
+    display: none;
+  }
+  
+  .image-container {
+    position: relative;
+    right: 1.6875rem;
+  }
+  
+  .adresse-de-livraison,
+  .code-postal,
+  .place,
+  .prnom,
+  .nom,
+  .e-mail {
+   
+  }
+  
+  .title2 {
+    font-size: var(--font-size-m);
+    margin-top: 3.75rem;
+  }
+  
+  .text2 {
+    font-size: var(--font-size-s);
+  }
+  
+ .wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
+  font-size: 0.6875rem;
   display: flex;
   justify-content: center;
-  margin-top: 8% !important;
+  align-items: center;
+  }
+  
+  
+	.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) img{
+		border: 3px solid white;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+left: auto;
+	}
+	.custom-form {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
 }
-
-.recta2 {
-  width: 50%;
+	.recta,
+  .recta2,
+  .recta3 {
+    width: 17.688rem !important;
+	 
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+	
+.recta3::before {
+  top: 4.9375rem;
+  right: 12.188rem;
+  width: 7rem;
+  height: 11.5rem;
 }
+	  .livraison {
+   display: flex;
+justify-content: flex-end;
+align-items: center;
+bottom: 17%;
+position: relative;
 
-.recta {
-  width: 122% !important;
+  }
+	.vos-informations {
   position: relative;
-  left: 43%;
-}
-
-.adresse-de-livraison,
-.code-postal,
-.place,
-.prnom,
-.nom,
-.e-mail {
-  position: relative;
-  left: 20%;
-}
-
-.title2 {
-  font-size: var(--font-size-l);
-  margin-top: 15%;
-}
-
-.text2 {
-  font-size: var(--font-size-m);
-}
-
-.wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
-  font-size: var(--font-size-xxs) position: relative;
-  left: 26%;
-
-}
-
-.livraison {
-  margin-left: -13%;
-}
-
-.nous-rencontrer {
-  margin-left: 6%;
-}
-
-
-.title-ren {
-
-  font-size: var(--font-size-m);
-
-}
-
-
-.chez-planty-nous-som {
-  height: 4.5rem;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: 12%;
-  text-align: center;
-  width: 18.813rem;
-  margin-bottom: 3%;
-  margin-left: 7px !important;
-  top: 1%;
-  position: relative;
-  font-size: var(--font-size-xxs);
-}
-
-.recta2,
-.recta3 {
-
-  width: 17rem !important;
-}
-
-.flex3 {
-  height: fit-content 90vh;
-}
-
-.boisson-nergisante-100-naturelle {
-  font-size: var(--font-size-m) !important;
-}
-
-.wp-bl-image img {
-  max-width: 100%;
-  height: 259px;
-  margin-top: 5%;
-}
-
-.lnergie-des-plantes {
-  font-size: var(--font-size-m)
-}
-
-.planty-cest-la-pre {
-  margin-top: -24%;
-  font-size: var(--font-size-xxs);
-}
-
-.les-gots {
-
-  font-size: var(--font-size-l);
-
-}
-
-.text34 {
-  font-size: var(--font-size-m);
-  margin-top: 5%;
-}
-
-.image-grid {
-  max-width: 100%;
-  height: 250px;
-  position: relative;
-  right: 12%;
-  top: 20%
-}
-
-.canettes {
-  position: relative;
-  bottom: 0;
-}
-
-.command {
-  position: relative;
-  left: -8%;
-  top: -71%;
-}
-
-.buttons {
-  margin-top: 20% !important;
-}
-
-.ce-quils-en-pensent {
-  font-size: var(--font-size-xxs);
-  position: relative;
-  left: 51%;
-  top: -3%;
-  background-color: var(--white)
-}
-
-.rectangle-5 {
-  max-width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  height: 1070px;
-
-}
-
-.image12 {
-  width: 75px;
-  height: 75px;
-}
-
-.contenair23 {
-  padding-top: 20%;
+  left: 33%;
+  bottom: 9%;
 }
 }

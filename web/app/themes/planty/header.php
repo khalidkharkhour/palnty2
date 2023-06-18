@@ -14,10 +14,11 @@
   <title>Planty</title>
   <?php wp_head() ?>
 </head>
+<div  id="layout">
 <body >
    
     
-      <div class="screen " id="layout">
+      <div class="screen" >
 <div class="nav-bar <?php echo (is_user_logged_in()) ? '' : 'not-logged-in'; ?>">
 
 
