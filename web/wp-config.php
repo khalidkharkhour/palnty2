@@ -9,5 +9,6 @@
  */
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 require_once dirname(__DIR__) . '/config/application.php';
+define( 'WP_MEMORY_LIMIT', '512M' );
 require_once ABSPATH . 'wp-settings.php';
 

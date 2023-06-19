@@ -1,6 +1,6 @@
 /*
 Theme Name: Planty 
-Template: fullwidther
+Template: Fullwidther
 Author: Kharkhour khalid
 Author URI: khalidkharkhour.com
 Description: Thème enfant basé sur  Fullwidther.
@@ -1103,14 +1103,14 @@ table {
   white-space: nowrap;
 }
 
-.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) {
+/*.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) {
  display: flex;
 justify-content: center;
 align-content: center;
 align-items: center;
 margin: 0 auto;
 margin-left: 2%;
-}
+}*/
 
 .wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) img {
   flex: 1 0 0%;
@@ -1505,23 +1505,23 @@ right: 2%;
     padding-top: 20%;
   }
 }*/
-@media screen and (min-width: 320px) and (max-width:728px) {
+@media (min-width: 320px) and (max-width: 728px) {
   .nav-bar,
   .header {
-   display: -webkit-flex;
-    display: -moz-flex;
+
     display: flex;
-    -webkit-justify-content: center;
-    -moz-justify-content: center;
+    
     justify-content: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
+   
     align-items: center;
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
+    
     flex-direction: column;
     gap: 0.625rem;
   }
+	body{
+	padding: 0;
+	border: 0;
+	border:5px solid var(--white);}
 	.bouton-nav:hover {
   background-color: var(--brick-red);
 }
@@ -1533,7 +1533,7 @@ align-items: flex-start;
   }
    .commander {
    position:relative;
-	   left:38% !important;
+	   left:32% !important;
   }
   
   .bouton-n,
@@ -1645,10 +1645,6 @@ font-size: var(--font-size-m);
     margin-top: 0.3125rem;
   }
   
-  .canettes {
-    position: relative;
-    bottom: 0px;
-  }
   
   .command {
     position: relative;
@@ -1694,17 +1690,12 @@ background-color: var(--white);
 	.title-ren {
   margin-bottom:3%;
   font-size: var(--font-size-m);
-  
+  margin-top: 12%;
 	
 	}
 	 
   .box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    flex-direction: column;
-    width: 100%;
-    max-width: 5.625rem;
+    left: 45%;
   }
 	 .box34 {
     order: 1;
@@ -1731,9 +1722,6 @@ left: -1%;
     display: none;
   }
   
-  .vos-informations {
-  
-  }
   
   .overlap-grou6,
   .overlap-grou7,
@@ -1746,14 +1734,7 @@ left: -1%;
     right: 1.6875rem;
   }
   
-  .adresse-de-livraison,
-  .code-postal,
-  .place,
-  .prnom,
-  .nom,
-  .e-mail {
-   
-  }
+  
   
   .title2 {
     font-size: var(--font-size-m);
@@ -1777,14 +1758,14 @@ left: -1%;
 display: flex;
 justify-content: center;
 align-items: center;
-position: relative;
-left: auto;
+height: 9rem;
+width: 11rem;
 	}
 	.custom-form {
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10%;
+   display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 25%;
 }
 	.recta,
   .recta2,
@@ -1802,14 +1783,20 @@ align-items: center;
   width: 7rem;
   height: 11.5rem;
 }
-	  .livraison {
-   display: flex;
-justify-content: flex-end;
-align-items: center;
-bottom: 17%;
-position: relative;
+	 .livraison {
+  position: relative;
+  animation: moveUp 1s forwards;
+}
 
+@keyframes moveUp {
+  from {
+    bottom: 0;
   }
+  to {
+    bottom: 100px;
+  }
+}
+	
 	.vos-informations {
   position: relative;
   left: 33%;

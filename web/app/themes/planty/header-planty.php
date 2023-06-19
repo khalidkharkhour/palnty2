@@ -11,7 +11,7 @@
   ?>
 
   <div class="nous-rencontrer valign-text-middle">
-    <span><a href="http://localhost:8080/index.php/nous-rencontrer/" class="syne-normal-black-16px">Nous rencontrer</></a>
+    <span><a href="/index.php/nous-rencontrer/" class="syne-normal-black-16px">Nous rencontrer</></a>
   </div>
 
   <?php if (is_user_logged_in()) : ?>
@@ -24,12 +24,12 @@
     <?php if (is_user_logged_in()) : ?>
       <div class="bouton-nav bouton-n">
       <div class="commander valign-text-middle commander-2 syne-bold-white-16px">
-        <span><a href="http://localhost:8080/index.php/commander/" class="syne-bold-white-16px">Commander</a></span>
+        <span><a href="/index.php/commander/" class="syne-bold-white-16px">Commander</a></span>
       </div>
     <?php else : ?>
       <div class="bouton-nav-2 bouton-1">
       <div class="commander valign-text-middle commander-2 syne-bold-white-16px">
-        <span><a href="http://localhost:8080/index.php/commander/" class="syne-bold-white-16px">Commander</a></span>
+        <span><a href="/index.php/commander/" class="syne-bold-white-16px">Commander</a></span>
       </div>
     <?php endif; ?>
 
