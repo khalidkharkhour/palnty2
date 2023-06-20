@@ -1,9 +1,8 @@
 /*
 Theme Name: Planty 
-Template: Fullwidther
+Template: fullwidther
 Author: Kharkhour khalid
 Author URI: khalidkharkhour.com
-Description: Thème enfant basé sur  Fullwidther.
 Version: 1.0
 */
 @import url("https://fonts.googleapis.com/css?family=Syne:400,700,800|Inter:400");
@@ -112,11 +111,11 @@ Version: 1.0
 }
 
 .syne-bold-black-20px {
-  color: var(--black);
-  font-family: var(--font-family-syne);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 700;
+  color: var(--black) !important;
+  font-family: var(--font-family-syne)!important;
+  font-size: var(--font-size-m) !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
 }
 
 .syne-bold-black-13px {
@@ -135,9 +134,6 @@ Version: 1.0
   font-weight: 700;
 }
 
-#layout{
-	margin:0 auto;
-}
 .nav-bar {
   align-items: flex-start;
   display: flex;
@@ -209,61 +205,35 @@ Version: 1.0
   min-width: 5%;
 }
 
+.canette {
+  position: relative;
+}
+
+.canette::before {
+  content: "";
+  position: absolute;
+  top: 86%;
+  left: 13%;
+  width: 28%;
+  height: 3%;
+  border-radius: 50%;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, .5);
+  mix-blend-mode: multiply
+}
+
 .boisson-nergisante-100-naturelle {
-  color: var(--goblin) !important;
   font-family: var(--font-family-syne);
-  font-size: var(--font-size-l);
   font-weight: 800;
   height: 20%;
-  letter-spacing: 0;
-  line-height: normal;
   margin-top: 4%;
 }
 
-.planty-cest-la-pre {
-  height: 53px;
-  letter-spacing: normal;
-  line-height: normal;
-  position: relative;
-  margin-top: -7%;
-}
-
-.background-img22 {
-  background-repeat: no-repeat;
-  height: 18.75rem;
-  padding: 20px;
-}
-
-.lnergie-des-plantes {
-  height: 100%;
-  letter-spacing: 0;
-  line-height: normal;
-  text-align: center;
-  white-space: nowrap;
-  width: 100%;
-}
 
 .les-gots {
-  color: var(--contessa);
+
   font-family: var(--font-family-syne);
-  font-size: var(--font-size-xl);
-  font-weight: 800;
 }
 
-.contenair-2-2 {
-  position: relative;
-  top: 50%
-}
-
-.nous-avons-une-saveu {
-  height: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: 7px;
-  min-width: 34.25rem;
-  text-align: center;
-  white-space: nowrap;
-}
 
 .container-grid {
   display: grid;
@@ -280,133 +250,29 @@ Version: 1.0
   margin-top: 20px;
 }
 
+.des-palntes{
+  height: 300px;
+}
+
+
 .image-grid {
   height: 16.375rem;
   min-width: 24.5625rem;
   position: relative;
   top: 20%;
-}
 
-.title {
-  height: 3.625rem;
-  letter-spacing: 0;
-  line-height: normal;
-  min-width: 18.4375rem;
-  text-align: center;
-}
-
-.titl {
-  color: var(--white) !important;
-  font-family: var(--font-family-syne) !important;
-  font-size: var(--font-size-xxl) !important;
-  font-weight: 800 !important;
-  height: 100% !important;
-  letter-spacing: 0 !important;
-  line-height: normal !important;
-  margin-top: 10% !important;
-  text-align: center !important;
-  width: 75% !important;
-  margin-bottom: 2%;
-}
-
-.pample-mousse {
-  height: 17.25rem;
-  letter-spacing: 0;
-  line-height: normal;
-  min-width: 22.375rem;
-  text-align: center;
-}
-
-.overlap-group-container-1 {
-  align-items: flex-start;
-  display: flex;
-  gap: 30px;
-  margin-left: 18%;
-  margin-top: 40px;
-  min-width: 51.125rem;
-}
-
-.fram-boise {
-  height: 17.25rem;
-  letter-spacing: 0;
-  line-height: normal;
-  min-width: 15.3125rem;
-  text-align: center;
-}
-
-.citron {
-  height: 3.625rem;
-  letter-spacing: 0;
-  line-height: normal;
-  min-width: 20.125rem;
-  text-align: center;
-}
-
-.bouton {
-  background-color: var(--shilo);
-  border-radius: 5px;
-  height: 3.4375rem;
-  margin-top: 47px;
-  overflow: hidden;
-  padding: 19px 56px;
-  width: 12.375rem;
-  margin-top: 50% !important;
-  margin-bottom: 3%;
 }
 
 .bouton:hover {
   background-color: var(--brick-red);
 }
 
-.commander-1 {
-  height: 37px;
-  line-height: 37px;
-  min-width: 85px;
-}
-
-.buttons {
-  margin-top: 5% !important;
-}
-
-.gutena-forms-submit-buttons {
-  margin-top: 15% !important;
-}
-
 
 .ce-quils-en-pensent {
-  color: var(--goblin);
+
   font-family: var(--font-family-syne);
-  font-size: var(--font-size-l);
-  font-weight: 800;
-  height: 36px;
-  letter-spacing: 0;
-  line-height: normal;
-  text-align: center;
-  white-space: nowrap;
-  position: relative;
-  margin-top: 5%;
-}
 
-.wp-image-268 {
-  position: relative;
-  top: 90%;
-}
 
-.contenair23 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  height: 350px;
-  margin-top: 10%;
-  right: 3%;
-  position: relative;
-
-}
-
-.mask-group {
-  height: 139px;
-  width: 126px;
 }
 
 .flex-col-1 {
@@ -419,116 +285,24 @@ Version: 1.0
   width: 198px;
 }
 
-.fatiha {
-  height: 36px;
-  letter-spacing: 0;
-  right: 15%;
-  text-align: center;
-  white-space: nowrap;
-  position: relative;
-  margin-bottom: 20%;
-}
-
-.la-meilleure-boisson {
-  height: 57px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: relative;
-}
-
-a {
+ a {
   text-decoration: none;
 }
 
 
 .flex-col {
- /* align-items: flex-start;
-	justify-content:flex-end;*/
- 
   flex-direction: column;
   gap: 11px;
-    display: flex;
+  display: flex;
   min-height: 104px;
   width: 196px;
 }
 
-.name {
-  height: 36px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-  position: relative;
-
-  margin-bottom: 20%;
-}
-
-.un-boost-dnergie-s {
-  height: 57px;
-  letter-spacing: 0;
-  line-height: normal;
-  width: 196px;
-  position: relative;
-  /* right: 50%;*/
-}
-
-/*.group-10 {
-  align-items: center;
-  display: flex;
-  gap: 21px;
-  height: 139px;
-  left: 33%;
-  min-width: 347px;
-  position: absolute;
-  top: 253px;
-}*/
-
-.vro {
-  height: 36px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-  position: relative;
-
-  margin-bottom: 20%;
-}
-
-.frais-fruit-cest {
-  height: 57px;
-  letter-spacing: 0;
-  line-height: normal;
-  width: 196px;
-  position: relative;
-
-}
-
-.bouton-n {
-  align-items: flex-start;
-  display: flex;
-}
-
-.commander-2 {
-  letter-spacing: 0;
-  text-align: center;
-  white-space: nowrap;
-}
 
 .screen a {
   display: contents;
   text-decoration: none;
 }
-
-/*.container-center-horizontal {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  pointer-events: none;
-  width: 100%;
-}
-
-.container-center-horizontal>* {
-  flex-shrink: 0;
-  pointer-events: auto;
-}*/
 
 .valign-text-middle {
   display: flex;
@@ -557,7 +331,7 @@ a {
   mix-blend-mode: normal;
   align-items: center;
   width: 100%;
-}
+  position: absolute;
 }
 
 .mentions-lgales {
@@ -569,225 +343,35 @@ a {
   white-space: nowrap;
 }
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline
-}
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block
-}
-
-body {
-  line-height: 1
-}
 
 ol,
 ul {
   list-style: none
 }
 
-blockquote,
-q {
-  quotes: none
-}
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none
-}
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0
-}
 
 .border {
   border-bottom: 0px inset var(--bizarre);
   border-radius: 50% / 0% 0% 5% 5%;
 }
 
-.border2 {
-  border-top: 0px inset var(--bizarre);
-  border-radius: 50% / 0% 0% 5% 5%;
+
+.is-s {
+  margin-left: 7% !important;
+  width: 90% !important;
 }
 
-.column1 {
-  transform: translateY(-30%);
-}
-
-.wp-bl-image img {
-  box-sizing: border-box;
-  height: 650px;
-  max-width: 100%;
-  vertical-align: bottom;
-  margin-bottom: 10%;
-  margin-top: -8%;
-  object-fit: cover;
-}
-
-.valign-text-middle-2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 3%;
-}
-
-.canette {
-  position: relative;
-}
-
-.canette::before {
-  content: "";
-  position: absolute;
-  top: 75%;
-  left: 23%;
-  width: 24%;
-  height: 3%;
-  border-radius: 50%;
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
-  mix-blend-mode: multiply;
-}
-
-.wp-image-258 {
-  transform: translateY(4%);
-}
-
-.wp-image-269 {
-  position: relative;
-  left: 10%;
-}
-
-.wp-image-271 {
-  position: relative;
-  left: 50%;
-}
-
-.wp-image-270 {
-  position: relative;
-  left: 50%;
-}
-
-.flex23-1 {
-  margin-top: 75%;
-  margin-right: 50%;
-}
-
-.wp-block-galler1 {
-  width: 193.29px;
-  height: 128.86px;
-}
 
 .flex-row-1 {
-  align-items: flex-start;
-  display: flex;
-  gap: 43px;
-  margin-right: 1.0px;
-  margin-top: 51px;
-  min-width: 855px;
+ position: relative;
+ left:12%;
 }
 
 .vos-informations {
-  height: 36px;
-  letter-spacing: 0;
-  line-height: normal;
+
   white-space: nowrap;
 }
 
@@ -799,46 +383,11 @@ table {
   border: solid white;
 }
 
-.nom,
-.e-mail {
-  height: 24px;
-  letter-spacing: 0;
-  white-space: nowrap;
-  padding: 8%;
-}
-
-.prnom {
-  height: 24px;
-  letter-spacing: 0;
-  white-space: nowrap;
-  padding: 8%;
-  right: 6%;
-  position: relative;
-}
-
 .line-6 {
   height: 447px;
   width: 2px;
 }
 
-.livraison {
-  height: 36px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-  margin-left: -22%;
-}
-
-.adresse-de-livraison,
-.code-postal,
-.place {
-  height: 24px;
-  letter-spacing: 0;
-  padding: 8%;
-  white-space: nowrap;
-  right: 6%;
-  position: relative;
-}
 
 .bouton-2 {
   background-color: var(--shilo) !important;
@@ -854,38 +403,7 @@ table {
   background-color: var(--brick-red) !important;
 }
 
-.commander-4 {
-  height: 1.7rem;
-  line-height: 1.7rem;
-  min-width: 10%;
-}
 
-.align {
-  width: 75% !important;
-}
-
-.image-container {
-  display: flex;
-  justify-content: center;
-}
-
-.body2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.gutena-forms-contact-form{
-	padding-top:1rem !important;
-}
-.formulaire2 {
-
-  margin-left: -40% !important;
-  position: relative;
-  left: 20%;
-	
-
-}
 
 .wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
   font-size: var(--font-size-m);
@@ -995,122 +513,16 @@ table {
 .wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) img {
   width: 15.O675rem;
   height: 8.0537display: flex;
-
-	
 }
-
-.text2 {
-  position: relative;
-  left: -20.4375px;
-  padding: 2.5rem;
-}
-
 .wp-block-button__link {
-  background-color: var(--shilo) !important;
-  position: relative;
-  width: 11.8125;
-  height: 3.625rem;
+
+
   border-color: var(--shilo);
 }
 
 .wp-block-button__link:hover {
   background-color: var(--brick-red) !important;
 }
-
-/*.body {
-  height: 83.75rem;
-  margin: O;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding-bottom: 6.25rem;
-}*/
-
-.marge3 {
-  position: relative !important;
-  left: 10% !important;
-}
-
-.title2 {
-  display: flex;
-  font-family: var(--font-family-syne);
-  font-size: var(--font-size-xl);
-  font-weight: 800;
-  height: 5.8125;
-  letter-spacing: 0;
-  line-height: normal;
-  text-align: center;
-  width: 42.5rem;
-  justify-content: center;
-  align-items: center;
-  margin-top: 4%;
-  margin-bottom: 4%;
-}
-
-.box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  left: 7%;
-}
-
-.lin {
-  position: relative;
-  left: 5%;
-}
-
-.title-ren {
-  color: var(--contessa);
-  font-family: var(--font-family-syne);
-  font-size: var(--font-size-xl);
-  font-weight: 800;
-  height: 46px;
-  letter-spacing: 0;
-}
-
-.contenair25 {
-  transform: translateY(-30%);
-}
-
-.fleur {
-  height: 10.5;
-  margin-top: 11%;
-  position: relative;
-  width: 10.4375rem;
-  left: 17%;
-}
-
-.chez-planty-nous-som {
-
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: 3%;
-
-  margin-bottom: 3%;
-
-
-
-}
-
-.lquipe {
-  height: 2.25rem;
-  letter-spacing: 0;
-  line-height: normal;
-  text-align: center;
-  margin: 3.625rem;
-  white-space: nowrap;
-}
-
-/*.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) {
- display: flex;
-justify-content: center;
-align-content: center;
-align-items: center;
-margin: 0 auto;
-margin-left: 2%;
-}*/
 
 .wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) img {
   flex: 1 0 0%;
@@ -1120,49 +532,26 @@ margin-left: 2%;
   margin: 1.25rem 2.3125rem;
 }
 
-.wp-image-272 {
+.title2 {
+
+  font-family: var(--font-family-syne);
+}
+
+.bout34 {
   position: relative;
-  left: 35%;
+  left: 9%;
 }
 
-.wp-image-274 {
+.title-ren {
+  font-size: var(--font-size-xxl)!important;
+  font-family: var(--font-family-syne);
+}
+
+.fleur {
+
   position: relative;
-  right: 35%;
-}
-
-.flex1 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
-}
-
-.item1 {
-  margin-top: 1.5625rem;
-}
-
-.flex2 {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.ceo {
-  right: 7%;
-  position: relative;
-}
-
-.selv {
-  right: 34%;
-  position: relative;
-}
-
-.nous-cont1 {
-  height: 2.25rem;
-  letter-spacing: 0;
-  line-height: normal;
-  text-align: center;
-  white-space: nowrap;
-  margin-top: 5%;
+  top: 15%;
+  left: 10%;
 }
 
 .recta2 {
@@ -1179,7 +568,11 @@ margin-left: 2%;
   align-items: center;
   justify-content: center;
 }
-
+.chez-planty-nous-som {
+  height: 90px;
+  line-height: normal;
+ font-family: var(--font-family-syne);
+}
 .recta3 {
   border-radius: 0.4375rem !important;
   box-shadow: 0px 0.25rem 0.875rem #0000000a !important;
@@ -1201,605 +594,6 @@ margin-left: 2%;
   background-repeat: no-repeat;
   background-position: top left;
 }
-
-.nom {
-  height: 1.5rem;
-  letter-spacing: 0;
-  white-space: nowrap;
-  padding: 0.5rem;
-  position: relative;
-right: 2%;
-}
-
-.e-mail {
-  height: 1.5rem;
-  letter-spacing: 0;
-  white-space: nowrap;
-  padding: 0.5rem;
-  position: relative;
-  right: 2%;
-}
-
-.message {
-  height: 1.5rem;
-  letter-spacing: 0;
-  white-space: nowrap;
-  padding: 0.75rem;
-  position: relative;
-  right: 10%;
-}
-
-.linee {
-  line-height: 3;
-}
-
-.margee {
-  top: 1.625rem;
-  left: 1.625rem;
-  position: relative;
-}
-
-.margee1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.marg {
-  margin: 3.125rem;
-  width: 12.5rem;
-  height: 12.5rem;
-  border-radius: 50%;
-}
-
-.wp-container-1616 {
-  margin-top: -17% !important;
-}
-
-.valign {
-  overflow-wrap: break-word;
-  margin-left: 2.3125rem;
-  max-width: 22.875rem;
-  display: inline-block;
-  line-height: 2;
-}
-
-.ce-quils-en-pensent {
-  font-size: 0.875rem;
-}
-
-/*@media screen and (min-width: 320px) and (max-width: 810px) {
-  .body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-  }
-  
-  .nav-bar,
-  .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 0.625rem;
-  }
-  
-  .commander-2 .commander {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: 0.9375rem;
-  }
-  
-  .bouton-n,
-  .bouton-nav-2 {
-    border-radius: 0.4375rem;
-    height: 6.875rem;
-    width: 100%;
-  }
-  
-  .box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    flex-direction: column;
-    width: 100%;
-    max-width: 5.625rem;
-  }
-  
-  .box34 {
-    order: 2;
-    display: flex;
-    position: relative;
-    right: 3.25rem;
-  }
-  
-  .bout34 {
-    order: 2;
-    display: flex;
-    position: relative;
-    right: 3.25rem;
-  }
-  
-  .formulaire2 {
-    order: 2;
-    display: flex;
-  }
-  
-  .line-6 {
-    display: none;
-  }
-  
-  .vos-informations {
-    position: relative;
-    left: 2.4375rem;
-  }
-  
-  .overlap-grou6,
-  .overlap-grou7,
-  .overlap-grou8 {
-    display: none;
-  }
-  
-  .image-container {
-    position: relative;
-    right: 1.6875rem;
-  }
-  
-  .overlap-grou5 {
-    display: flex;
-    justify-content: center;
-    margin-top: 1.25rem !important;
-  }
-  
-  .recta2 {
-    width: 3.125rem;
-  }
-  
-  .recta {
-    width: 7.6875rem !important;
-    position: relative;
-    left: 2.6875rem;
-  }
-  
-  .adresse-de-livraison,
-  .code-postal,
-  .place,
-  .prnom,
-  .nom,
-  .e-mail {
-    position: relative;
-    left: 1.25rem;
-  }
-  
-  .title2 {
-    font-size: 1.875rem;
-    margin-top: 3.75rem;
-  }
-  
-  .text2 {
-    font-size: 1.5rem;
-  }
-  
-  .wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
-    font-size: 0.6875rem;
-    position: relative;
-    left: 1.625rem;
-  }
-  
-  .livraison {
-    margin-left: -0.8125rem;
-  }
-  
-  .nous-rencontrer {
-    margin-left: 0.375rem;
-  }
-  
-  .title-ren {
-    font-size: 1.5rem;
-  }
-  
-  .chez-planty-nous-som {
-    height: 4.5rem;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: 3.75rem;
-    text-align: center;
-    width: 2.938rem;
-    margin-bottom: 0.9375rem;
-    margin-left: 7px !important;
-    top: 0.0625rem;
-    position: relative;
-    font-size: 0.625rem;
-  }
-  
-  .recta2,
-  .recta3 {
-    width: 2.6875rem !important;
-  }
-  
-  .flex3 {
-    height: fit-content 90vh;
-  }
-  
-  .boisson-nergisante-100-naturelle {
-    font-size: 1.5rem !important;
-  }
-  
-  .wp-bl-image img {
-    max-width: 100%;
-    height: 16.188rem;
-    margin-top: 0.3125rem;
-  }
-  
-  .lnergie-des-plantes {
-    font-size: 1.5rem;
-  }
-  
-  .planty-cest-la-pre {
-    margin-top: -3.75rem;
-    font-size: 0.6875rem;
-  }
-  
-  .les-gots {
-    font-size: 1.875rem;
-  }
-  
-  .text34 {
-    font-size: 1.5rem;
-    margin-top: 0.3125rem;
-  }
-  
-  .image-grid {
-    max-width: 100%;
-    height: 15.625rem;
-    position: relative;
-    right: 1.875rem;
-    top: 20%;
-  }
-  
-  .canettes {
-    position: relative;
-    bottom: 0;
-  }
-  
-  .command {
-    position: relative;
-    left: -1.25rem;
-    top: -7.0625rem;
-  }
-  
-  .buttons {
-    margin-top: 20% !important;
-  }
-  
-  .ce-quils-en-pensent {
-    font-size: 0.6875rem;
-    position: relative;
-    left: 3.1875rem;
-    top: -0.1875rem;
-    background-color: var(--white);
-  }
-  
-  .rectangle-5 {
-    max-width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    height: 66.875rem;
-  }
-  
-  .image12 {
-    width: 4.6875rem;
-    height: 4.6875rem;
-  }
-  
-  body {
-    width: 100%;
-    overflow-x: hidden;
-  }
-  
-  .contenair23 {
-    padding-top: 20%;
-  }
-}*/
-@media (min-width: 320px) and (max-width: 728px) {
-  .nav-bar,
-  .header {
-
-    display: flex;
-    
-    justify-content: center;
-   
-    align-items: center;
-    
-    flex-direction: column;
-    gap: 0.625rem;
-  }
-	body{
-	padding: 0;
-	border: 0;
-	border:5px solid var(--white);}
-	.bouton-nav:hover {
-  background-color: var(--brick-red);
-}
-  .commander-2 {
-  display: flex;
-justify-content: flex-start;
-align-items: flex-start;
-   
-  }
-   .commander {
-   position:relative;
-	   left:32% !important;
-  }
-  
-  .bouton-n,
-  .bouton-nav-2 {
-    border-radius: 0.4375rem;
-    height: 3.875rem;
-    width: 100%;
-  }
-	.nous-rencontrer {
-    margin-left: 0;
-  }
-
-  .nous-rencontrer-1 {
-    min-width: 0;
-  }
-
-  .bouton-nav {
-    width: 100%;
-    padding: 15px 30px;
-  }
-
-  .bouton-nav-2 {
-    min-width: 100%;
-    padding: 15px 30px;
-  }
- .boisson-nergisante-100-naturelle {
-   font-size: var(--font-size-m) !important;
-  }
-  
-  .nous-avons-une-saveu {
-    min-width: 100%;
-  }
-
-  .container-grid {
-    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
-    left: 0;
-    bottom: 0;
-  }
-  .image-grid {
-    min-width: 100%;
-  }
-
-  .title {
-    min-width: 100%;
-  }
-
-  .pample-mousse {
-    min-width: 100%;
-  }
-
-  .overlap-group-container-1 {
-    margin-left: 0;
-    min-width: 100%;
-  }
-
-  .fram-boise {
-    min-width: 100%;
-  }
-
-  .citron {
-    min-width: 100%;
-  }
-
-  .bouton {
-    width: 100%;
-    padding: 15px 30px;
-    margin-top: 10%;
-    margin-bottom: 3%;
-  }  .les-gots {
-    font-size: 1.875rem;
-  }
-	
-	.fatiha {
-    right: 27%;
-  }
-  
-  .contenair23 {
-    right: 0;
-  }
-	.flex-col-1 {
-    width: 100%;
-  }
-
-  .flex-col {
-    margin-left:
-}
-	.wp-bl-image img {
-    max-width: 100%;
-    height: 16.188rem;
-    margin-top: 0.3125rem;
-  }
-	 .lnergie-des-plantes {
-    font-size: 1.5rem;
-  }
-	.planty-cest-la-pre {
-  margin-top: -6.75rem;
-font-size: var(--font-size-m);
-  }
-	.gutena-forms-submit-button{
-		margin-top:10% !important;
-	}
-	 .canettes {
-    position: relative;
-    bottom: 0;
-  }
-	 
-  .text34 {
-    font-size: 1.5rem;
-    margin-top: 0.3125rem;
-  }
-  
-  
-  .command {
-    position: relative;
-    left: -1.25rem;
-    top: -7.0625rem;
-  }
-  
-  .buttons {
-    margin-top: 20% !important;
-  }
-  
-  .ce-quils-en-pensent {
-    font-size: 0.6875rem;
-    left: 9.188rem;
-top: -3.187rem;
-background-color: var(--white);
-    background-color: var(--white);
-  }
-	.column1{
-	transform: translateY(-42%);
-	}
-  .rectangle-5 {
-  max-width: 100%;
-  display: flex;
-  justify-content: flex-end;
-	  height: 52.875rem;}
-  
-  .image12 {
-    width: 4.6875rem;
-    height: 4.6875rem;
-  }
-  
-	body {
-  border: 5px solid var(--white);
-}
-	 .chez-planty-nous-som {
-    line-height: 1.5;
-		 text-align: justify;
-  
-    text-align: center;
-    font-size: font-size: var(--font-size-xs);;
-  }
-	.title-ren {
-  margin-bottom:3%;
-  font-size: var(--font-size-m);
-  margin-top: 12%;
-	
-	}
-	 
-  .box {
-    left: 45%;
-  }
-	 .box34 {
-    order: 1;
-    display: flex;
-    position: relative;
-   right:44%;
-  }
-  
-  .bout34 {
-    order: 3;
-    display: flex;
-    position: relative;
-left: -1%;
-  }
-	.livr{
-		  order: 2;
-  display: flex;
-  position: relative;
- left: 13%;
-}
-
-  
-  .line-6 {
-    display: none;
-  }
-  
-  
-  .overlap-grou6,
-  .overlap-grou7,
-  .overlap-grou8 {
-    display: none;
-  }
-  
-  .image-container {
-    position: relative;
-    right: 1.6875rem;
-  }
-  
-  
-  
-  .title2 {
-    font-size: var(--font-size-m);
-    margin-top: 3.75rem;
-  }
-  
-  .text2 {
-    font-size: var(--font-size-s);
-  }
-  
- .wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
-  font-size: 0.6875rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  }
-  
-  
-	.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) img{
-		border: 3px solid white;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 9rem;
-width: 11rem;
-	}
-	.custom-form {
-   display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 25%;
-}
-	.recta,
-  .recta2,
-  .recta3 {
-    width: 17.688rem !important;
-	 
-display: flex;
-justify-content: center;
-align-items: center;
-  }
-	
-.recta3::before {
-  top: 4.9375rem;
-  right: 12.188rem;
-  width: 7rem;
-  height: 11.5rem;
-}
-	 .livraison {
-  position: relative;
-  animation: moveUp 1s forwards;
-}
-
-@keyframes moveUp {
-  from {
-    bottom: 0;
-  }
-  to {
-    bottom: 100px;
-  }
-}
-	
-	.vos-informations {
-  position: relative;
-  left: 33%;
-  bottom: 9%;
-}
+.canettes{
+  margin-top: 10%;
 }

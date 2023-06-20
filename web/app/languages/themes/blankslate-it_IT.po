@@ -1,0 +1,128 @@
+# Translation of Themes - BlankSlate in Italian
+# This file is distributed under the same license as the Themes - BlankSlate package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-11-05 04:16:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: it\n"
+"Project-Id-Version: Themes - BlankSlate\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Donations: https://calmestghost.com/donate. BlankSlate is the definitive WordPress boilerplate starter theme. We've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability and no intrusive visual CSS styles have been added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/tidythemes/blankslate/issues. Thank you."
+msgstr "Donazioni: https://calmestghost.com/donate. BlankSlate è il tema iniziale definitivo per WordPress. Abbiamo realizzato con cura il tema più pulito e minimalista possibile per designer e sviluppatori, da usare come base per realizzare siti web o temi completamente personalizzati, partendo da zero. Codice pulito, semplice, senza stile, semi-minificato, non formattato e valido, ottimizzato per la SEO, abilitato a jQuery, senza commenti di programmatori, standardizzato e il più possibile white label e, soprattutto, il CSS è stato reimpostato per la compatibilità cross-browser e non sono stati aggiunti stili CSS visivi invadenti. Una tema dalla struttura perfetta. Per assistenza e suggerimenti, visita: https://github.com/tidythemes/blankslate/issues. Grazie."
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "BlankSlate"
+msgstr "BlankSlate"
+
+#: functions.php:21
+msgid "Donate"
+msgstr "Fai una donazione"
+
+#: functions.php:21
+msgid "Feature Requests & Support"
+msgstr "Richieste di funzionalità e assistenza"
+
+#: functions.php:21
+msgid "Review"
+msgstr "Scrivi una recensione"
+
+#: functions.php:21
+msgid "<big><strong>📝 Thank you for using BlankSlate!</strong></big>"
+msgstr "<big><strong>📝 Grazie per aver usato BlankSlate!</strong></big>"
+
+#: functions.php:21
+msgid "Ⓧ"
+msgstr "Ⓧ"
+
+#: functions.php:110 functions.php:117
+msgid "...%s"
+msgstr "...%s"
+
+#: functions.php:105
+msgid "Skip to the content"
+msgstr "Vai al contenuto"
+
+#: attachment.php:8
+msgid "%s Return to "
+msgstr "%s Torna a "
+
+#: footer.php:6
+msgid "Y"
+msgstr "Y"
+
+#: comments.php:30
+msgctxt "comments count"
+msgid "Trackback or Pingback"
+msgid_plural "Trackbacks and Pingbacks"
+msgstr[0] "Trackback o pingback"
+msgstr[1] "Trackback e pingback"
+
+#: search.php:16
+msgid "Sorry, nothing matched your search. Please try again."
+msgstr "Non c'è nulla che corrisponde alla tua ricerca. Riprova."
+
+#: search.php:13
+msgid "Nothing Found"
+msgstr "Non è stato trovato nulla"
+
+#: search.php:4
+msgid "Search Results for: %s"
+msgstr "Risultati della ricerca per: %s"
+
+#: nav-below.php:3
+msgid "newer %s"
+msgstr "%s più recenti"
+
+#: nav-below.php:2
+msgid "%s older"
+msgstr "%s meno recenti"
+
+#: functions.php:131
+msgid "Sidebar Widget Area"
+msgstr "Area widget della barra laterale"
+
+#: functions.php:13
+msgid "Main Menu"
+msgstr "Menu principale"
+
+#: entry-footer.php:4
+msgid "Comments"
+msgstr "Commenti"
+
+#: entry-footer.php:2
+msgid "Categories: "
+msgstr "Categorie:"
+
+#: attachment.php:8
+msgid "Return to %s"
+msgstr "Ritorna a %s"
+
+#: 404.php:7
+msgid "Nothing found for the requested page. Try a search instead?"
+msgstr "La pagina cercata non è stata trovata. Vuoi provare con una ricerca?"
+
+#: 404.php:4
+msgid "Not Found"
+msgstr "Non trovato"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://github.com/tidythemes"
+msgstr "https://github.com/tidythemes"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://github.com/tidythemes/blankslate"
+msgstr "https://github.com/tidythemes/blankslate"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "TidyThemes"
+msgstr "TidyThemes"

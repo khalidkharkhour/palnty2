@@ -1,0 +1,459 @@
+# Translation of Themes - Riverbank in Italian
+# This file is distributed under the same license as the Themes - Riverbank package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-01-17 09:32:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: it\n"
+"Project-Id-Version: Themes - Riverbank\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Riverbank is a highly customizable and user-friendly WordPress theme that is optimized for search engines and fully compatible with the Gutenberg editor and popular page builder plugins. With support for WooCommerce, translation into other languages, and a responsive design, Riverbank is suitable for a variety of websites including blogs, small businesses, and online shops."
+msgstr "Riverbank è un tema WordPress altamente personalizzabile e facile da usare, ottimizzato per i motori di ricerca e compatibile con l'editor Gutenberg e con i più diffusi plugin di page builder. Con il supporto per WooCommerce, la traduzione in altre lingue e un design responsive, Riverbank è adatto a tanti tipi di siti web, tra cui blog, siti di piccole imprese e negozi online."
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Riverbank"
+msgstr "Riverbank"
+
+#: styles/light-orange.json
+msgctxt "Style variation name"
+msgid "Light Orange"
+msgstr "Light Orange"
+
+#: styles/eco-friendly.json
+msgctxt "Style variation name"
+msgid "Eco-friendly"
+msgstr "Eco-friendly"
+
+#: styles/deep-emerald.json
+msgctxt "Style variation name"
+msgid "Deep Emerald"
+msgstr "Deep Emerald"
+
+#: styles/dark-orange.json
+msgctxt "Style variation name"
+msgid "Dark Orange"
+msgstr "Dark Orange"
+
+#: styles/blue-river.json
+msgctxt "Style variation name"
+msgid "Blue River"
+msgstr "Blue River"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "Footer"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "Header"
+
+#: theme.json styles/blue-river.json styles/dark-orange.json
+#: styles/deep-emerald.json styles/eco-friendly.json styles/light-orange.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr "Enfasi"
+
+#: theme.json styles/blue-river.json styles/dark-orange.json
+#: styles/deep-emerald.json styles/eco-friendly.json styles/light-orange.json
+msgctxt "Color name"
+msgid "Foreground Alt"
+msgstr "Primo piano alternativo"
+
+#: theme.json styles/blue-river.json styles/dark-orange.json
+#: styles/deep-emerald.json styles/eco-friendly.json styles/light-orange.json
+msgctxt "Color name"
+msgid "Background Dark"
+msgstr "Background Dark"
+
+#: theme.json styles/blue-river.json styles/dark-orange.json
+#: styles/deep-emerald.json styles/eco-friendly.json styles/light-orange.json
+msgctxt "Color name"
+msgid "Background Alt"
+msgstr "Sfondo alternativo"
+
+#: theme.json styles/blue-river.json styles/dark-orange.json
+#: styles/deep-emerald.json styles/eco-friendly.json styles/light-orange.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr "Primo piano"
+
+#: theme.json styles/blue-river.json styles/dark-orange.json
+#: styles/deep-emerald.json styles/eco-friendly.json styles/light-orange.json
+msgctxt "Color name"
+msgid "Background"
+msgstr "Sfondo"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Lora"
+msgstr "Lora"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Outfit"
+msgstr "Outfit"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Figtree"
+msgstr "Figtree"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Source Serif Pro"
+msgstr "Source Serif Pro"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Fraunces"
+msgstr "Fraunces"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr "Enorme"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "Extra Large"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Grande"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Medio"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Normal"
+msgstr "Normale"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Piccolo"
+
+#: inc/patterns/section-with-covers-and-text.php
+msgctxt "Pattern title"
+msgid "Full-width section with covers and text"
+msgstr "Sezione a larghezza piena con copertine e testo"
+
+#: inc/patterns/quote-section.php
+msgctxt "Pattern title"
+msgid "Quote"
+msgstr "Citazione"
+
+#: inc/patterns/pricing-plans-row.php
+msgctxt "Pattern title"
+msgid "Row with pricing plans"
+msgstr "Riga con i piani tariffari"
+
+#: inc/patterns/pricing-plans-columns.php
+msgctxt "Pattern title"
+msgid "Columns of pricing plans"
+msgstr "Colonne dei piani tariffari"
+
+#: inc/patterns/posts-grid.php
+msgctxt "Pattern title"
+msgid "Posts grid"
+msgstr "Griglia degli articoli"
+
+#: inc/patterns/hero-with-image-columns.php
+msgctxt "Pattern title"
+msgid "Hero with image columns"
+msgstr "Hero con colonne di immagini"
+
+#: inc/patterns/hero-with-feature-columns.php
+msgctxt "Pattern title"
+msgid "Hero section with feature columns"
+msgstr "Sezione Hero con colonne per le caratteristiche"
+
+#: inc/patterns/full-width-columns-with-text-and-cover.php
+msgctxt "Pattern title"
+msgid "Full width columns with text and cover"
+msgstr "Colonne a larghezza piena con testo e copertina"
+
+#: inc/patterns/feature-grid.php
+msgctxt "Pattern title"
+msgid "Features grid"
+msgstr "Griglia delle caratteristiche"
+
+#: inc/patterns/columns-with-images-and-buttons.php
+msgctxt "Pattern title"
+msgid "Columns with images and buttons"
+msgstr "Colonne con immagini e pulsanti"
+
+#: inc/patterns/columns-with-image-title-and-text.php
+msgctxt "Pattern title"
+msgid "Columns with image, title and text"
+msgstr "Colonne con immagine, titolo e testo"
+
+#: inc/patterns/call-to-action-inverted.php
+msgctxt "Pattern title"
+msgid "Call to action"
+msgstr "Invito all'azione"
+
+#: inc/patterns/call-to-action-inverted-inline.php
+msgctxt "Pattern title"
+msgid "Call to action inline"
+msgstr "Invito all'azione integrato"
+
+#: inc/patterns/boxed-image-features-with-buttons.php
+msgctxt "Pattern title"
+msgid "Boxed image features with buttons"
+msgstr "Funzionalità per immagini boxed con pulsanti"
+
+#: inc/patterns/boxed-columns-with-text-image-and-buttons.php
+msgctxt "Pattern title"
+msgid "Boxed columns with text, image and buttons"
+msgstr "Colonne boxed con testo, immagine e pulsanti"
+
+#: inc/patterns/section-with-covers-and-text.php:44
+msgid "Full-width section with covers and text"
+msgstr "Sezione a larghezza piena con copertine e testo"
+
+#: inc/patterns/quote-section.php:16
+msgid "Quote"
+msgstr "Citazione"
+
+#: inc/patterns/pricing-plans-row.php:87
+msgid "Get started with a premium plan"
+msgstr "Inizia a usare un piano Premium"
+
+#: inc/patterns/pricing-plans-row.php:77
+msgid "Row with pricing plans"
+msgstr "Riga con piani tariffari"
+
+#: inc/patterns/pricing-plans-row.php:21
+msgid "Premium"
+msgstr "Premium"
+
+#: inc/patterns/pricing-plans-row.php:17
+msgid "Basic"
+msgstr "Base"
+
+#: inc/patterns/pricing-plans-columns.php:84
+msgid "Columns of pricing plans"
+msgstr "Colonne con piani tariffari"
+
+#: inc/patterns/pricing-plans-columns.php:26
+msgid "Yearly"
+msgstr "Annuale"
+
+#: inc/patterns/pricing-plans-columns.php:22
+msgid "Monthly"
+msgstr "Mensile"
+
+#: inc/patterns/pricing-plans-columns.php:18
+msgid "Weekly"
+msgstr "Settimanale"
+
+#: inc/patterns/posts-grid.php:59
+msgid "Unfortunately no posts were found"
+msgstr "Non abbiamo trovato nessun articolo"
+
+#: inc/patterns/posts-grid.php:16
+msgid "Posts grid"
+msgstr "Griglia degli articoli"
+
+#: inc/patterns/hero-with-image-columns.php:71
+msgid "A Minimal & Organic Theme"
+msgstr "Un tema minimalista ed eco-friendly"
+
+#: inc/patterns/hero-with-image-columns.php:53
+msgid "Hero with image columns"
+msgstr "Hero con colonne immagine"
+
+#: inc/patterns/hero-with-image-columns.php:28
+msgid "Style variations"
+msgstr "Variazioni di stile"
+
+#: inc/patterns/hero-with-feature-columns.php:48
+msgid "Hero section with feature columns"
+msgstr "Sezione Hero con colonne per le caratteristiche"
+
+#: inc/patterns/hero-with-feature-columns.php:19
+#: inc/patterns/hero-with-image-columns.php:24
+msgid "Patterns"
+msgstr "Modelli"
+
+#: inc/patterns/hero-with-feature-columns.php:18
+#: inc/patterns/hero-with-image-columns.php:20
+msgid "FSE Templates"
+msgstr "Template FSE"
+
+#: inc/patterns/full-width-columns-with-text-and-cover.php:20
+msgid "Full width columns with text and cover"
+msgstr "Colonne a larghezza piena con testo e copertina"
+
+#: inc/patterns/feature-grid.php:38
+msgid "Features grid"
+msgstr "Griglia caratteristiche"
+
+#: inc/patterns/feature-grid.php:20
+msgid "Feature"
+msgstr "Funzionalità"
+
+#: inc/patterns/columns-with-images-and-buttons.php:67
+msgid "Columns with images and buttons"
+msgstr "Colonne con immagini e pulsanti"
+
+#: inc/patterns/columns-with-images-and-buttons.php:28
+msgid "Powered by blocks"
+msgstr "Basato sui blocchi"
+
+#: inc/patterns/columns-with-images-and-buttons.php:24
+msgid "Built-in Patterns"
+msgstr "Pattern incorporati"
+
+#: inc/patterns/columns-with-images-and-buttons.php:20
+#: inc/patterns/hero-with-feature-columns.php:20
+msgid "Style Variations"
+msgstr "Variazioni di stile"
+
+#: inc/patterns/columns-with-image-title-and-text.php:47
+msgid "Columns with image, title and text"
+msgstr "Colonne con immagine, titolo e testo"
+
+#: inc/patterns/call-to-action-inverted.php:23
+msgid "Before we even knew it, we were off the ground"
+msgstr "Prima ancora di accorgercene, eravamo già partiti."
+
+#: inc/patterns/call-to-action-inverted.php:16
+msgid "Call to action"
+msgstr "Invito all'azione"
+
+#: inc/patterns/call-to-action-inverted-inline.php:36
+msgid "Learn more"
+msgstr "Scopri di più"
+
+#: inc/patterns/call-to-action-inverted-inline.php:16
+msgid "Call to action inline"
+msgstr "Invito all'azione integrato"
+
+#: inc/patterns/boxed-image-features-with-buttons.php:73
+#: inc/patterns/pricing-plans-columns.php:98
+msgid "This is a description for the section"
+msgstr "Questa è la descrizione della sezione"
+
+#: inc/patterns/boxed-image-features-with-buttons.php:53
+msgid "Boxed image features with buttons"
+msgstr "Funzionalità per immagini boxed con pulsanti"
+
+#: inc/patterns/boxed-image-features-with-buttons.php:44
+msgid "Feature three"
+msgstr "Caratteristica tre"
+
+#: inc/patterns/boxed-image-features-with-buttons.php:43
+msgid "Feature two"
+msgstr "Caratteristica due"
+
+#: inc/patterns/boxed-image-features-with-buttons.php:42
+msgid "Feature one"
+msgstr "Caratteristica uno"
+
+#: inc/patterns/boxed-columns-with-text-image-and-buttons.php:38
+#: inc/patterns/boxed-columns-with-text-image-and-buttons.php:66
+#: inc/patterns/call-to-action-inverted.php:33
+#: inc/patterns/columns-with-images-and-buttons.php:51
+msgid "Button"
+msgstr "Pulsante"
+
+#: inc/patterns/boxed-columns-with-text-image-and-buttons.php:28
+#: inc/patterns/boxed-columns-with-text-image-and-buttons.php:56
+msgid "Heading"
+msgstr "Intestazione"
+
+#: inc/patterns/boxed-columns-with-text-image-and-buttons.php:18
+msgid "Boxed columns with text, image and buttons"
+msgstr "Colonne boxed con testo, immagine e pulsanti"
+
+#: inc/Core.php:90
+msgid "Primary Menu"
+msgstr "Menu principale"
+
+#: inc/Block_Patterns.php:62
+msgid "Riverbank Patterns"
+msgstr "Pattern Riverbank"
+
+#: inc/Admin.php:110
+msgid "Learn More"
+msgstr "Approfondisci"
+
+#. translators: %s: Otter Blocks
+#: inc/Admin.php:105
+msgid "Install & Activate %s"
+msgstr "Installa & attiva %s"
+
+#. translators: %s: Otter Blocks
+#: inc/Admin.php:103
+msgid "Activate %s"
+msgstr "Attiva il plugin %s"
+
+#: inc/Admin.php:93
+msgid "Otter is a Gutenberg Blocks page builder plugin that adds extra functionality to the WordPress Block Editor (also known as Gutenberg) for a better page building experience without the need for traditional page builders."
+msgstr "Otter è un plugin per il page builder Gutenberg Blocks che aggiunge funzionalità aggiuntive all'editor di blocchi di WordPress (noto anche come Gutenberg): migliora l'esperienza di costruzione di pagine senza la necessità di usare i tradizionali page builder."
+
+#. translators: %s: Otter Blocks
+#: inc/Admin.php:89
+msgid "Power up your website building experience with %s!"
+msgstr "Potenzia la tua esperienza di costruzione di siti web con %s!"
+
+#: inc/Admin.php:83
+msgid "Otter Blocks preview"
+msgstr "Anteprima Otter Blocks"
+
+#: inc/Admin.php:75
+msgid "Done"
+msgstr "Fatto"
+
+#: inc/Admin.php:74
+msgid "Installing"
+msgstr "Installazione in corso"
+
+#: inc/Admin.php:73
+msgid "Activating"
+msgstr "Attivazione in corso"
+
+#. translators: %s: commands to run the theme
+#: functions.php:105
+msgid "You appear to be running the Riverbank theme from source code. Please finish installation by running %s."
+msgstr "Sembra tua stia eseguendo il tema Riverbank dal codice sorgente. Termina l'installazione eseguendo %s."
+
+#: functions.php:57
+msgid "upgrading PHP to the latest version"
+msgstr "aggiornando PHP all'ultima versione"
+
+#. translators: %s message to upgrade PHP to the latest version
+#: functions.php:53
+msgid "Hey, we've noticed that you're running an outdated version of PHP which is no longer supported. Make sure your site is fast and secure, by %1$s. Riverbank's minimal requirement is PHP%2$s."
+msgstr "Abbiamo notato che stai usando una versione obsoleta di PHP, non più supportata. Verifica che il tuo sito sia veloce e sicuro grazie a %1$s. Il requisito minimo di Riverbank è PHP%2$s."
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "ThemeIsle"
+msgstr "ThemeIsle"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://themeisle.com/themes/riverbank/"
+msgstr "https://themeisle.com/themes/riverbank/"

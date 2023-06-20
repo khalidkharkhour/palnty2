@@ -1,0 +1,2417 @@
+# Translation of Plugins - WPtouch - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - WPtouch - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-05-28 19:50:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - WPtouch - Stable (latest release)\n"
+
+#: themes/bauhaus/default/sharing.php:6 themes/foundation/default/sharing.php:6
+msgid "SMS"
+msgstr "SMS"
+
+#: themes/foundation/modules/sharing/sharing.php:102
+msgid "Will show Facebook, Twitter, Pinterest, Email, and SMS buttons."
+msgstr "Zal Facebook , Twitter , Pinterest , E-mail  en SMS knoppen tonen."
+
+#: admin/pages/wptouch-admin-general-settings.php:306
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: admin/pages/wptouch-admin-general-settings.php:295
+msgid "Google Maps API Key &mdash; <a href=\"https://developers.google.com/maps/documentation/static-maps/get-api-key\" target=\"_new\">Get a key</a>"
+msgstr "Google Maps API sleutel &mdash; <a href=\"https://developers.google.com/maps/documentation/static-maps/get-api-key\" target=\"_new\">Verkrijg een sleutel</a>"
+
+#: themes/foundation/root-functions.php:879
+msgid "HTML is allowed"
+msgstr "HTML is toegestaan"
+
+#: themes/foundation/root-functions.php:878
+msgid "Custom footer content"
+msgstr "Aangepaste voettekst"
+
+#: admin/pages/wptouch-admin-general-settings.php:402
+msgid "By default WPtouch requests that mobile pages are not cached. This helps prevent the mobile site from being served to desktop users and the desktop site from being served to mobile users."
+msgstr "Standaard vereist WPtouch dat mobiele pagina's niet in de cache worden opgeslagen. Hiermee wordt voorkomen dat de mobiele site wordt weergegeven aan desktop gebruikers en dat de desktop site wordt weergegeven aan mobiele gebruikers."
+
+#: admin/pages/wptouch-admin-general-settings.php:401
+msgid "Stop sending \"no cache\" request headers for mobile site."
+msgstr "Stop met het verzenden van \"no cache\" verzoekkoppen voor mobiele sites."
+
+#: admin/pages/wptouch-admin-general-settings.php:395
+msgctxt "caching services like Varnish can sometimes cause issues with WPtouch."
+msgid "Caching"
+msgstr "Caching"
+
+#. Author of the plugin
+msgid "WPtouch"
+msgstr "WPtouch"
+
+#: wptouch.php:154
+msgid "Dismiss this notice (permanently)."
+msgstr "Dit bericht (permanent) negeren."
+
+#: wptouch.php:152
+msgid "Thanks for using WPtouch! If you'd like to sign up for news and updates from the team you can %1$ssubscribe to our newsletter%2$s."
+msgstr "Bedankt voor het gebruik van WPtouch! Als je je wilt aanmelden voor nieuws en updates van het team, kun je je %1$s abonneren voor onze nieuwsbrief %2$s."
+
+#: core/compat.php:185
+msgid "The %1$s plugin is not compatible with WPtouch. Some features may not function properly. Check out %2$sthis support article%3$s for more information."
+msgstr "De %1$s plugin is niet compatibel met WPtouch. Sommige functies werken mogelijk niet correct. Bekijk %2$s dit ondersteuningsartikel %3$s voor meer informatie."
+
+#: core/compat.php:120 core/compat.php:188
+msgid "Dismiss this notice."
+msgstr "Dit bericht verbergen."
+
+#: core/compat.php:118
+msgid "The current theme is not compatible with WPtouch. Some features may not function properly. Check out %1$sthis support article%2$s for more information."
+msgstr "Het huidige thema is niet compatibel met WPtouch. Sommige functies werken mogelijk niet correct. Bekijk %1$s dit ondersteuningsartikel%2$s voor meer informatie."
+
+#: core/admin-render.php:79 core/config.php:93
+msgid "Subscribe to Newsletter"
+msgstr "Abonneren op de nieuwsbrief"
+
+#: admin/pages/wptouch-admin-general-settings.php:775
+msgctxt "wptouch-pro"
+msgid "Subscribe to updates about new releases and tips"
+msgstr "Abonneer je op updates over nieuwe releases en tips"
+
+#: themes/bauhaus/root-functions.php:610
+msgid "Blog Layout"
+msgstr "Blog layout"
+
+#: themes/bauhaus/root-functions.php:600
+msgid "Blog Featured Slider"
+msgstr "Blog uitgelichte slider"
+
+#: themes/bauhaus/root-functions.php:528
+msgid "Featured posts to display"
+msgstr "Aanbevolen berichten om weer te geven"
+
+#: themes/bauhaus/root-functions.php:518
+msgid "Featured posts also show in latest posts"
+msgstr "Uitgelichte berichten worden ook in de laatste berichten weergegeven"
+
+#: themes/bauhaus/root-functions.php:504
+msgid "Max number of featured posts"
+msgstr "Max aantal aanbevolen berichten"
+
+#: themes/bauhaus/root-functions.php:487
+msgid "Max number of posts in popular slider"
+msgstr "Max aantal berichten in populairste slider"
+
+#: themes/bauhaus/root-functions.php:477
+msgid "Show popular posts slider"
+msgstr "Toon populaire berichten slider"
+
+#: themes/bauhaus/root-functions.php:467
+msgid "Show featured posts slider"
+msgstr "Toon uitgelichte berichten slider"
+
+#: themes/bauhaus/root-functions.php:457
+msgid "Autoplay"
+msgstr "Automatisch afspelen"
+
+#: themes/bauhaus/root-functions.php:447
+msgid "Show slider nav bar"
+msgstr "Weergave slider navigatiebalk"
+
+#: themes/bauhaus/root-functions.php:437
+msgid "Show featured posts"
+msgstr "Uitgelichte berichten weergeven"
+
+#: themes/bauhaus/root-functions.php:431
+msgid "Carousel View"
+msgstr "Carousel weergave"
+
+#: themes/bauhaus/root-functions.php:430
+msgid "List View"
+msgstr "Lijstweergave"
+
+#: themes/bauhaus/root-functions.php:425
+msgid "Blog Appearance"
+msgstr "Blog weergave"
+
+#: themes/bauhaus/default/layouts/carousel-view.php:25
+msgid "Popular"
+msgstr "Populairste"
+
+#: themes/bauhaus/default/layouts/carousel-view.php:20
+msgid "Featured"
+msgstr "Uitgelichte"
+
+#: themes/bauhaus/default/layouts/carousel-view.php:6
+msgid "Latest"
+msgstr "Nieuwste"
+
+#: themes/foundation/modules/featured/featured.php:338
+msgid "Show on homepage"
+msgstr "Weergeven op homepagina"
+
+#: themes/foundation/modules/featured/featured.php:330
+msgid "Show on blog"
+msgstr "Weergeven op blog"
+
+#: themes/foundation/modules/featured/featured.php:430
+msgid "Posts to display"
+msgstr "Berichten om weer te geven"
+
+#: admin/pages/custom/wptouch-admin-go-pro.php:14
+msgid "Activate WPtouch Pro"
+msgstr "Activateer WPtouch Pro"
+
+#: themes/foundation/modules/featured/featured.php:371
+msgid "Short"
+msgstr "Kort"
+
+#: themes/foundation/modules/featured/featured.php:369
+msgid "Long"
+msgstr "Lang"
+
+#: themes/foundation/modules/featured/featured.php:364
+msgid "Slide transition Delay"
+msgstr "Slide transitie vertraging"
+
+#: themes/bauhaus/root-functions.php:575
+msgid "Choose which page should display the featured slider"
+msgstr "Kies op welke pagina de uitgelichte slider moet worden weergegeven"
+
+#: themes/bauhaus/root-functions.php:574
+msgid "Featured Slider Page"
+msgstr "Uitgelichte slider pagina"
+
+#: themes/bauhaus/root-functions.php:295
+msgid "Right side"
+msgstr "Rechterzijde"
+
+#: themes/bauhaus/root-functions.php:294
+msgid "Left side"
+msgstr "Linkerzijde"
+
+#: themes/bauhaus/root-functions.php:289
+msgid "Menu position"
+msgstr "Menu positie"
+
+#: themes/foundation/modules/login/login.php:10
+msgid "Show login in menu"
+msgstr "Login tonen in het menu"
+
+#: themes/foundation/modules/featured/featured.php:352
+msgid "Streamlined"
+msgstr "Gestroomlijnd"
+
+#: core/multisite.php:420
+msgid "Destination Sites"
+msgstr "Bestemmingslocaties"
+
+#: core/multisite.php:329
+msgid "Source Site"
+msgstr "Bron site"
+
+#: core/multisite.php:324
+msgid "Select which settings sections are available to users in network subsites (network admins always see settings)."
+msgstr "Selecteer welke instellingensecties beschikbaar zijn voor gebruikers in netwerksubsites (netwerkbeheerders zien altijd instellingen)."
+
+#: core/multisite.php:299 core/multisite.php:392
+msgid "Colors"
+msgstr "Kleuren"
+
+#: core/multisite.php:251 core/multisite.php:344
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: core/multisite.php:245
+msgid "Subsite Customizable Settings"
+msgstr "Aanpasbare instellingen van subsite"
+
+#: core/multisite.php:240
+msgid "Configure WPtouch to use a site for defaults on new network sites instead of its defaults"
+msgstr "Configureer WPtouch om een site te gebruiken voor standaardinstellingen op nieuwe netwerksites in plaats van de standaardinstellingen"
+
+#: core/multisite.php:230 core/multisite.php:335
+msgid "Source site"
+msgstr "Bron site"
+
+#: core/multisite.php:222
+msgid "Use my settings for new sites"
+msgstr "Gebruik mijn instellingen voor nieuwe sites"
+
+#: core/multisite.php:216
+msgid "Network Defaults"
+msgstr "Netwerk standaard"
+
+#: core/admin-render.php:52
+msgid "Tools"
+msgstr "Hulpmiddelen"
+
+#: core/admin-render.php:49 core/multisite.php:180
+msgid "General Options"
+msgstr "Algemene opties"
+
+#: core/admin-extensions.php:367
+msgid "Site Activate"
+msgstr "Site activatie"
+
+#: admin/settings/include/sites.php:30
+msgid "Deploy Now"
+msgstr "Implementeer nu"
+
+#: admin/settings/include/sites.php:29
+msgid "Deploy Complete"
+msgstr "Implementeren afgerond"
+
+#: admin/settings/include/sites.php:29
+msgid "Your selected options are being deployed to sub sites"
+msgstr "De geselecteerde opties worden op subsites geïmplementeerd"
+
+#: admin/settings/include/sites.php:29
+msgid "WARNING: Deploying to sub sites will overwrite sub site WPtouch Pro settings."
+msgstr "WAARSCHUWING: als je naar subsites uitrolt, overschrijf je de WPtouch Pro instellingen van de subsite."
+
+#: admin/settings/include/sites.php:28 core/admin-render.php:54
+msgid "Deployment"
+msgstr "De uitrol"
+
+#: admin/settings/include/sites.php:19
+msgid "Deploy to Sites"
+msgstr "Uitrollen naar sites"
+
+#: admin/settings/include/sites.php:18
+msgid "Select None"
+msgstr "Geen selecteren"
+
+#: admin/settings/include/sites.php:17
+msgid "Select All"
+msgstr "Selecteer alles"
+
+#: admin/settings/html/updates-available.php:55
+msgid "Extension Updates"
+msgstr "Extensie updates"
+
+#: admin/settings/html/updates-available.php:27
+msgid "Theme Updates"
+msgstr "Thema updates"
+
+#: admin/settings/html/updates-available.php:12
+msgid "Core Plugin Updates"
+msgstr "Core Plugin Updates"
+
+#: admin/settings/html/extension-browser-item-detail.php:82
+#: admin/settings/html/theme-browser-item-detail.php:58
+msgid "Learn More"
+msgstr "Kom meer te weten"
+
+#: admin/settings/html/extension-browser-item-detail.php:60
+msgid "Must be activated from Network Admin"
+msgstr "Moet worden geactiveerd via netwerkbeheerder"
+
+#: admin/settings/html/auto_configure.php:4
+msgid "This extension doesn’t currently require configuration. All of its settings are inherited from your WPtouch Pro configuration automatically."
+msgstr "Deze extensie vereist momenteel geen configuratie. Alle instellingen worden automatisch overgenomen van jouw WPtouch Pro configuratie."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:100
+msgid "Multisite Network"
+msgstr "Multisite netwerk"
+
+#: themes/foundation/modules/featured/featured.php:390
+msgid "Show # of comments"
+msgstr "Meer reacties tonen"
+
+#: themes/foundation/modules/featured/featured.php:351
+msgid "Enhanced"
+msgstr "Verbeterd"
+
+#: themes/foundation/modules/featured/featured.php:346
+msgid "Featured slider style"
+msgstr "Uitgelichte slider stijl"
+
+#: core/class-wptouch-pro.php:667
+msgid "Automatic theme migration from wp-content/uploads/wptouch-data directory failed. Please manually move these folders to wp-content/wptouch-data: %s"
+msgstr "Automatische themamigratie van wp-inhoud/uploads/wptouch-data map is mislukt. Verplaats deze mappen handmatig naar wp-inhoud/wptouch-data: %s"
+
+#. Description of the plugin
+msgid "Make a beautiful mobile-friendly version of your website with just a few clicks."
+msgstr "Maak met slechts een paar klikken een prachtige mobielvriendelijke versie van je site."
+
+#: themes/foundation/root-functions.php:914
+msgid "Custom CSS Declarations"
+msgstr "Custom CSS declaraties"
+
+#: themes/foundation/root-functions.php:908
+msgid "Custom CSS"
+msgstr "Aangepaste CSS"
+
+#: themes/foundation/root-functions.php:896
+msgid "Footer"
+msgstr "Footer"
+
+#: themes/foundation/root-functions.php:864
+msgid "Header"
+msgstr "Header"
+
+#: themes/foundation/root-functions.php:823
+msgid "Site Icon"
+msgstr "Favicon"
+
+#: core/multisite.php:307 core/multisite.php:400
+#: themes/foundation/modules/social-links/social-links.php:9
+msgid "Social Media Links"
+msgstr "Links naar sociale media"
+
+#: themes/foundation/modules/sharing/sharing.php:109
+msgid "Also show on pages"
+msgstr "Toon ook op pagina's"
+
+#: core/multisite.php:315 core/multisite.php:408
+#: themes/foundation/modules/sharing/sharing.php:95
+msgid "Social Sharing"
+msgstr "Sociale delen"
+
+#: themes/foundation/modules/media/media.php:41
+msgid "FitVids is a small JavaScript helper that will detect videos from a variety of web sources and automatically scale them to fill the container and format them with the correct aspect ratio."
+msgstr "FitVids is een kleine JavaScript helper die video's van verschillende webbronnen kan detecteren en deze automatisch te schalen om de container te vullen en deze met de juiste beeldverhouding in te stellen."
+
+#: themes/foundation/modules/media/media.php:40
+msgid "Use FitVids to automatically scale videos"
+msgstr "Gebruik FitVids om video's automatisch te schalen"
+
+#: themes/foundation/modules/login/login.php:11
+msgid "Will add login/out links"
+msgstr "Voegt inlog/uitlog links toe"
+
+#: themes/foundation/modules/google-fonts/google-fonts.php:35
+msgid "Font Pairing"
+msgstr "Lettertype koppeling"
+
+#: themes/foundation/modules/google-fonts/google-fonts.php:21
+msgid "Browser Default Fonts"
+msgstr "Browser standaardlettertypen"
+
+#: themes/foundation/modules/featured/featured.php:422
+msgid "Slider posts also show in listings"
+msgstr "Slider berichten worden ook weergegeven in lijsten"
+
+#: themes/foundation/modules/featured/featured.php:414
+msgid "Make images grayscale"
+msgstr "Maak afbeeldingen op met grijswaarden"
+
+#: themes/foundation/modules/featured/featured.php:406
+msgid "Slides repeat"
+msgstr "Slides herhaling"
+
+#: themes/foundation/modules/featured/featured.php:398
+msgid "Slide automatically"
+msgstr "Schuif automatisch"
+
+#: themes/foundation/modules/featured/featured.php:377
+msgid "Number of posts in slider"
+msgstr "Aantal berichten in slider"
+
+#: themes/foundation/modules/custom-posts/custom-posts.php:210
+msgid "Select which custom post types WPtouch Pro should load when displaying your site."
+msgstr "Selecteer welke aangepaste berichttypen WPtouch Pro moet laden bij het weergeven van je site."
+
+#: themes/bauhaus/root-functions.php:337
+msgid "Thumbnail Type"
+msgstr "Thumbnailtype"
+
+#: themes/bauhaus/default/sharing.php:4 themes/foundation/default/sharing.php:4
+msgid "Pin"
+msgstr "Pin"
+
+#: core/menu-walkers.php:402
+msgid "Original: %s"
+msgstr "Origineel: %s"
+
+#: core/menu-walkers.php:395
+msgid "To the top"
+msgstr "Naar boven"
+
+#: core/menu-walkers.php:392
+msgid "Down one"
+msgstr "E&#233;n omlaag"
+
+#: core/menu-walkers.php:391
+msgid "Up one"
+msgstr "E&#233;n omhoog"
+
+#: core/menu-walkers.php:390
+msgid "Move"
+msgstr "Verplaats"
+
+#: core/menu-walkers.php:382
+msgid "Use Default"
+msgstr "Standaardwaarden gebruiken"
+
+#: core/menu-walkers.php:381
+msgid "Change Icon"
+msgstr "Verander icoon"
+
+#: core/menu-walkers.php:381
+msgid "WPtouch Icons"
+msgstr "WPtouch-pictogrammen"
+
+#: core/menu-walkers.php:377
+msgid "Mobile Menu Icon"
+msgstr "Mobiel menupictogram"
+
+#: core/menu-walkers.php:367
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr "De beschrijving zal weergegeven worden in het menu als het huidige thema dit ondersteunt."
+
+#: core/menu-walkers.php:359
+msgid "Link Relationship (XFN)"
+msgstr "Link relatie (XFN)"
+
+#: core/menu-walkers.php:353
+msgid "CSS Classes (optional)"
+msgstr "CSS Class (optioneel)"
+
+#: core/menu-walkers.php:348
+msgid "Open link in a new window/tab"
+msgstr "Link in een nieuw vensterjavascript:;/nieuwe tab openen"
+
+#: core/menu-walkers.php:341
+msgid "Title Attribute"
+msgstr "Titel Eigenschap"
+
+#: core/menu-walkers.php:335
+msgid "Navigation Label"
+msgstr "Navigatie label"
+
+#: core/menu-walkers.php:328
+msgid "URL"
+msgstr "Webadres"
+
+#: core/menu-walkers.php:317 core/menu-walkers.php:319
+msgid "Edit Menu Item"
+msgstr "Bewerk menu item"
+
+#: core/menu-walkers.php:315
+msgid "Move down"
+msgstr "Omlaag verplaatsen"
+
+#: core/menu-walkers.php:302
+msgid "Move up"
+msgstr "Omhoog verplaatsen"
+
+#: core/menu-walkers.php:287
+msgid "sub item"
+msgstr "subitem"
+
+#. translators: %s: title of menu item in draft status
+#: core/menu-walkers.php:274
+msgid "%s (Pending)"
+msgstr "%s (Wachtrij)"
+
+#. translators: %s: title of menu item which is invalid
+#: core/menu-walkers.php:270
+msgid "%s (Invalid)"
+msgstr "%s (Ongeldig)"
+
+#: core/class-wptouch-pro.php:1000
+msgid "Install Extensions"
+msgstr "Extensies installeren"
+
+#: core/class-wptouch-pro.php:999
+msgid "Install Themes"
+msgstr "Thema's installeren"
+
+#: core/class-wptouch-pro.php:998
+msgid "WPtouch is saving settings. Please do not refresh the page while saving."
+msgstr "WPtouch slaat instellingen op. Vernieuw de pagina niet tijdens het opslaan."
+
+#: core/class-wptouch-pro.php:993
+msgid "This will reset all WPtouch Pro settings, delete the wptouch-data folder, and deactivate the plugin. Are you sure?"
+msgstr "Hiermee worden alle WPtouch Pro-instellingen gereset, de map wptouch-data verwijderd en de plugin gedeactiveerd. Weet je het zeker?"
+
+#: core/class-wptouch-pro.php:992
+msgid ""
+"This will reset all WPtouch Pro settings and delete the wptouch-data folder.\n"
+"Are you sure?"
+msgstr ""
+"Hiermee worden alle WPtouch Pro-instellingen gereset en wordt de map wptouch-data verwijderd.\n"
+"Weet je het zeker?"
+
+#: core/class-wptouch-pro.php:726
+msgid "WPtouch Server Issue"
+msgstr "WPtouch-serverprobleem"
+
+#: core/class-wptouch-pro.php:720 core/class-wptouch-pro.php:730
+msgid "OK"
+msgstr "Oké"
+
+#: core/class-wptouch-pro.php:719
+msgid "We downloaded a fresh copy for you."
+msgstr "We hebben een nieuw exemplaar voor je gedownload."
+
+#: core/class-wptouch-pro.php:718
+msgid "Your mobile theme was either broken or missing."
+msgstr "Je mobiele thema is kapot of ontbreekt."
+
+#: core/class-wptouch-pro.php:711
+msgid "WPtouch Repair Required"
+msgstr "WPtouch reparatie vereist"
+
+#: core/admin-render.php:74 core/admin-render.php:87 core/multisite.php:259
+#: core/multisite.php:352
+msgid "Site Compatibility"
+msgstr "Site Compatibiliteit"
+
+#: core/admin-render.php:76 core/admin-render.php:95 core/config.php:92
+#: core/multisite.php:275 core/multisite.php:368
+msgid "Menu Settings"
+msgstr "Menu instellingen"
+
+#: core/admin-render.php:75 core/admin-render.php:91 core/config.php:91
+#: core/multisite.php:267 core/multisite.php:360
+msgid "Devices"
+msgstr "Apparaten"
+
+#: core/admin-menu.php:50
+msgid "License %s Support"
+msgstr "Licentie %s ondersteuning"
+
+#: core/admin-menu.php:48
+msgid "Setup Wizard"
+msgstr "Instellingen Wizard"
+
+#: core/admin-ajax.php:219
+msgid "Unable to find your Google Analytics code. You can enter it manually in the settings later."
+msgstr "Kan je Google Analytics-code niet vinden. Je kan het later handmatig invoeren in de instellingen."
+
+#: core/admin-ajax.php:200
+msgid "Code found! %s Analytics was automatically configured for you."
+msgstr "Code gevonden! %s Analytics is automatisch voor je geconfigureerd."
+
+#: admin/settings/html/updates-available.php:7
+msgid "Update All"
+msgstr "Update alles"
+
+#: admin/settings/html/updates-available.php:7
+msgid "Updating"
+msgstr "Bezig met bijwerken"
+
+#: admin/settings/html/theme-browser.php:27
+msgid "No themes available"
+msgstr "Geen thema's beschikbaar"
+
+#: admin/settings/html/theme-browser-item-detail.php:66
+msgid "Screenshots"
+msgstr "Screenshots"
+
+#: admin/settings/html/theme-browser-item-detail.php:35
+msgid "Customize"
+msgstr "Personaliseer"
+
+#: admin/settings/html/theme-browser-item-detail.php:11
+msgid "Back to themes"
+msgstr "Terug naar thema's"
+
+#: admin/settings/html/redirect.php:1
+msgid "Redirect target"
+msgstr "Doel omleiden"
+
+#: admin/settings/html/plugin-compat-ajax.php:22
+msgid "No plugins activated to disable."
+msgstr "Geen plugins geactiveerd om uit te schakelen."
+
+#: admin/settings/html/no_tablet_support.php:6
+msgid "You're using %s, which currently does not support tablets."
+msgstr "Je gebruikt %s, dat momenteel geen tablets ondersteunt."
+
+#: admin/settings/html/menus_in_menus.php:10
+msgid "%sGo to Menu Settings%s"
+msgstr "%sGa naar menu-instellingen %s"
+
+#: admin/settings/html/menus_in_menus.php:9
+msgid "These settings are handled in the WordPress %s %sAppearance -> Menus%s Menu Location settings"
+msgstr "Deze instellingen worden afgehandeld in de WordPress %s %s Appearance -> Menu's %s Menu Locatie-instellingen"
+
+#: admin/settings/html/installed_icon_sets_ajax.php:25
+#: core/class-wptouch-pro.php:1002
+msgid "Installing"
+msgstr "Installeren"
+
+#: admin/settings/html/installed_icon_sets.php:7
+msgid "The %s%s%s directory is not writable. %sPlease fix this issue to install additional icon sets."
+msgstr "De map %s %s %s is niet schrijfbaar. %s Los dit probleem op om extra pictogrammensets te installeren."
+
+#: admin/settings/html/installed_icon_sets.php:3
+msgid "Loading icon sets"
+msgstr "Pictogram sets laden"
+
+#: admin/settings/html/extension-browser.php:28
+msgid "No extensions available"
+msgstr "Geen extensies beschikbaar"
+
+#: admin/settings/html/extension-browser-item-detail.php:123
+#: admin/settings/html/theme-browser-item-detail.php:88
+msgid "Changelog"
+msgstr "Wijzigingslog"
+
+#: admin/settings/html/extension-browser-item-detail.php:118
+#: admin/settings/html/theme-browser-item-detail.php:81
+#: core/menu-walkers.php:365
+msgid "Description"
+msgstr "Beschrijving"
+
+#: admin/settings/html/extension-browser-item-detail.php:29
+#: admin/settings/html/extension-browser-item-detail.php:54
+#: admin/settings/html/theme-browser-item-detail.php:42
+msgid "Add to License"
+msgstr "Toevoegen aan licentie"
+
+#: admin/settings/html/extension-browser-item-detail.php:5
+msgid "Back to extensions"
+msgstr "Terug naar extensies"
+
+#: admin/settings/html/debuginfo.php:18
+msgid "Server Configuration"
+msgstr "Serverconfiguratie"
+
+#: admin/settings/html/customizing_in_customizer.php:10
+msgid "%sGo to the Customizer%s"
+msgstr "%sGa naar de Customizer %s"
+
+#: admin/settings/html/customizing_in_customizer.php:9
+msgid "These settings are handled in the WordPress %s %sAppearance -> Customize%s settings."
+msgstr "Deze instellingen worden afgehandeld in de WordPress %s %sAppearance -> %s-instellingen aanpassen."
+
+#: admin/settings/html/custom-latest-posts.php:1
+msgid "Posts page"
+msgstr "Posts pagina"
+
+#: core/config.php:95
+msgid "Go Pro"
+msgstr "Ga voor de Pro versie"
+
+#: admin/pages/wptouch-admin-general-settings.php:708 core/admin-render.php:78
+#: core/admin-render.php:110 core/config.php:94
+msgid "Customize Theme"
+msgstr "Thema aanpassen"
+
+#: admin/pages/wptouch-admin-general-settings.php:646
+msgid "Menu Icon Sets"
+msgstr "Menu pictogram sets"
+
+#: admin/pages/wptouch-admin-general-settings.php:635
+msgid "Adds the ability to associate icons with menu items"
+msgstr "Voegt de mogelijkheid toe om pictogrammen te koppelen aan menu-items"
+
+#: admin/pages/wptouch-admin-general-settings.php:602
+msgid "Menu Setup"
+msgstr "Menu-instellingen"
+
+#: admin/pages/wptouch-admin-general-settings.php:585
+msgid "You can enter partial i.e. \"nokia\" or full agent strings"
+msgstr "Je kan gedeeltelijke d.w.z. \"nokia\" of volledige agent strings invoeren"
+
+#: admin/pages/wptouch-admin-general-settings.php:584
+msgid "User agents to add"
+msgstr "User agents om toe te voegen"
+
+#: admin/pages/wptouch-admin-general-settings.php:578
+msgid "Additional User Agents"
+msgstr "Extra gebruikersagenten"
+
+#: admin/pages/wptouch-admin-general-settings.php:572
+msgid "If your theme supports tablets, devices and browsers WPtouch Pro can be enabled for will be listed below."
+msgstr "Als je thema tablets, apparaten en browsers ondersteunt waarvoor WPtouch Pro kan worden ingeschakeld, wordt hieronder vermeld."
+
+#: admin/pages/wptouch-admin-general-settings.php:557
+msgid "Tablet Devices & Browsers"
+msgstr "Tabletapparaten en browsers"
+
+#: admin/pages/wptouch-admin-general-settings.php:499
+msgid "Tablets"
+msgstr "Tablets"
+
+#: admin/pages/wptouch-admin-general-settings.php:439
+msgid "Mobile Devices & Browsers"
+msgstr "Mobiele apparaten en browsers"
+
+#: admin/pages/wptouch-admin-general-settings.php:427
+msgid "Attempts to disable plugins for mobile visitors. Some plugins don‘t support this feature due to the way they load in WordPress."
+msgstr "Pogingen om plugins voor mobiele bezoekers uit te schakelen. Sommige plugins ondersteunen deze functie niet vanwege de manier waarop ze in WordPress worden geladen."
+
+#: admin/pages/wptouch-admin-general-settings.php:416
+msgid "Active Plugins"
+msgstr "Actieve plugins"
+
+#: admin/pages/wptouch-admin-general-settings.php:384
+msgid "Filters out shortcodes from displaying when WPtouch Pro is active."
+msgstr "Filtert shortcodes zodat ze niet worden weergegeven wanneer WPtouch Pro actief is."
+
+#: admin/pages/wptouch-admin-general-settings.php:383
+msgid "Filter out shortcodes"
+msgstr "Filter shortcodes"
+
+#: admin/pages/wptouch-admin-general-settings.php:375
+msgid "Process desktop theme shortcodes"
+msgstr "Shortcodes voor desktopthema's verwerken"
+
+#: admin/pages/wptouch-admin-general-settings.php:369
+msgctxt "shortcodes are pieces of code [like_this] that users can drop into textareas that will convert to longer pieces of code"
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: admin/pages/wptouch-admin-general-settings.php:350
+msgid "Also applies to admin"
+msgstr "Geldt ook voor beheer"
+
+#: admin/pages/wptouch-admin-general-settings.php:341
+msgid "Theme Language"
+msgstr "Thema taal"
+
+#: admin/pages/wptouch-admin-general-settings.php:323
+msgid "Show powered by WPtouch Pro link in theme footer"
+msgstr "Toon powered by WPtouch Pro link in thema footer"
+
+#: admin/pages/wptouch-admin-general-settings.php:317
+msgid "WPtouch Pro Love"
+msgstr "WPtouch Pro Love"
+
+#: admin/pages/wptouch-admin-general-settings.php:244
+msgid "Site ID"
+msgstr "Site-ID"
+
+#: admin/pages/wptouch-admin-general-settings.php:237
+msgid "Custom"
+msgstr "Aangepast"
+
+#: admin/pages/wptouch-admin-general-settings.php:230
+msgid "Analytics Code"
+msgstr "Analytics-code"
+
+#: admin/pages/wptouch-admin-general-settings.php:272
+msgid "Analytics"
+msgstr "Analytics"
+
+#: admin/pages/wptouch-admin-general-settings.php:223
+msgid "Find your ID from the %siTunes Link Maker%s."
+msgstr "Vind je ID in de%siTunes Link Maker%s."
+
+#: admin/pages/wptouch-admin-general-settings.php:197
+msgid "By default WPtouch Pro disables browser zooming."
+msgstr "WPtouch Pro schakelt standaard browserzoomen uit."
+
+#: admin/pages/wptouch-admin-general-settings.php:196
+msgid "Allow mobile browser zooming"
+msgstr "Zoomen met mobiele browser toestaan ​​"
+
+#: admin/pages/wptouch-admin-general-settings.php:185
+msgid "Shows a toggle in both the desktop mobile theme footers allowing users to switch between them."
+msgstr "Toont een schakelaar in beide footers voor mobiele desktops, zodat gebruikers tussen deze kunnen schakelen."
+
+#: admin/pages/wptouch-admin-general-settings.php:176
+msgctxt "switches between desktop and mobile themes"
+msgid "Theme switch toggle"
+msgstr "Schakelen tussen thema's"
+
+#: admin/pages/wptouch-admin-general-settings.php:130
+msgid "You can set a different front page for WPtouch Pro visitors."
+msgstr "Je kan een andere voorpagina instellen voor bezoekers van WPtouch Pro."
+
+#: admin/pages/wptouch-admin-general-settings.php:129
+msgid "Mobile front page"
+msgstr "Mobiele voorpagina"
+
+#: admin/pages/wptouch-admin-general-settings.php:116
+msgid "Require exact match"
+msgstr "Exacte overeenkomst vereisen"
+
+#: admin/pages/wptouch-admin-general-settings.php:102
+msgid "Only show WPtouch Pro on these URLs"
+msgstr "Toon alleen WPtouch Pro op deze URL's"
+
+#: admin/pages/wptouch-admin-general-settings.php:101
+msgid "Exclude WPtouch Pro on these URLs"
+msgstr "WPtouch Pro uitsluiten op deze URL's"
+
+#: admin/pages/wptouch-admin-general-settings.php:100
+msgid "Show WPtouch Pro for all URLs"
+msgstr "Toon WPtouch Pro voor alle URL's"
+
+#: admin/pages/wptouch-admin-general-settings.php:95
+msgid "URL filtering"
+msgstr "URL-filtering"
+
+#: admin/pages/wptouch-admin-general-settings.php:87
+msgid "Display WPtouch Pro for mobile visitors"
+msgstr "WPtouch Pro weergeven voor mobiele bezoekers"
+
+#: admin/pages/wptouch-admin-general-settings.php:81
+msgid "Display"
+msgstr "Weergeven"
+
+#: admin/pages/wptouch-admin-general-settings.php:76
+msgid "If disabled WPtouch Pro will be off for visitors but can be configured in the Customizer."
+msgstr "Indien uitgeschakeld, is WPtouch Pro uitgeschakeld voor bezoekers, maar kan worden geconfigureerd in de Customizer."
+
+#: admin/pages/wptouch-admin-general-settings.php:74
+msgid "If disabled WPtouch Pro will be off for visitors but can be configured."
+msgstr "Indien uitgeschakeld, is WPtouch Pro uitgeschakeld voor bezoekers, maar kan worden geconfigureerd."
+
+#: admin/pages/wptouch-admin-general-settings.php:55
+msgid "Mobile Site Title"
+msgstr "Titel van mobiele site"
+
+#: admin/pages/wptouch-admin-general-settings.php:29 core/admin-render.php:68
+#: core/config.php:88
+msgid "Updates Available"
+msgstr "Updates beschikbaar"
+
+#: core/multisite.php:197
+msgid "If enabled, sub-sites can only activate/deactivate themes and extensions that have been downloaded in the network admin."
+msgstr "Indien ingeschakeld, kunnen subsites alleen thema's en extensies activeren/deactiveren die zijn gedownload in de netwerkbeheerder."
+
+#: core/multisite.php:196
+msgid "Control themes and extension downloads and updates"
+msgstr "Beheer thema's en extensie downloads en updates"
+
+#: core/multisite.php:186
+msgid "Admin Language"
+msgstr "Admin Language"
+
+#: core/admin-menu.php:69
+msgid "Multisite Setup"
+msgstr "Multisite-installatie"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:440
+msgid "Configure Settings"
+msgstr "Instellingen configureren"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:434
+msgid "Customize your Theme"
+msgstr "Pas je thema aan"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:427
+msgid " Next you can configure network settings."
+msgstr "Vervolgens kan je netwerkinstellingen configureren."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:425
+msgid " Next you can customize your theme, or configure advanced settings."
+msgstr "Vervolgens kan je je thema aanpassen of geavanceerde instellingen configureren."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:423
+msgid " Next you can configure your theme."
+msgstr "Vervolgens kan je je thema configureren."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:421
+msgid "Setup Complete!"
+msgstr "Installatie voltooid!"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:413
+msgid "Access your WPtouch Pro account to manage your license, access support resources, or upgrade your license."
+msgstr "Open je WPtouch Pro-account om je licentie te beheren, toegang te krijgen tot ondersteuningsbronnen of je licentie te upgraden."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:402
+msgid "WPtouch Pro 4 includes great support resources to help you get the most out of it."
+msgstr "WPtouch Pro 4 bevat geweldige ondersteuningsbronnen om je te helpen er het maximale uit te halen."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:401
+msgid "WPtouch Pro Support"
+msgstr "WPtouch Pro-ondersteuning"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:392
+msgid "Show powered by WPtouch Pro"
+msgstr "Show powered by WPtouch Pro"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:389
+msgid "Share your love for WPtouch Pro by including a small text link in your website's footer. Including the link helps us find new customers who will love WPtouch Pro like you do!"
+msgstr "Deel je liefde voor WPtouch Pro door een kleine tekstlink in de footer van je site op te nemen. Door de link op te nemen, kunnen we nieuwe klanten vinden die net als jij dol zullen zijn op WPtouch Pro!"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:388
+msgid "WPtouch Love"
+msgstr "WPtouch Love"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:378
+msgid "Scan for Analytics Code"
+msgstr "Scan voor Analytics-code"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:378
+msgid "Searching..."
+msgstr "Bezig met zoeken..."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:374
+msgid "WPtouch Pro can scan your site html and add it automatically."
+msgstr "WPtouch Pro kan de HTML van je site scannen en deze automatisch toevoegen."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:373
+msgid "WPtouch Pro supports analytics and usage statistics collection from Google Analytics."
+msgstr "WPtouch Pro ondersteunt het verzamelen en analyseren van gebruiksstatistieken van Google Analytics."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:372
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:364
+msgid "Mobile posts listing"
+msgstr "Vermelding van mobiele berichten"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:262
+msgid "Mobile home page"
+msgstr "Mobiele homepage"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:254
+#: admin/pages/custom/wptouch-admin-wizard.php:273
+#: admin/pages/wptouch-admin-general-settings.php:134
+#: admin/settings/include/custom-latest-posts.php:11
+msgid "WordPress Reading Settings"
+msgstr "WordPress leesinstellingen"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:241
+msgid "By default WPtouch Pro uses your WordPress settings for its homepage and blog settings. You can choose a different setup here."
+msgstr "Standaard gebruikt WPtouch Pro je WordPress-instellingen voor de startpagina en bloginstellingen. Je kan hier een andere configuratie kiezen."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:239
+msgid "Home Page & Posts"
+msgstr "Homepage  & Berichten"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:237
+msgid "Posts Page"
+msgstr "Berichten Pagina"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:206
+msgid "Extensions are like mini-plugins that help you extend WPtouch Pro. You can also manage Extensions at any time from the WPtouch Pro settings panel."
+msgstr "Extensies zijn als mini-plugins waarmee je WPtouch Pro kan uitbreiden. Je kan extensies ook op elk moment beheren vanuit het instellingenpaneel van WPtouch Pro."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:205
+msgid "Activate Extensions"
+msgstr "Extensies activeren"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:188
+msgid "You can activate extensions in the next step"
+msgstr "Je kan extensies activeren in de volgende stap"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:187
+msgid "Upload Extension"
+msgstr "Extensie uploaden"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:187
+msgid "Extension Uploaded!"
+msgstr "Extensie geüpload!"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:167
+msgid "Download / Upload Extensions"
+msgstr "Extensies downloaden/uploaden"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:145
+msgid "Select a theme which best suits your website. %s Themes are flexible— colors, fonts, layout and more can be changed for each theme."
+msgstr "Selecteer een thema dat het beste bij je site past. %s Thema's zijn flexibel - kleuren, lettertypen, lay-out en meer kunnen voor elk thema worden gewijzigd."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:144
+msgid "Choose a Theme"
+msgstr "Kies een thema"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:137
+msgid "You can activate your theme in the next step"
+msgstr "Je kan je thema in de volgende stap activeren"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:136
+#: admin/pages/custom/wptouch-admin-wizard.php:187
+msgid "Uploading..."
+msgstr "Wordt geüpload..."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:136
+msgid "Upload A Theme"
+msgstr "Een thema uploaden"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:136
+msgid "Theme Uploaded!"
+msgstr "Thema geüpload!"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:116
+#: admin/pages/custom/wptouch-admin-wizard.php:168
+msgid "We were unable to install automatically for you on this server. Instead, you can download and upload manually. To learn more about enabling automatic downloads, %sread this article on support.wptouch.com%s."
+msgstr "We kunnen niet automatisch voor je installeren op deze server. In plaats daarvan kan je handmatig downloaden en uploaden. Voor meer informatie over het inschakelen van automatische downloads, %sread dit artikel op support.wptouch.com %s."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:115
+msgid "Download / Upload a Theme"
+msgstr "Een thema downloaden/uploaden"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:105
+msgid "Control theme and extension downloads and updates"
+msgstr "Beheer downloads en updates van thema's en extensies"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:103
+msgid "By default network activations of WPtouch Pro mean that the Network Admin controls theme and extension downloads and updates. You can also choose to allow sub-sites to behave like independent installations, and control themes and extensions themselves."
+msgstr "Netwerkactivaties van WPtouch Pro betekenen standaard dat de netwerkbeheerder downloads en updates van thema's en extensies beheert. Je kan er ook voor kiezen om subsites toe te staan ​​zich als onafhankelijke installaties te gedragen en thema's en extensies zelf te beheren."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:101
+msgid "Since you have network activated WPtouch Pro, you can configure the way themes and extensions are controlled in your environment."
+msgstr "Omdat je netwerk-geactiveerde WPtouch Pro hebt, kun je de manier configureren waarop thema's en extensies worden beheerd in je omgeving."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:94
+msgid "Thank you for purchasing a %s licence!"
+msgstr "Bedankt voor het kopen van een %s-licentie!"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:92
+msgid "License Activation Complete"
+msgstr "Activering van licentie voltooid"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:88
+msgid "You can find your license key in the purchase receipt e-mail we sent you when you purchased WPtouch Pro. %s If you have lost your license e-mail, or are having issues activating WPtouch Pro please send an e-mail to %s"
+msgstr "Je vindt je licentiesleutel in de e-mail met het aankoopbewijs dat we je hebben gestuurd toen je WPtouch Pro kocht. %s Als je je licentie-e-mail bent kwijtgeraakt of problemen ondervindt bij het activeren van WPtouch Pro, stuur dan een e-mail naar %s"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:69
+msgid "Adding a license is required to activate product updates and support, and provides access to more themes and extensions."
+msgstr "Het toevoegen van een licentie is vereist om productupdates en ondersteuning te activeren en biedt toegang tot meer thema's en extensies."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:68
+#: admin/pages/custom/wptouch-admin-wizard.php:82
+msgid "Activate License"
+msgstr "Activeer licentie"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:60
+msgid "The most elegant and powerful way to create great mobile experiences for your website visitors. This guide will help you configure important WPtouch Pro settings before customizing your theme."
+msgstr "De meest elegante en krachtige manier om geweldige mobiele ervaringen te creëren voor bezoekers van je site. Deze gids helpt je bij het configureren van belangrijke WPtouch Pro-instellingen voordat je je thema aanpast."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:59
+msgid "Welcome to WPtouch Pro 4"
+msgstr "Welkom bij WPtouch Pro 4"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:37
+msgid "Setting Language..."
+msgstr "Taal instellen ..."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:36
+msgid "Choose a Language"
+msgstr "Kies een taal"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:29
+msgid "Click the arrow below to get started with setup."
+msgstr "Klik op de onderstaande pijl om aan de slag te gaan met instellen."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:28
+msgid "From all of us at BraveNewCode, we want to say thanks. You keep us working hard to make this product great."
+msgstr "Van ons allemaal bij BraveNewCode willen we bedanken. Je zorgt ervoor dat we hard werken om dit product geweldig te maken."
+
+#: admin/pages/custom/wptouch-admin-wizard.php:25
+msgid "Thanks for Upgrading!"
+msgstr "Bedankt voor het upgraden!"
+
+#: admin/pages/custom/wptouch-admin-license.php:165
+msgid "Deletes the %s folder, erases WPtouch settings and deactivates WPtouch Pro"
+msgstr "Verwijdert de map %s, wist WPtouch-instellingen en deactiveert WPtouch Pro"
+
+#: admin/pages/custom/wptouch-admin-license.php:164
+msgid "Delete, Erase & Deactivate"
+msgstr "Verwijderen, wissen en deactiveren"
+
+#: admin/pages/custom/wptouch-admin-license.php:161
+msgid "Deletes the %s folder in your %s folder on disk, and erases WPtouch Pro settings"
+msgstr "Verwijdert de map %s in je map %s op schijf en wist de WPtouch Pro-instellingen"
+
+#: admin/pages/custom/wptouch-admin-license.php:160
+msgid "Delete & Erase"
+msgstr "Verwijderen en wissen"
+
+#: admin/pages/custom/wptouch-admin-license.php:156
+msgid "Erases WPtouch Pro settings without deleting files"
+msgstr "Wist WPtouch Pro-instellingen zonder bestanden te verwijderen"
+
+#: admin/pages/custom/wptouch-admin-license.php:155
+msgid "Erase Settings"
+msgstr "Instellingen wissen"
+
+#: admin/pages/custom/wptouch-admin-license.php:150
+msgid "Restore a WPtouch Pro settings file"
+msgstr "Een WPtouch Pro-instellingenbestand herstellen"
+
+#: admin/pages/custom/wptouch-admin-license.php:146
+msgid "Restore Settings"
+msgstr "Herstel Instellingen"
+
+#: admin/pages/custom/wptouch-admin-license.php:141
+msgid "Download a copy of WPtouch Pro settings"
+msgstr "Download een kopie van de WPtouch Pro-instellingen"
+
+#: admin/pages/custom/wptouch-admin-license.php:140
+msgid "Download Settings"
+msgstr "Download-instellingen"
+
+#: admin/pages/custom/wptouch-admin-license.php:135
+msgid "Installation"
+msgstr "Installatie"
+
+#: admin/pages/custom/wptouch-admin-license.php:128
+msgid "Access your WPtouch Pro account to mange your license, access support resources, or upgrade your license."
+msgstr "Open je WPtouch Pro-account om je licentie te beheren, toegang te krijgen tot ondersteuningsbronnen of je licentie te upgraden."
+
+#: admin/pages/custom/wptouch-admin-license.php:127
+msgid "WPtouch Pro Account"
+msgstr "WPtouch Pro-account"
+
+#: admin/pages/custom/wptouch-admin-license.php:125
+#: admin/pages/custom/wptouch-admin-wizard.php:27
+#: admin/pages/custom/wptouch-admin-wizard.php:38
+#: admin/pages/custom/wptouch-admin-wizard.php:58
+#: admin/pages/custom/wptouch-admin-wizard.php:247
+#: admin/pages/custom/wptouch-admin-wizard.php:266
+#: admin/pages/custom/wptouch-admin-wizard.php:406
+#: admin/pages/custom/wptouch-admin-wizard.php:411
+msgid "Ornamental Image"
+msgstr "Decoratieve afbeelding"
+
+#: admin/pages/custom/wptouch-admin-license.php:121
+#: admin/pages/custom/wptouch-admin-wizard.php:408
+msgid "Find support guides, file tickets and access our knowledgebase here."
+msgstr "Vind ondersteuningsgidsen, bestandstickets en toegang tot onze kennisbank hier."
+
+#: admin/pages/custom/wptouch-admin-license.php:107
+msgid "License expiry"
+msgstr "Vervallen van licentie"
+
+#: admin/pages/custom/wptouch-admin-license.php:103
+msgid "Manage"
+msgstr "Beheren"
+
+#: admin/pages/custom/wptouch-admin-license.php:102
+msgid "Licenses used"
+msgstr "Gebruikte licenties"
+
+#: core/menu-walkers.php:415
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: admin/pages/custom/wptouch-admin-license.php:91
+msgid "Site License"
+msgstr "Sitelicentie"
+
+#: admin/pages/custom/wptouch-admin-license.php:32
+msgid "Account & License"
+msgstr "Account & licentie"
+
+#: admin/html/license-modals.php:66
+msgid "Please %sfollow the steps in this article%s to fix the issue."
+msgstr "Volg %sde stappen in dit artikel%s om het probleem op te lossen."
+
+#: admin/html/license-modals.php:65
+msgid "Your license was activated, however your installation could not be automatically upgraded to WPtouch Pro."
+msgstr "Je licentie is geactiveerd, maar je installatie kan niet automatisch worden geüpgraded naar WPtouch Pro."
+
+#: admin/html/license-modals.php:64
+msgid "Upgrade to Pro Failed"
+msgstr "Upgrade naar Pro mislukt"
+
+#: admin/html/license-modals.php:58
+msgid "Your installation has been activated and replaced by WPtouch Pro. Next you'll be taken to the WPtouch Pro wizard to get setup."
+msgstr "Je installatie is geactiveerd en vervangen door WPtouch Pro. Vervolgens wordt je naar de WPtouch Pro-wizard geleid om de installatie te starten."
+
+#: admin/html/license-modals.php:57
+msgid "Upgrade to Pro Complete!"
+msgstr "Upgrade naar Pro Complete!"
+
+#: admin/html/license-modals.php:54
+msgid "Upgrading installation..."
+msgstr "Installatie upgraden ..."
+
+#: admin/html/license-modals.php:47
+msgid "Thanks for purchasing WPtouch Pro! Your installation is activated, you can receive support and product updates for this website."
+msgstr "Bedankt voor het aanschaffen van WPtouch Pro! Je installatie is geactiveerd, je kan ondersteuning en productupdates voor deze site ontvangen."
+
+#: admin/html/license-modals.php:46
+msgid "License Activation Complete!"
+msgstr "Activering van licentie voltooid!"
+
+#: admin/html/license-modals.php:42
+msgid "Purchase Additional License"
+msgstr "Extra licentie aanschaffen"
+
+#: admin/html/license-modals.php:41
+msgid "Manage Licenses"
+msgstr "Licenties beheren"
+
+#: admin/html/license-modals.php:40
+msgid "You have no licenses remaining. You can remove a license from another domain, or purchase an additional site license."
+msgstr "Je hebt geen licenties meer. Je kan een licentie van een ander domein verwijderen of een extra sitelicentie kopen."
+
+#: admin/html/license-modals.php:27
+msgid "Try Again"
+msgstr "Probeer nog eens"
+
+#: admin/html/license-modals.php:26
+msgid "Please check that they are correct and try again."
+msgstr "Controleer of ze correct zijn en probeer het opnieuw."
+
+#: admin/html/license-modals.php:25
+msgid "Our server rejected your E-Mail Address/License Key."
+msgstr "Onze server heeft je e-mailadres/licentiesleutel afgewezen."
+
+#: admin/html/license-modals.php:24
+msgid "E-mail Address/License Key Rejected"
+msgstr "E-mailadres/licentiecode afgewezen"
+
+#: admin/html/license-modals.php:19
+msgid "E-Mail Support"
+msgstr "E-mail ondersteuning"
+
+#: admin/html/license-modals.php:18
+msgid "Our server cannot authorize your license. This could be caused by your webhost blocking the connection, or a temporary issue with our server."
+msgstr "Onze server kan je licentie niet autoriseren. Dit kan worden veroorzaakt doordat je webhost de verbinding blokkeert of een tijdelijk probleem met onze server."
+
+#: admin/html/license-modals.php:17
+msgid "Server Unavailable."
+msgstr "Server niet beschikbaar."
+
+#: admin/html/license-modals.php:7
+msgid "Activating License"
+msgstr "Licentie activeren"
+
+#: admin/customizer/wptouch-customizer.php:596
+msgid "Switch to Desktop Theme"
+msgstr "Overschakelen naar bureaubladthema"
+
+#: admin/customizer/wptouch-customizer.php:595
+msgid "Switch to Mobile Theme"
+msgstr "Overschakelen naar mobiel thema"
+
+#: admin/customizer/wptouch-customizer.php:568
+msgid "Device Orientation"
+msgstr "Apparaatoriëntatie"
+
+#: admin/html/plugin-area.php:44
+msgid "Please %sactivate your license%s, or %spurchase a license%s to fully enable product updates and product support."
+msgstr "Activeer a.u.b. je %slicentie%s of %skoop een licentie%s om productupdates en productondersteuning volledig mogelijk te maken."
+
+#: admin/html/plugin-area.php:30
+msgid "%sRenew your license%s to receive future product updates and product support."
+msgstr "%sVerleng je licentie%s om toekomstige productupdates en productondersteuning te ontvangen."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.wptouch.com/"
+msgstr "http://www.wptouch.com/"
+
+#. Plugin Name of the plugin
+msgid "WPtouch Mobile Plugin"
+msgstr "WPtouch Mobile Plugin"
+
+#: themes/foundation/root-functions.php:1581
+msgid "Page"
+msgstr "Pagina"
+
+#: themes/foundation/root-functions.php:1579
+msgid "Post"
+msgstr "Bericht"
+
+#: themes/foundation/root-functions.php:1316
+msgid "Load more entries"
+msgstr "Laad meer items"
+
+#: themes/foundation/root-functions.php:1314
+msgid "Load more in this section"
+msgstr "Laad meer in deze sectie"
+
+#: themes/foundation/root-functions.php:1312
+msgid "Load more from this year"
+msgstr "Laad meer van dit jaar"
+
+#: themes/foundation/root-functions.php:1310
+msgid "Load more from this month"
+msgstr "Laad meer van deze maand"
+
+#: themes/foundation/root-functions.php:1308
+msgid "Load more from this day"
+msgstr "Laad meer van deze dag"
+
+#: themes/foundation/root-functions.php:1306
+msgid "Load more tagged like this"
+msgstr "Laad meer die getagd zijn zoals deze"
+
+#: themes/foundation/root-functions.php:1304
+msgid "Load more from this category"
+msgstr "Laad meer uit deze categorie"
+
+#: themes/foundation/root-functions.php:1285
+#: themes/foundation/root-functions.php:1287
+#: themes/foundation/root-functions.php:1289
+msgid "Archives &rsaquo; %s"
+msgstr "Archieven &rsaquo; %s"
+
+#: themes/foundation/root-functions.php:1283
+msgid "Tags &rsaquo; %s"
+msgstr "Tags &rsaquo; %s"
+
+#: themes/foundation/root-functions.php:1281
+msgid "%sCategories &rsaquo;%s %s"
+msgstr "%sCategorieën &rsaquo;%s %s"
+
+#: themes/foundation/root-functions.php:1278
+msgid "search results for '%s'"
+msgstr "zoekresultaten voor '%s'"
+
+#: admin/pages/wptouch-admin-general-settings.php:208
+msgid "Smart App Banner"
+msgstr "Smart App Banner"
+
+#: themes/foundation/root-functions.php:847
+msgid "Site Logo"
+msgstr "Site-logo"
+
+#: themes/foundation/root-functions.php:742
+msgid "Theme Colors"
+msgstr "Thema-kleuren"
+
+#: admin/pages/wptouch-admin-general-settings.php:190
+msgid "Page Zoom"
+msgstr "Pagina zoom"
+
+#: themes/foundation/root-functions.php:812
+#: themes/foundation/root-functions.php:1636
+msgid "Pages"
+msgstr "Pagina's"
+
+#: themes/foundation/root-functions.php:802
+msgid "Blog"
+msgstr "Blog"
+
+#: themes/foundation/root-functions.php:780
+msgid "Comma separated by tag name"
+msgstr "Door komma's gescheiden op tagnaam"
+
+#: themes/foundation/root-functions.php:779
+msgid "Excluded tags"
+msgstr "Uitgesloten tags"
+
+#: themes/foundation/root-functions.php:772
+msgid "Comma separated by category name"
+msgstr "Door komma's gescheiden op categorienaam"
+
+#: themes/foundation/root-functions.php:771
+msgid "Excluded categories"
+msgstr "Uitgesloten categorieën"
+
+#: themes/foundation/root-functions.php:759
+msgid "Overrides the WordPress Reading settings for \"Blog pages show at most\""
+msgstr "Overschrijft de WordPress lezingsinstellingen voor \"Blogpagina's tonen op de meeste\""
+
+#: themes/foundation/root-functions.php:758
+msgid "Number of posts in post listings"
+msgstr "Aantal berichten in berichtlijsten"
+
+#: themes/foundation/root-functions.php:322
+msgid "Language: "
+msgstr "Taal:"
+
+#: themes/foundation/root-functions.php:13
+msgid "Custom Content"
+msgstr "Aangepaste inhoud"
+
+#: themes/foundation/root-functions.php:12
+msgid "Bookmark Icons"
+msgstr "Favoriet iconen"
+
+#: themes/foundation/root-functions.php:11
+msgid "Media Handling"
+msgstr "Mediaverwerking"
+
+#: themes/foundation/root-functions.php:10
+msgid "Branding"
+msgstr "Huisstijl"
+
+#: themes/foundation/modules/tablets/tablets.php:64
+#: themes/foundation/root-functions.php:829
+msgid "%d by %d pixels (PNG)"
+msgstr "%d met %d pixels (PNG)"
+
+#: themes/foundation/modules/tablets/tablets.php:58
+msgid "iPad"
+msgstr "iPad"
+
+#: themes/foundation/modules/social-links/social-links.php:104
+msgid "Full URL to your RSS feed"
+msgstr "Volledige URL naar je RSS-feed"
+
+#: themes/foundation/modules/social-links/social-links.php:96
+msgid "E-Mail address"
+msgstr "E-mailadres"
+
+#: themes/foundation/modules/social-links/social-links.php:88
+msgid "Full URL to your Yelp profile"
+msgstr "Volledige URL naar je Yelp-profiel"
+
+#: themes/foundation/modules/social-links/social-links.php:80
+msgid "Full URL to your LinkedIn profile"
+msgstr "Volledige URL naar je LinkedIn-profiel"
+
+#: themes/foundation/modules/social-links/social-links.php:79
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: themes/foundation/modules/social-links/social-links.php:72
+msgid "Full URL to your %s profile"
+msgstr "Volledige URL voor je %s profiel"
+
+#: themes/foundation/modules/social-links/social-links.php:64
+msgid "Full URL to your Vimeo page"
+msgstr "Volledige URL naar je Vimeo pagina"
+
+#: themes/foundation/modules/social-links/social-links.php:56
+msgid "Full URL to your Pinterest page"
+msgstr "Volledige URL naar je Pinterest pagina"
+
+#: themes/foundation/modules/social-links/social-links.php:48
+msgid "Full URL to your Tumblr profile"
+msgstr "Volledige URL naar je Tumblrprofiel"
+
+#: themes/foundation/modules/social-links/social-links.php:47
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: themes/foundation/modules/social-links/social-links.php:40
+msgid "Full URL to your Instagram profile"
+msgstr "Volledige URL naar je Instagramprofiel"
+
+#: themes/foundation/modules/social-links/social-links.php:32
+msgid "Full URL to your Google+ profile"
+msgstr "Volledige URL naar je Google+ profiel"
+
+#: themes/foundation/modules/social-links/social-links.php:24
+msgid "Full URL to your Twitter profile"
+msgstr "Volledige URL naar je Twitter-profiel"
+
+#: themes/foundation/modules/social-links/social-links.php:16
+msgid "Full URL to your Facebook page"
+msgstr "Volledige URL naar je Facebook pagina"
+
+#: themes/foundation/modules/sharing/sharing.php:135
+msgid "Social network colors"
+msgstr "Sociaal netwerk kleuren"
+
+#: themes/foundation/modules/sharing/sharing.php:134
+msgid "Theme colors"
+msgstr "Thema-kleuren"
+
+#: themes/foundation/modules/sharing/sharing.php:129
+msgid "Color scheme"
+msgstr "Kleurenschema"
+
+#: themes/foundation/modules/sharing/sharing.php:123
+msgid "Below post content"
+msgstr "Onder berichtinhoud"
+
+#: themes/foundation/modules/sharing/sharing.php:122
+msgid "Above post content"
+msgstr "Boven berichtinhoud"
+
+#: themes/foundation/modules/sharing/sharing.php:117
+msgid "Sharing links location"
+msgstr "Locatie van links voor te delen"
+
+#: themes/foundation/modules/sharing/sharing.php:101
+msgid "Show sharing links on posts"
+msgstr "Toon deellinks bij berichten"
+
+#: themes/foundation/modules/media/media.php:34
+msgid "Video Handling"
+msgstr "Behandeling van video"
+
+#: themes/foundation/modules/login/login-html.php:35
+msgid "Lost password?"
+msgstr "Wachtwoord vergeten?"
+
+#: themes/foundation/modules/login/login-html.php:34
+msgid "Sign-up"
+msgstr "Aanmelden"
+
+#: themes/foundation/modules/login/login-html.php:20
+msgid "Login"
+msgstr "Inloggen"
+
+#: themes/foundation/modules/login/login-html.php:9
+msgid "Log In"
+msgstr "Inloggen"
+
+#: themes/foundation/modules/login/login-html.php:7
+msgid "Remember Me"
+msgstr "Onthoud mij"
+
+#: themes/foundation/modules/google-fonts/google-fonts.php:36
+msgid "Choose a Google font pairing designed for this theme, or default browser fonts."
+msgstr "Kies een Google-lettertype koppeling ontworpen voor dit thema, of standaard browserlettertypen."
+
+#: themes/foundation/modules/google-fonts/google-fonts.php:29
+msgid "Typography"
+msgstr "Typografie"
+
+#: themes/foundation/modules/featured/featured.php:491
+msgid "Enable featured slider"
+msgstr "Aanbevolen schuifbalk inschakelen"
+
+#: themes/foundation/modules/featured/featured.php:484
+msgid "Featured Slider"
+msgstr "Aanbevolen schuifbalk"
+
+#: themes/bauhaus/root-functions.php:564
+#: themes/foundation/modules/featured/featured.php:463
+msgid "Comma-separated list of post/page IDs"
+msgstr "Door komma's gescheiden lijst van de bericht/pagina-id's"
+
+#: themes/bauhaus/root-functions.php:587
+#: themes/foundation/modules/featured/featured.php:474
+msgid "Only this post type"
+msgstr "Alleen dit type berichten"
+
+#: themes/bauhaus/root-functions.php:554
+#: themes/foundation/modules/featured/featured.php:454
+msgid "Only this category"
+msgstr "Alleen deze categorie"
+
+#: themes/bauhaus/root-functions.php:545 themes/bauhaus/root-functions.php:555
+#: themes/foundation/modules/featured/featured.php:446
+#: themes/foundation/modules/featured/featured.php:455
+msgid "Enter the tag/category slug name"
+msgstr "Voer de label/categorie slugnaam in"
+
+#: themes/bauhaus/root-functions.php:544
+#: themes/foundation/modules/featured/featured.php:445
+msgid "Only this tag"
+msgstr "Alleen deze tag"
+
+#: themes/bauhaus/root-functions.php:537
+#: themes/foundation/modules/featured/featured.php:439
+msgid "Show only specific posts or pages"
+msgstr "Toon alleen specifieke berichten of pagina's"
+
+#: themes/bauhaus/root-functions.php:536
+#: themes/foundation/modules/featured/featured.php:438
+msgid "Show posts from a specific post type"
+msgstr "Toon berichten van een specifiek type berichten"
+
+#: themes/bauhaus/root-functions.php:535
+#: themes/foundation/modules/featured/featured.php:437
+msgid "Show posts from a specific category"
+msgstr "Toon berichten uit een bepaalde categorie"
+
+#: themes/bauhaus/root-functions.php:534
+#: themes/foundation/modules/featured/featured.php:436
+msgid "Show posts from a specific tag"
+msgstr "Toon berichten van een specifieke tag"
+
+#: themes/bauhaus/root-functions.php:533
+#: themes/foundation/modules/featured/featured.php:435
+msgid "Show latest posts"
+msgstr "Toon laatste berichten"
+
+#: themes/foundation/modules/featured/featured.php:370
+msgid "Normal"
+msgstr "Normaal"
+
+#: themes/foundation/modules/custom-posts/custom-posts.php:204
+msgid "Custom Post Types"
+msgstr "Aangepaste berichttypen"
+
+#: themes/foundation/modules/custom-posts/custom-posts.php:196
+msgid "Include custom post-type posts in blog index"
+msgstr "Voeg aangepaste post-type posts toe aan blog index"
+
+#: themes/foundation/modules/custom-posts/custom-posts.php:169
+msgid "Enable custom post-type support"
+msgstr "Aangepaste berichttype ondersteuning inschakelen"
+
+#: themes/foundation/modules/custom-posts/custom-posts.php:163
+msgid "Custom Post Support"
+msgstr "Aangepaste berichtondersteuning"
+
+#: themes/foundation/modules/base/base.php:64
+msgid "Loading"
+msgstr "Wordt geladen"
+
+#: themes/bauhaus/default/switch-link.php:9
+#: themes/foundation/default/switch-link.php:9
+msgid "desktop"
+msgstr "desktop"
+
+#: themes/bauhaus/default/switch-link.php:8
+#: themes/foundation/default/switch-link.php:8
+msgid "mobile"
+msgstr "mobiel"
+
+#: themes/foundation/default/single.php:13
+msgid "By"
+msgstr "Door"
+
+#: themes/bauhaus/default/sharing.php:5 themes/foundation/default/sharing.php:5
+msgid "Mail"
+msgstr "E-mailen"
+
+#: themes/bauhaus/default/sharing.php:3 themes/foundation/default/sharing.php:3
+msgid "Tweet"
+msgstr "Tweet"
+
+#: themes/bauhaus/default/sharing.php:2 themes/foundation/default/sharing.php:2
+msgid "Share"
+msgstr "Delen"
+
+#: themes/foundation/default/search.php:34
+msgid "No search results found"
+msgstr "Geen zoekresultaten gevonden"
+
+#: themes/foundation/default/search.php:16
+msgid "%s results"
+msgstr "%s resultaten"
+
+#: themes/bauhaus/default/one-comment.php:21
+#: themes/foundation/default/one-comment.php:21
+msgid "Reply"
+msgstr "Antwoorden"
+
+#: themes/bauhaus/default/one-comment.php:17
+#: themes/foundation/default/one-comment.php:17
+msgid "Your comment is awaiting moderation"
+msgstr "Je reactie wacht op moderatie"
+
+#: themes/bauhaus/default/layouts/post-listing-view.php:29
+#: themes/foundation/default/index.php:33
+msgid "older posts"
+msgstr "oudere berichten"
+
+#: themes/bauhaus/default/layouts/post-listing-view.php:29
+#: themes/foundation/default/index.php:33
+msgid "newer posts"
+msgstr "nieuwere berichten"
+
+#: themes/foundation/default/formerror.php:9
+msgid "Go back"
+msgstr "Ga terug"
+
+#: themes/foundation/default/formerror.php:8
+msgid "Please enter all fields correctly to post a comment."
+msgstr "Gelieve alle velden juist in te voeren om een reactie te plaatsen."
+
+#: themes/foundation/default/formerror.php:6
+msgid "Comment Error"
+msgstr "Reactiefout"
+
+#: themes/bauhaus/default/footer.php:10 themes/foundation/default/footer.php:10
+msgid "Back to top"
+msgstr "Terug naar boven"
+
+#: themes/foundation/default/comments.php:79
+msgid "Publish"
+msgstr "Publiceren"
+
+#: themes/foundation/default/comments.php:69
+msgid "Website"
+msgstr "Site"
+
+#: themes/foundation/default/comments.php:67
+#: themes/foundation/modules/social-links/social-links.php:95
+msgid "E-Mail"
+msgstr "E-mailen"
+
+#: themes/foundation/default/comments.php:65
+msgid "Name"
+msgstr "Naam"
+
+#: themes/foundation/default/comments.php:61
+msgid "Log out"
+msgstr "Uitloggen"
+
+#: themes/foundation/default/comments.php:61
+msgid "Logged in as"
+msgstr "Ingelogd als"
+
+#: themes/foundation/default/comments.php:54
+msgid "You must be %slogged in%s to post a comment."
+msgstr "Je moet %singelogd%s zijn om een reactie te plaatsen."
+
+#: themes/foundation/default/comments.php:51
+msgid "Leave a Reply to %s"
+msgstr "Laat een reactie achter voor %s"
+
+#: themes/foundation/default/comments.php:51
+msgid "Leave a Reply"
+msgstr "Laat een reactie achter"
+
+#: core/menu-walkers.php:416 themes/foundation/default/comments.php:48
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: themes/bauhaus/default/comments.php:38
+#: themes/foundation/default/comments.php:38
+msgid "Comments are closed"
+msgstr "Reacties zijn gesloten"
+
+#: themes/bauhaus/default/comments.php:20
+#: themes/bauhaus/default/comments.php:26
+#: themes/foundation/default/comments.php:20
+#: themes/foundation/default/comments.php:26
+msgid "Load More Comments&hellip;"
+msgstr "Laad meer reacties&hellip;"
+
+#: themes/bauhaus/default/comments.php:10
+#: themes/bauhaus/default/post-loop.php:26
+#: themes/foundation/default/comments.php:10
+msgid "% responses"
+msgstr "% antwoorden"
+
+#: themes/bauhaus/default/comments.php:10
+#: themes/bauhaus/default/post-loop.php:26
+#: themes/foundation/default/comments.php:10
+msgid "1 response"
+msgstr "1 antwoord"
+
+#: themes/bauhaus/default/comments.php:10
+#: themes/bauhaus/default/post-loop.php:26
+#: themes/foundation/default/comments.php:10
+msgid "no responses"
+msgstr "geen antwoorden"
+
+#: themes/bauhaus/default/attachment.php:49
+#: themes/foundation/default/attachment.php:49
+msgid "next in gallery &raquo;"
+msgstr "volgende in galerij &raquo;"
+
+#: themes/bauhaus/default/attachment.php:47
+#: themes/foundation/default/attachment.php:47
+msgid "&laquo; previous in gallery"
+msgstr "&laquo; vorige in galerij"
+
+#: themes/bauhaus/default/attachment.php:10
+#: themes/foundation/default/attachment.php:10
+msgid "Back to %s"
+msgstr "Terug naar %s"
+
+#: themes/bauhaus/default/404.php:8 themes/foundation/default/404.php:8
+msgid "The post or page you requested is no longer available."
+msgstr "Het bericht of opgevraagde pagina is niet meer beschikbaar."
+
+#: themes/bauhaus/default/404.php:6 themes/foundation/default/404.php:6
+msgid "404 Not Found"
+msgstr "404 niet gevonden"
+
+#: themes/bauhaus/root-functions.php:406
+msgid "Use infinite scrolling for blog"
+msgstr "Gebruik oneindig bladeren voor blog"
+
+#: themes/bauhaus/root-functions.php:303
+msgid "Show search in header"
+msgstr "Toon zoeken in koptekst"
+
+#: themes/bauhaus/root-functions.php:395
+msgid "Show comment bubbles on posts"
+msgstr "Toon opmerkingsbubbels op berichten."
+
+#: themes/bauhaus/root-functions.php:384
+msgid "Show post author"
+msgstr "Toon bericht auteur"
+
+#: themes/bauhaus/root-functions.php:373
+msgid "Show post date"
+msgstr "Toon berichtdatum"
+
+#: themes/bauhaus/root-functions.php:362
+msgid "Show post categories and tags"
+msgstr "Toon bericht categorieën en tags"
+
+#: themes/bauhaus/root-functions.php:351
+msgid "Thumbnail custom field name"
+msgstr "Miniatuur aangepaste veldnaam"
+
+#: themes/bauhaus/root-functions.php:343
+msgid "Post custom field"
+msgstr "Aangepast veld van bericht"
+
+#: themes/bauhaus/root-functions.php:342
+msgid "Post featured images"
+msgstr "Bericht uitgelichte afbeeldingen"
+
+#: themes/bauhaus/root-functions.php:329
+msgid "All (blog, single, pages, search & archive)"
+msgstr "Alles (blog, enkele, pagina's, zoeken & archief)"
+
+#: themes/bauhaus/root-functions.php:328
+msgid "Blog listing, single posts & pages"
+msgstr "Blog lijst, enkele berichten en pagina's"
+
+#: themes/bauhaus/root-functions.php:327
+msgid "Blog listing, single posts"
+msgstr "Bloglijst, enkele berichten"
+
+#: themes/bauhaus/root-functions.php:326
+msgid "Blog listing only"
+msgstr "Alleen bloglijst"
+
+#: themes/bauhaus/root-functions.php:325
+msgid "No thumbnails"
+msgstr "Geen miniaturen"
+
+#: themes/bauhaus/root-functions.php:320
+msgid "Post thumbnails"
+msgstr "Berichtminiaturen"
+
+#: themes/bauhaus/root-functions.php:281
+msgid "Drop-down"
+msgstr "Vervolgkeuzelijst"
+
+#: themes/bauhaus/root-functions.php:280
+msgid "Off-canvas"
+msgstr "Off-canvas"
+
+#: themes/bauhaus/root-functions.php:275
+msgid "Menu animation style"
+msgstr "Menu animatiestijl"
+
+#: themes/bauhaus/root-functions.php:163
+msgid "Post/Page Headers"
+msgstr "Bericht/pagina kopteksten"
+
+#: themes/bauhaus/root-functions.php:162
+msgid "Links"
+msgstr "Links"
+
+#: themes/bauhaus/root-functions.php:161
+msgid "Header & Menu"
+msgstr "Koptekst & menu"
+
+#: themes/bauhaus/root-functions.php:160
+msgid "Theme background"
+msgstr "Thema-achtergrond"
+
+#: themes/bauhaus/root-functions.php:153
+msgid "Main menu selection"
+msgstr "Hoofdmenu selectie"
+
+#: themes/bauhaus/root-functions.php:152
+msgid "Choose a menu"
+msgstr "Kies een menu"
+
+#: themes/bauhaus/root-functions.php:150
+msgid "Header Menu"
+msgstr "Header menu"
+
+#: themes/bauhaus/default/single.php:39
+msgid "Tags"
+msgstr "Tags"
+
+#: themes/bauhaus/default/single.php:36
+msgid "Categories"
+msgstr "Categorieën"
+
+#: themes/bauhaus/default/single.php:16
+msgid "% comments"
+msgstr "% reacties"
+
+#: themes/bauhaus/default/single.php:16
+msgid "1 comment"
+msgstr "1 reactie"
+
+#: themes/bauhaus/default/single.php:16
+msgid "no comments"
+msgstr "geen reacties"
+
+#: themes/bauhaus/default/search.php:66 themes/foundation/default/search.php:43
+msgid "Load more %s results"
+msgstr "Laad meer %s resultaten"
+
+#: themes/bauhaus/default/search.php:52 themes/bauhaus/default/search.php:75
+msgid "No results found"
+msgstr "Geen resultaten gevonden"
+
+#: themes/bauhaus/default/search.php:27
+msgid "Show %s Results"
+msgstr "Toon %s resultaten"
+
+#: themes/bauhaus/default/search.php:19 themes/foundation/default/search.php:6
+msgid "You searched for \"%s\""
+msgstr "Je zocht naar \"%s\""
+
+#: themes/bauhaus/default/related-posts.php:4
+#: themes/foundation/default/related-posts.php:4
+msgid "Related"
+msgstr "Gerelateerd"
+
+#: themes/bauhaus/default/layouts/carousel-post-loop.php:16
+#: themes/bauhaus/default/post-loop.php:17
+msgid "by"
+msgstr "door"
+
+#: themes/bauhaus/default/nav-bar.php:13
+#: themes/foundation/default/nav-bar.php:12
+msgid "next post"
+msgstr "volgend bericht"
+
+#: themes/bauhaus/default/nav-bar.php:6 themes/foundation/default/nav-bar.php:6
+msgid "previous post"
+msgstr "Vorig bericht"
+
+#: themes/bauhaus/default/header-bottom.php:48
+msgid "Search"
+msgstr "Zoeken"
+
+#: themes/bauhaus/default/header-bottom.php:47
+msgid "Search this website"
+msgstr "Zoek deze website"
+
+#: themes/bauhaus/default/header-bottom.php:13
+#: themes/bauhaus/default/header-bottom.php:15
+msgid "Logout"
+msgstr "Uitloggen"
+
+#: include/html/page-template.php:8
+msgid "Default Template"
+msgstr "Standaard sjabloon"
+
+#: include/html/load-times.php:2
+msgid "%d queries in %0.1f ms"
+msgstr "%d zoekopdrachten in %0.1f mn"
+
+#: include/html/footer.php:17
+msgid "Powered by<br/>%s%s%s"
+msgstr "Powered by<br/>%s%s%s"
+
+#: include/html/desktop-switch.php:2
+msgid "Switch To Mobile Version"
+msgstr "Schakel naar mobiele versie"
+
+#: include/html/desktop-switch.php:2
+msgid "Desktop Version"
+msgstr "Bureaubladversie"
+
+#: core/menu-walkers.php:645
+msgid "Feed for all posts filed under %s"
+msgstr "Feed voor alle posts opgeslagen in %s"
+
+#: core/globals.php:194
+msgid "tablet"
+msgstr "tablet"
+
+#: core/globals.php:192
+msgid "smartphone"
+msgstr "smartphone"
+
+#: core/class-wptouch-pro.php:3125
+msgid "One or more required directories could not be created"
+msgstr "Een of meer vereiste mappen konden niet worden gecreëerd"
+
+#: core/class-wptouch-pro.php:3124
+msgid "Directory Problem"
+msgstr "Mapprobleem"
+
+#: core/class-wptouch-pro.php:1694
+msgid "%s Changelog"
+msgstr "%s Changelog"
+
+#: core/admin-menu.php:49 core/class-wptouch-pro.php:1656
+msgid "Settings"
+msgstr "Instellingen"
+
+#: core/class-wptouch-pro.php:997
+msgid "Upload Failed: Not a valid image."
+msgstr "Uploaden mislukt: Geen geldige afbeelding."
+
+#: core/class-wptouch-pro.php:995
+msgid "You are about to reset your license information. Proceed?"
+msgstr "Je staat op het punt om je licentie opnieuw in te stellen. Doorgaan?"
+
+#: core/class-wptouch-pro.php:994
+msgid "The item failed to download for this reason: %reason%"
+msgstr "Het item kon niet downloaden om deze reden:%reden%"
+
+#: core/class-wptouch-pro.php:991
+msgid ""
+"This will reset all WPtouch Pro settings.\n"
+"Are you sure?"
+msgstr ""
+"Dit zal alle WPtouch Pro instellingen resetten.\n"
+"Weet je het zeker?"
+
+#: core/class-wptouch-pro.php:728
+msgid "Your server setup is preventing WPtouch Pro from installing from the Cloud. %s Please visit %sthis article%s for more information on how to fix it."
+msgstr "Je server belet WPtouch om je actieve thema van de Cloud te installeren. %s Bekijk %sdit artikel%s voor meer informatie over hoe je dit kunt oplossen."
+
+#: core/class-wptouch-pro.php:723
+msgid "We were unable to install your WPtouch Pro theme from the Cloud. %s Please visit %sthis article%s for more information."
+msgstr "We konden je WPtouch thema niet installeren vanuit de Cloud. %s Gelieve %sdit artikel%s te lezen voor meer informatie."
+
+#: core/class-wptouch-pro.php:699
+msgid "%sTo fix the issue, follow our %sstep-by-step setup guide%s on support.wptouch.com%s"
+msgstr "%sVolg onze %sstap-voor-stap instellingengids%s op support.wptouch.com%s om het probleem op te lossen"
+
+#: core/class-wptouch-pro.php:696
+msgid "%sWPtouch: %s needs to be configured to work correctly with WPtouch.%s"
+msgstr "%sWPtouch: %s moet worden geconfigureerd om correct te kunnen werken met WPtouch.%s"
+
+#: core/class-wptouch-pro.php:689 core/class-wptouch-pro.php:698
+msgid "%sOnce fixed, this message will be dismissed automatically. Until fixed, %sWPtouch will not be shown%s to mobile visitors, and cannot be previewed.%s"
+msgstr "%sAls het probleem is opgelost, wordt dit bericht automatisch verwijderd.  Totdat het probleem is opgelost, wordt %sWPtouch niet getoond%s aan mobiele bezoekers en is een prview niet mogelijk.%s"
+
+#: core/class-wptouch-pro.php:688 core/class-wptouch-pro.php:697
+msgid "%sFixing this issue prevents cached desktop pages being served to mobile devices and vice-versa.%s"
+msgstr "%sDoor dit probleem op te lossen, wordt voorkomen dat cache desktoppagina's worden overgebracht naar mobiele toestellen en andersom.%s"
+
+#: core/class-wptouch-pro.php:687
+msgid "%sPlease reactivate the plugin, disable page caching, then deactivate the plugin again to correct this issue.%s"
+msgstr "%sReactiveer aub de plug-in, schakel in cache-pagina's opslaan uit, deactiveer de plug-in dan opnieuw om dit probleem te corrigeren.%s"
+
+#: core/class-wptouch-pro.php:686
+msgid "%sWPtouch: %s was recently disabled, but is still affecting your website and caching pages.%s"
+msgstr "%sWPtouch: %s is onlangs uitgeschakeld, maar heeft nog steeds invloed op je website en cache-pagina's.%s"
+
+#: core/admin-render.php:204
+msgid "Reset Settings"
+msgstr "Reset instellingen"
+
+#: core/admin-render.php:37
+msgid "Preview Theme"
+msgstr "Previewthema"
+
+#: core/admin-render.php:13
+msgid "Add a license %s"
+msgstr "Een %s licentie toevoegen"
+
+#: core/admin-render.php:10
+msgid "This copy of %s is currently unlicensed."
+msgstr "Deze kopie van %s heeft momenteel geen licentie."
+
+#: core/admin-render.php:4
+msgid "Renew Now"
+msgstr "Nu hernieuwen"
+
+#: core/admin-render.php:4
+msgid "Your WPtouch Pro license has expired. Renew now at a discount to continue receiving product updates and support."
+msgstr "Je WPtouch Pro licentie is verlopen. Hernieuw nu met korting om updates en ondersteuning te blijven krijgen."
+
+#: core/admin-page-templates.php:19
+msgid "Mobile Page Template"
+msgstr "Mobiele-paginasjabloon"
+
+#: core/admin-render.php:107 themes/foundation/root-functions.php:9
+msgid "Theme Settings"
+msgstr "Thema-instellingen"
+
+#: core/admin-ajax.php:112
+msgid "There is a temporary issue retrieving the change-log.  Please try again later."
+msgstr "Er is een tijdelijk probleem het ophalen van de changelog. Gelieve het later opnieuw te proberen."
+
+#: core/admin-ajax.php:106
+msgid "Version %s"
+msgstr "Versie %s"
+
+#: core/addon-theme-installer.php:195
+msgid "Unable to download the Cloud package."
+msgstr "Kan het Cloudpakket niet downloaden"
+
+#: core/addon-theme-installer.php:180
+msgid "No server support for unzipping files."
+msgstr "Geen server ondersteuning voor het uitpakken van bestanden."
+
+#: core/addon-theme-installer.php:175
+msgid "Unable to write to directory %s. Try relaxing permissions to allow writing to this location."
+msgstr "Kan niet schrijven naar %s map. Probeer de permissies te verslappen om te kunnen schrijven naar deze locatie."
+
+#: core/addon-theme-installer.php:170
+msgid "No server support for directly downloading new Cloud packages."
+msgstr "Geen server ondersteuning voor het direct downloaden van nieuwe Cloud pakketten."
+
+#: admin/settings/html/touchboard.php:42
+msgid "%s Change Log"
+msgstr "%s Changelog"
+
+#: admin/settings/html/touchboard.php:30
+msgid "Read More"
+msgstr "Lees meer"
+
+#: admin/settings/html/touchboard.php:29
+msgid "WPtouch News"
+msgstr "WPtouch Nieuws"
+
+#: admin/settings/html/touchboard.php:22
+msgid "Look at Pro Features"
+msgstr "Bekijk Pro-functies"
+
+#: admin/settings/html/touchboard.php:21
+msgid "Look at Pro Extensions"
+msgstr "Bekijk de Pro-extensies"
+
+#: admin/settings/html/touchboard.php:20
+msgid "Look at Pro Themes"
+msgstr "Bekijk de pro-thema's"
+
+#: admin/settings/html/touchboard.php:17
+msgid "WPtouch on Twitter"
+msgstr "WPtouch op Twitter"
+
+#: admin/settings/html/touchboard.php:15
+msgid "Mobile-Friendly Guide"
+msgstr "Mobielvriendelijke gids"
+
+#: admin/settings/html/touchboard.php:14
+msgid "WPtouch User Guide"
+msgstr "WPtouch Gebruikershandleiding"
+
+#: admin/settings/html/touchboard.php:12
+msgid "Manage Account & License"
+msgstr "Beheer Account & Licentie"
+
+#: admin/settings/html/touchboard.php:11
+msgid "Knowledgebase & Support"
+msgstr "Kenniscentrum & Support"
+
+#: admin/settings/html/touchboard.php:8
+msgid "What's New Changelog"
+msgstr "Wat is nieuw wijzigingslog"
+
+#: admin/settings/html/touchboard.php:6
+msgid "Quick Links"
+msgstr "Snelle links"
+
+#: admin/settings/html/plugin-compat.php:3
+msgid "Your active plugin list is refreshing"
+msgstr "Je actieve pluginlijst wordt vernieuwd"
+
+#: admin/settings/html/plugin-compat-ajax.php:10
+#: themes/foundation/modules/custom-posts/custom-posts.php:183
+msgid "%s"
+msgstr "%s"
+
+#: admin/settings/html/checkbox.php:8 admin/settings/html/list.php:12
+#: admin/settings/html/multiline-comma.php:13
+#: admin/settings/html/multiline-newline.php:11
+#: admin/settings/html/plugin-compat-ajax.php:14
+#: admin/settings/html/text.php:12
+msgid "Pro"
+msgstr "Pro"
+
+#: admin/settings/html/installed_icon_sets_ajax.php:27
+msgid "Unable to Install"
+msgstr "Onmogelijk om te installeren"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:130
+#: admin/pages/custom/wptouch-admin-wizard.php:181
+#: admin/settings/html/extension-browser-item.php:10
+#: admin/settings/html/installed_icon_sets_ajax.php:13
+#: admin/settings/html/installed_icon_sets_ajax.php:26
+#: admin/settings/html/theme-browser-item.php:12
+#: core/class-wptouch-pro.php:1003
+msgid "Installed"
+msgstr "Geïnstalleerd"
+
+#: admin/pages/wptouch-admin-general-settings.php:659
+#: admin/settings/html/installed_icon_sets_ajax.php:4
+#: core/class-wptouch-pro.php:2186 core/class-wptouch-pro.php:2187
+#: core/config.php:54
+msgid "Custom Icons"
+msgstr "Aangepaste iconen"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:136
+#: admin/pages/custom/wptouch-admin-wizard.php:187
+#: admin/settings/html/image-upload.php:13
+msgid "Upload"
+msgstr "Uploaden"
+
+#: admin/settings/html/extension-browser.php:3
+#: admin/settings/html/theme-browser.php:3
+#: admin/settings/html/updates-available.php:4
+msgid "Your server configuration is preventing WPtouch Pro from installing and updating from the Cloud. %sPlease visit %sthis article%s to follow the steps to enable Cloud install, or you can manually download and install into the wptouch-data/%s directory."
+msgstr "Je serverconfiguratie voorkomt dat WPtouch Pro iets van de Cloud kan installeren en updaten. %sGelieve%sdit artikel te bezoeken%s om de stappen te volgen om het mogelijk te maken om Cloud te installeren, of je kunt de wptouch-data/%s gids handmatig downloaden en installeren."
+
+#: admin/pages/custom/wptouch-admin-license.php:99
+#: admin/settings/html/extension-browser-item-detail.php:46
+#: admin/settings/html/extension-browser-item-detail.php:75
+msgid "Deactivate"
+msgstr "Deactiveren"
+
+#: core/admin-render.php:47 core/admin-render.php:63
+msgid "Setup"
+msgstr "Instellen"
+
+#: admin/pages/custom/wptouch-admin-wizard.php:128
+#: admin/pages/custom/wptouch-admin-wizard.php:179
+#: admin/settings/html/theme-browser-item-detail.php:52
+#: admin/settings/html/updates-available.php:35
+#: admin/settings/html/updates-available.php:71 core/class-wptouch-pro.php:1004
+msgid "Download"
+msgstr "Downloaden"
+
+#: admin/settings/html/installed_icon_sets_ajax.php:25
+#: admin/settings/html/theme-browser-item-detail.php:3
+#: core/admin-extensions.php:365 core/class-wptouch-pro.php:1001
+msgid "Install"
+msgstr "Installeren"
+
+#: core/admin-render.php:140
+msgid "Available for WPtouch Pro"
+msgstr "Beschikbaar in WPtouch Pro"
+
+#: admin/settings/html/updates-available.php:17
+#: admin/settings/html/updates-available.php:44
+#: admin/settings/html/updates-available.php:67
+msgid "Upgrade to %s"
+msgstr "Upgrade naar %s"
+
+#: admin/settings/html/debuginfo.php:13
+msgid "View Debug File"
+msgstr "Bekijk debug-bestand"
+
+#: admin/settings/html/image-upload.php:7 core/class-wptouch-pro.php:996
+msgid "Upload Complete!"
+msgstr "Upload voltooid!"
+
+#: admin/settings/html/custom_icon_upload.php:3
+msgid "Upload Icon"
+msgstr "Icoon uploaden"
+
+#: admin/settings/html/image-upload.php:17
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: admin/settings/html/custom_icon_management.php:3
+msgid "No icons have been uploaded yet"
+msgstr "Er zijn nog geen iconen geüpload"
+
+#: admin/settings/html/button.php:6 admin/settings/html/callback.php:8
+#: admin/settings/html/checkbox.php:4 admin/settings/html/checklist.php:6
+#: admin/settings/html/color.php:8 admin/settings/html/list.php:8
+#: admin/settings/html/multiline-comma.php:9
+#: admin/settings/html/multiline-newline.php:7
+#: admin/settings/html/numeric.php:10 admin/settings/html/radiolist.php:17
+#: admin/settings/html/text.php:8 admin/settings/html/textarea.php:11
+msgid "New"
+msgstr "Nieuw"
+
+#: core/admin-render.php:117 core/admin-render.php:119
+#: core/admin-render.php:143 core/config.php:97 core/multisite.php:291
+#: core/multisite.php:384
+msgid "Extensions"
+msgstr "Extensies"
+
+#: core/admin-render.php:102 core/admin-render.php:104
+#: core/admin-render.php:142 core/config.php:96 core/multisite.php:283
+#: core/multisite.php:376
+msgid "Themes"
+msgstr "Thema's"
+
+#: admin/pages/wptouch-admin-general-settings.php:634
+msgid "Use menu icons"
+msgstr "Gebruik menu-iconen"
+
+#: admin/pages/wptouch-admin-general-settings.php:627
+msgid "If disabled, parent menu items will only toggle child items."
+msgstr "Indien uitgeschakeld, zullen oudermenu-items alleen wisselen met kind-items."
+
+#: admin/pages/wptouch-admin-general-settings.php:626
+msgid "Enable parent items as links"
+msgstr "Schakel ouder-items in als links"
+
+#: admin/pages/wptouch-admin-general-settings.php:620
+msgid "Menu Options"
+msgstr "Menu-opties"
+
+#: admin/pages/wptouch-admin-general-settings.php:235
+#: admin/pages/wptouch-admin-general-settings.php:696
+msgid "None"
+msgstr "Geen"
+
+#: admin/pages/wptouch-admin-general-settings.php:690
+msgid "WordPress Pages"
+msgstr "WordPress pagina's"
+
+#: admin/pages/wptouch-admin-general-settings.php:108
+msgid "Apply filter to these URLs/Pages"
+msgstr "Pas filter toe op deze URLs/Pagina's"
+
+#: admin/pages/wptouch-admin-general-settings.php:170
+msgid "Desktop / Mobile Switching"
+msgstr "Desktop / Mobiel schakelen"
+
+#: admin/pages/wptouch-admin-general-settings.php:143
+msgid "Enter a Slug (i.e. \"/home\") or a full URL path"
+msgstr "Een slug invoeren (bijv. \"/home\") of een volledige URL"
+
+#: admin/pages/wptouch-admin-general-settings.php:142
+msgid "Custom Slug or URL"
+msgstr "Aangepaste slug of URL"
+
+#: admin/pages/wptouch-admin-general-settings.php:136
+msgctxt "Refers to a custom landing page"
+msgid "Redirect to a custom URL"
+msgstr "Omleiden naar een aangepaste URL"
+
+#: admin/pages/wptouch-admin-general-settings.php:135
+msgid "Redirect to a page"
+msgstr "Omleiden naar een pagina"
+
+#: admin/pages/wptouch-admin-general-settings.php:161
+msgid "Landing Pages"
+msgstr "Landingspagina's"
+
+#: admin/pages/wptouch-admin-general-settings.php:335
+msgid "Language"
+msgstr "Taal"
+
+#: admin/pages/wptouch-admin-general-settings.php:61
+msgid "WPtouch Pro site title"
+msgstr "WPtouch Pro sitetitel"
+
+#: core/globals.php:454
+msgid "Auto-detect"
+msgstr "Automatisch detecteren"
+
+#: core/config.php:90
+msgid "Compatibility"
+msgstr "Compatibiliteit"
+
+#: core/admin-render.php:73 core/admin-render.php:83 core/config.php:89
+msgid "General"
+msgstr "Algemeen"
+
+#: admin/html/license-modals.php:39
+msgid "No licenses remaining"
+msgstr "Geen resterende licenties"
+
+#: admin/html/license-modals.php:33
+msgid "%sRenew your license%s to continue to receive product updates and support."
+msgstr "%sHernieuw je licentie%s om updates van producten en ondersteuning te blijven ontvangen."
+
+#: admin/html/license-modals.php:32
+msgid "Your license has expired"
+msgstr "Je licentie is verlopen"
+
+#: admin/pages/custom/wptouch-admin-license.php:83
+msgid "Clear License"
+msgstr "Wis licentie"
+
+#: admin/pages/custom/wptouch-admin-license.php:80
+#: admin/settings/html/theme-browser-item-detail.php:5
+#: core/admin-extensions.php:369
+msgid "Activate"
+msgstr "Activeren"
+
+#: admin/html/license-modals.php:34
+#: admin/pages/custom/wptouch-admin-license.php:78
+msgid "Renew License"
+msgstr "Licentie hernieuwen"
+
+#: admin/pages/custom/wptouch-admin-go-pro.php:11
+#: admin/pages/custom/wptouch-admin-license.php:74
+#: admin/pages/custom/wptouch-admin-wizard.php:79
+msgid "Product License Key"
+msgstr "Product licentiecode"
+
+#: admin/pages/custom/wptouch-admin-go-pro.php:9
+#: admin/pages/custom/wptouch-admin-license.php:72
+#: admin/pages/custom/wptouch-admin-wizard.php:77
+msgid "Account E-Mail Address"
+msgstr "Account e-mailadres"
+
+#: admin/html/plugin-area.php:13
+msgid "A new product version (%s) is available. Please %sactivate your license%s, or %spurchase a new license%s to enable updates and full product support."
+msgstr "Er is een nieuwe productversie (%s) verkrijgbaar. %sActiveer je licentie%s, of %skoop een nieuwe licentie%s om de updates in te schakelen en volledige productondersteuning te krijgen."
+
+#: admin/html/plugin-area.php:11
+msgid "A new product version (%s) is available. %sRenew your license%s to download this update and receive additional product support."
+msgstr "Er is een nieuwe productversie (%s) verkrijgbaar. %sHernieuw je licentie%s om deze update te uploaden je ontvangt aanvullende producten en ondersteuning."
+
+#: admin/pages/custom/wptouch-admin-license.php:115
+msgid "Support"
+msgstr "Ondersteuning"
