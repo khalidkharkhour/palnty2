@@ -4,7 +4,5 @@ web/app/ai1wm-backups/localhost-wp-20230615-070053-v7on9g.wpress filter=lfs diff
 web/app/ai1wm-backups/localhost-wp-20230616-182924-uwct98.wpress filter=lfs diff=lfs merge=lfs -text
 web/app/ai1wm-backups/khalidkharkhour.com-20230619-040827-kusvlx.wpress[[:space:]] filter=lfs diff=lfs merge=lfs -text
 web/app/ai1wm-backups/localhost-wp-20230619-040726-cfg55p.wpress[[:space:]] filter=lfs diff=lfs merge=lfs -text
-web/app/ai1wm-backups/khalidkharkhour.com-20230619-040827-kusvlx.wpress filter=lfs diff=lfs merge=lfs -text
-web/app/ai1wm-backups/localhost-wp-20230619-040726-cfg55p.wpress filter=lfs diff=lfs merge=lfs -text
 [[:space:]]web/app/ai1wm-backups/khalidkharkhour.com-20230619-040827-kusvlx.wpress filter=lfs diff=lfs merge=lfs -text
 [[:space:]]web/app/ai1wm-backups/localhost-wp-20230619-040726-cfg55p.wpress[[:space:]] filter=lfs diff=lfs merge=lfs -text
