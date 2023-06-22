@@ -133,7 +133,10 @@ Version: 1.0
   font-style: normal;
   font-weight: 700;
 }
-
+.title2,.les-gots,
+.ce-quils-en-pensent,.planty-cest-la-pre,.nous-avons-une-saveu{
+  font-family: var(--font-family-syne);
+}
 .nav-bar {
   align-items: flex-start;
   display: flex;
@@ -171,7 +174,7 @@ Version: 1.0
   white-space: nowrap;
 }
 
-.bouton-nav {
+.bouton-nav ,.bouton-nav-2{
   background-color: var(--petite-orchid);
   height: 20%;
   position: relative;
@@ -183,7 +186,7 @@ Version: 1.0
   background-color: var(--petite-orchid);
 }
 
-.bouton-nav:hover {
+.bouton-nav:hover,.bouton-nav-2:hover  {
   background-color: var(--brick-red);
 }
 
@@ -195,9 +198,6 @@ Version: 1.0
   padding: 29px 61px;
 }
 
-.bouton-nav-2:hover {
-  background-color: var(--brick-red);
-}
 
 .commander {
   height: 19px;
@@ -205,8 +205,9 @@ Version: 1.0
   min-width: 5%;
 }
 
-.canette {
-  position: relative;
+.canette{
+  position: relative !important;
+ 
 }
 
 .canette::before {
@@ -220,18 +221,17 @@ Version: 1.0
   box-shadow: inset 0 0 10px rgba(0, 0, 0, .5);
   mix-blend-mode: multiply
 }
-
+.gutena-forms-submit-button{
+  position: relative;
+  transform: translateY(120%);
+  
+  
+}
 .boisson-nergisante-100-naturelle {
   font-family: var(--font-family-syne);
   font-weight: 800;
   height: 20%;
   margin-top: 4%;
-}
-
-
-.les-gots {
-
-  font-family: var(--font-family-syne);
 }
 
 
@@ -268,13 +268,6 @@ Version: 1.0
 }
 
 
-.ce-quils-en-pensent {
-
-  font-family: var(--font-family-syne);
-
-
-}
-
 .flex-col-1 {
   align-items: flex-start;
   display: flex;
@@ -303,7 +296,12 @@ Version: 1.0
   display: contents;
   text-decoration: none;
 }
-
+.middle-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+}
 .valign-text-middle {
   display: flex;
   flex-direction: column;
@@ -321,19 +319,20 @@ Version: 1.0
   width: 201px;
 }
 
-.footer {
+footer {
   background-color: var(--white);
   display: flex;
   flex-direction: row;
   flex-shrink: 1;
-  height: 3.75rem;
   justify-content: center;
   mix-blend-mode: normal;
   align-items: center;
-  width: 100%;
-  position: absolute;
+  width: 100%; 
+  
 }
-
+/*.body2{
+  height: 200vh;
+}*/
 .mentions-lgales {
   height: 19px;
   letter-spacing: 0;
@@ -350,7 +349,10 @@ ul {
   list-style: none
 }
 
-
+body{
+  margin: 0;
+  padding: 0;
+}
 
 
 .border {
@@ -514,13 +516,16 @@ ul {
   width: 15.O675rem;
   height: 8.0537display: flex;
 }
-.wp-block-button__link {
+.submit-button1{
+  transform: translateY(-250%);
+}
 
+.submit-button {
 
   border-color: var(--shilo);
 }
 
-.wp-block-button__link:hover {
+.submit-button:hover {
   background-color: var(--brick-red) !important;
 }
 
@@ -530,11 +535,6 @@ ul {
   object-fit: cover;
   width: 12.3125rem;
   margin: 1.25rem 2.3125rem;
-}
-
-.title2 {
-
-  font-family: var(--font-family-syne);
 }
 
 .bout34 {
@@ -594,6 +594,326 @@ ul {
   background-repeat: no-repeat;
   background-position: top left;
 }
-.canettes{
-  margin-top: 10%;
+.canettes  {
+  position: relative;
+  top: 70%;
+}
+.flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 87px;
+  width: 855px;
+  height: fit-content !important;
+}
+.cont-feuille {
+  height: fit-content;
+  position: relative;
+}
+
+.cont-feuille::before {
+  content: "";
+  position: absolute;
+  top: 5%;
+  
+  width: 300px; 
+  height: 300px; 
+  background-image: url(http://localhost:8080/app/uploads/2023/06/group-4-2@2x.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+@media (min-width: 320px) and (max-width: 728px) {
+  .nav-bar,
+  .header {
+
+    display: flex;
+    
+    justify-content: center;
+   
+    align-items: center;
+    
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+	body{
+	padding: 0;
+	border: 0;
+	border:5px solid var(--white);}
+	.bouton-nav:hover {
+  background-color: var(--brick-red);
+}
+  .commander-2 {
+  display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+   
+  }
+   .commander {
+   position:relative;
+	   left:32% !important;
+  }
+  
+  .bouton-n,
+  .bouton-nav-2 {
+    border-radius: 0.4375rem;
+    height: 3.875rem;
+    width: 100%;
+  }
+	.nous-rencontrer {
+    margin-left: 0;
+  }
+
+  .nous-rencontrer-1 {
+    min-width: 0;
+  }
+
+  .bouton-nav {
+    width: 100%;
+    padding: 15px 30px;
+  }
+
+  .bouton-nav-2 {
+    min-width: 100%;
+    padding: 15px 30px;
+  }
+ .boisson-nergisante-100-naturelle {
+   font-size: var(--font-size-m) !important;
+  }
+  
+  .nous-avons-une-saveu {
+    min-width: 100%;
+  }
+
+  .container-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    left: 0;
+    bottom: 0;
+  }
+  .image-grid {
+    min-width: 100%;
+  }
+
+  .title {
+    min-width: 100%;
+  }
+
+  .pample-mousse {
+    min-width: 100%;
+  }
+
+  .overlap-group-container-1 {
+    margin-left: 0;
+    min-width: 100%;
+  }
+
+  .fram-boise {
+    min-width: 100%;
+  }
+
+  .citron {
+    min-width: 100%;
+  }
+
+  .bouton {
+    width: 100%;
+    padding: 15px 30px;
+    margin-top: 10%;
+    margin-bottom: 3%;
+  }  .les-gots {
+    font-size: 1.875rem;
+  }
+	
+	.fatiha {
+    right: 27%;
+  }
+  
+  .contenair23 {
+    right: 0;
+  }
+	.flex-col-1 {
+    width: 100%;
+  }
+
+  .flex-col {
+    margin-left:
+}
+	.wp-bl-image img {
+    max-width: 100%;
+    height: 16.188rem;
+    margin-top: 0.3125rem;
+  }
+	 .lnergie-des-plantes {
+    font-size: 1.5rem;
+  }
+	.planty-cest-la-pre {
+  margin-top: -6.75rem;
+font-size: var(--font-size-m);
+  }
+	.gutena-forms-submit-button{
+		margin-top:10% !important;
+	}
+	 .canettes {
+    position: relative;
+    bottom: 0;
+  }
+	 
+  .text34 {
+    font-size: 1.5rem;
+    margin-top: 0.3125rem;
+  }
+  
+  .cont-feuille {
+    height: fit-content;
+    position: relative;
+  }
+  
+  .cont-feuille::before {
+    content: "";
+    position: absolute;
+    transform: translateY(90%);
+    
+    width: 300px; 
+    height: 300px; 
+    background-image: url(http://localhost:8080/app/uploads/2023/06/group-4-2@2x.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .command {
+    position: relative;
+    left: -1.25rem;
+    top: -7.0625rem;
+  }
+  
+  .buttons {
+    margin-top: 20% !important;
+  }
+  
+  .ce-quils-en-pensent {
+    font-size: 0.6875rem;
+    left: 9.188rem;
+top: -3.187rem;
+background-color: var(--white);
+    background-color: var(--white);
+  }
+	.column1{
+	transform: translateY(-42%);
+	}
+  .rectangle-5 {
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-end;
+	  height: 52.875rem;}
+  
+  .image12 {
+    width: 4.6875rem;
+    height: 4.6875rem;
+  }
+  
+	body {
+  border: 5px solid var(--white);
+}
+	 .chez-planty-nous-som {
+    line-height: 1.5;
+		 text-align: justify;
+  
+    text-align: center;
+    font-size: font-size: var(--font-size-xs);;
+  }
+	.title-ren {
+  margin-bottom:3%;
+  font-size: var(--font-size-m) !important;
+  margin-top: 12%;
+	
+	}
+  
+	.livr{
+		  
+  position: relative;
+ bottom: 50%;
+}
+.submit-button1{
+  transform: translateY(-630%);
+}
+.flex-row-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+  
+  .line-6 {
+    display: none;
+  }
+  
+  
+  .overlap-grou6,
+  .overlap-grou7,
+  .overlap-grou8 {
+    display: none;
+  }
+  
+  .title2 {
+    font-size: var(--font-size-m) !important;
+    
+  }
+  
+  .text2 {
+    font-size: var(--font-size-s);
+  }
+  
+ .wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
+  font-size: 0.6875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  
+	.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) img{
+		border: 3px solid white;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 9rem;
+width: 11rem;
+margin: 10%;
+	}
+	.custom-form {
+   display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 25%;
+}
+	.recta,
+  .recta2,
+  .recta3 {
+    width: 17.688rem !important;
+	 
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+	
+.recta3::before {
+  top: 4.9375rem;
+  right: 12.188rem;
+  width: 7rem;
+  height: 11.5rem;
+}
+	/* .livraison {
+  position: relative;
+  animation: moveUp 1s forwards;
+}
+
+@keyframes moveUp {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 100px;
+  }*/
+
+	
+	/*.vos-informations {
+  position: relative;
+  left: 33%;
+  bottom: 9%;*/
 }
