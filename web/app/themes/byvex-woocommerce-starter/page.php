@@ -1,16 +1,3 @@
-<?php
-get_header();
-?>
-<div class="container py-4">
-	<?php if (have_posts()):
-		while (have_posts()): the_post();
-			get_template_part('template-parts/content-page');
-
-			if (comments_open() || get_comments_number()) :
-				comments_template();
-			endif;
-		endwhile;
-	endif; ?>
-</div>
-<?php
-get_footer();
+version https://git-lfs.github.com/spec/v1
+oid sha256:459ba498347f14c73ddd7016d015247dc01720f4fccfac5de404e6cf31c34a8b
+size 320

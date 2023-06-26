@@ -1,23 +1,3 @@
-<?php
-get_header();
-?>
-<div class="container-xxl py-4">
-	<?php if (have_posts()) : ?>
-		<div class="row gy-4">
-			<?php
-			while (have_posts()) :
-				the_post();
-				?><div class="col-12 col-sm-6 col-lg-4"><?php
-				get_template_part('template-parts/content-excerpt');
-				?></div><?php
-			endwhile;
-			?>
-		</div>
-	<?php
-		bws_pagination();
-	else :
-		get_template_part('template-parts/content-none');
-	endif; ?>
-</div>
-<?php
-get_footer();
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb8d2812df1540eb5388e1fa6d82779457b976a892a9456e6b69ddbd93debc03
+size 463

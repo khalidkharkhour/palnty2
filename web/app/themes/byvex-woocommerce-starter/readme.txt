@@ -1,22 +1,3 @@
-=== byvex-woocommerce-starter ===
-Contributors: byvex
-Requires at least: 5.0
-Tested up to: 5.2
-Requires PHP: 5.6
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-
-== Description ==
- A well crafted starter WordPress theme built on top of Bootstrap 5. We created this theme to fulfill just one goal, "A lightweight theme with less code to remove and ready to use with Bootstrap and WooCommerce".
-
-
-== Copyright ==
-Byvex WooCommerce Starter Theme, 2020-2022 byvex.com
-Byvex WooCommerce Starter Starter Theme is distributed under the terms of the GNU GPL.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-
-== Resources ==
-* Bootstrap - MIT license (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+version https://git-lfs.github.com/spec/v1
+oid sha256:06b30b392c584a1d23c003f4a9d36183b985b60073adc6e76683c1251de30f58
+size 936

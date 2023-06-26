@@ -1,24 +1,3 @@
-<?xml version="1.0"?>
-<ruleset name="Roots">
-  <description>Roots Coding Standards</description>
-
-  <!-- Scan all files in directory -->
-  <file>.</file>
-
-  <!-- Scan only PHP files -->
-  <arg name="extensions" value="php"/>
-
-  <!-- Ignore WordPress and Composer dependencies -->
-  <exclude-pattern>web/wp</exclude-pattern>
-  <exclude-pattern>web/app/themes/twentytwentythree/</exclude-pattern>
-  <exclude-pattern>vendor/</exclude-pattern>
-
-  <!-- Show colors in console -->
-  <arg value="-colors"/>
-
-  <!-- Show sniff codes in all reports -->
-  <arg value="ns"/>
-
-  <!-- Use PSR-2 as a base -->
-  <rule ref="PSR2"/>
-</ruleset>
+version https://git-lfs.github.com/spec/v1
+oid sha256:8f796ad75e0c47c87cb0d761d4d46edf006b34a3361095e025e020fcd9d484e2
+size 628

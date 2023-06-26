@@ -1,28 +1,3 @@
-<?php
-if (!function_exists('bws_require_once')) {
-    function bws_require_once($path = '')
-    {
-        $path = get_template_directory() . $path;
-        file_exists($path) ? require_once($path) : null;
-    }
-}
-
-// setup theme
-bws_require_once('/inc/setup-theme.php');
-bws_require_once('/inc/customizer.php');
-bws_require_once('/inc/theme-settings.php');
-bws_require_once('/inc/comment-list.php');
-bws_require_once('/inc/bws-functions.php');
-
-// Change excerpt end string
-add_filter('excerpt_more', 'bws_excerpt_more');
-function bws_excerpt_more(){
-    return '..';
-}
-
-// Support for ACF Option page
-if( function_exists('acf_add_options_page') ){
-    acf_add_options_page();
-}
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:8742cb3025f9e4d4e0e8bc75757c66964046ad93d7d4a362c9b38b65d27b9fb2
+size 709

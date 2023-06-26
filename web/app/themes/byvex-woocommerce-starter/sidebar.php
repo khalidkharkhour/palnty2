@@ -1,17 +1,3 @@
-<?php
-
-/**
- * @package byvex-woocommerce-starter
- */
-
-?>
-
-<?php if ( is_active_sidebar('sidebar-1') ){ ?>
-    <section class="bg-light">
-        <div class="container-xxl py-4">
-            <aside class="widget-area row gy-3 justify-content-between">
-                <?php dynamic_sidebar('sidebar-1'); ?>
-            </aside>
-        </div>
-    </section>
-<?php }
+version https://git-lfs.github.com/spec/v1
+oid sha256:99064fc60d22d02438b94ab3aaa01e099e3cd531152abfd28bf2de9430d065f0
+size 382

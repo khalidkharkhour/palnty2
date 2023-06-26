@@ -1,27 +1,3 @@
-# Application
-web/app/plugins/*
-!web/app/plugins/.gitkeep
-web/app/mu-plugins/*/
-web/app/themes/twentytwentythree/
-web/app/upgrade
-web/app/uploads/*
-!web/app/uploads/.gitkeep
-web/app/cache/*
-
-# WordPress
-web/wp
-web/.htaccess
-
-# Logs
-*.log
-
-# Dotenv
-.env
-.env.*
-!.env.example
-
-# Composer
-/vendor
-
-# WP-CLI
-wp-cli.local.yml
+version https://git-lfs.github.com/spec/v1
+oid sha256:3fcfdeeb0e203e24a35f55b2d8e9f73f2426964912b7eac33a7e915c2ddb105b
+size 321
