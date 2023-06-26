@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-06-01 11:06:16+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"You are probably offline.":["Probablemente est\u00e1s fuera de l\u00ednea."],"Media upload failed. If this is a photo or a large image, please scale it down and try again.":["La subida de medios ha fallado. Si esto es una foto o una imagen grande, por favor, reduce su tama\u00f1o e int\u00e9ntalo de nuevo."],"The response is not a valid JSON response.":["Las respuesta no es una respuesta JSON v\u00e1lida."],"An unknown error occurred.":["Ha ocurrido un error desconocido."]}},"comment":{"reference":"build\/api-fetch\/index.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a6f5a4d5f73e3a047ccf368d5f8f865070cfba2051e630e47435964f1d19320
+size 757

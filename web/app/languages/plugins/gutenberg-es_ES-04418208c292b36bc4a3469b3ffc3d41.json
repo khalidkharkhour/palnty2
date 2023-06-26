@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-06-01 11:06:16+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"Block rendered as empty.":["Bloque mostrado como vac\u00edo."],"Error loading block: %s":["Error al cargar el bloque: %s"]}},"comment":{"reference":"build\/server-side-render\/index.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:57d8bfbac12903e00138013d35f8aacd1f0986b7f72d55a89f5d7d6e9b018c5a
+size 411

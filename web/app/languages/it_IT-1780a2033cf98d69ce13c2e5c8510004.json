@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-05-11 10:17:28+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"it"},"Convert to regular block":["Converti in blocco normale"],"Create Reusable block":["Crea blocco riutilizzabile"],"Manage Reusable blocks":["Gestisci i blocchi riutilizzabili"],"Reusable block created.":["Blocco riutilizzabile creato."],"Untitled Reusable block":["Blocco riutilizzabile senza nome"],"Convert to regular blocks":["Converti in blocchi regolari"],"Cancel":["Annulla"],"Name":["Nome"],"Save":["Salva"]}},"comment":{"reference":"wp-includes\/js\/dist\/reusable-blocks.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:06425cd023a10243710af2fc7104d286e5918cb3e101113e285312b895a821ce
+size 707

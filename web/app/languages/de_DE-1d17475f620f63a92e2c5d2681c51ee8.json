@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-05-22 12:57:54+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"de"},"Could not load the preview image.":["Das Vorschaubild konnte nicht geladen werden."],"Could not load the preview image. Please reload the page and try again.":["Das Vorschaubild konnte nicht geladen werden. Bitte lade die Seite neu und versuche es erneut."]}},"comment":{"reference":"wp-admin\/js\/image-edit.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5954b19610cf5919f54a828f2ef4006860339f3f06f56e516a3c0a61ca8993ef
+size 538

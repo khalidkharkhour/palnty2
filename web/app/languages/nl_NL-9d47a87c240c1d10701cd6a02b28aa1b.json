@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-03-30 10:02:03+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"nl"},"Term added.":["Term toegevoegd."],"Term removed.":["Term verwijderd."],"Remove term:":["Term verwijderen:"],"tag delimiter\u0004,":[","]}},"comment":{"reference":"wp-admin\/js\/tags-box.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c12603ad6e6142425585788d4b6e0672a29e0ab05417b541a7a70fc681d0eca
+size 415

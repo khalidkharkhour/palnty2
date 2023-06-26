@@ -1,1 +1,3 @@
-{"translation-revision-date":"2022-09-01 16:41:03+0000","generator":"GlotPress\/2.3.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"de"},"Cancel":["Abbruch"]}},"comment":{"reference":"core\/app\/modules\/site-editor\/assets\/js\/part-actions\/dialog-rename.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ff4b37b37c24aa4fe9e681fb59ade955aa6ff0441e36d4ca9da7bec0d7151c44
+size 340

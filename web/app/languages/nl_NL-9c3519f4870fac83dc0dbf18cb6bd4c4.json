@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-03-30 10:02:03+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"nl"},"Clear color":["Wis de kleur"],"Select default color":["Selecteer standaard kleur"],"Color value":["Kleurwaarde"],"Select Color":["Selecteer kleur"],"Clear":["Wissen"],"Default":["Standaard"]}},"comment":{"reference":"wp-admin\/js\/color-picker.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac9946c6722b681c2f37ce5f5104160d382955e6b8ca07a5225abf14ee772eb1
+size 473

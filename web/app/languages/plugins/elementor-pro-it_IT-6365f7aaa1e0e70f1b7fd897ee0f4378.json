@@ -1,1 +1,3 @@
-{"translation-revision-date":"2022-04-07 20:46:27+0000","generator":"GlotPress\/2.3.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"it"},"Go Back":["Indietro"],"Your template was imported":["Il template \u00e8 stato importato"],"Import Template To Your Library":["Importa il template nella tua libreria"],"Drag & Drop your .JSON or .zip template file":["Trascina e rilascia il file .JSON o .zip"],"or":["o"],"Learn More":["Approfondisci"],"Preview":["Anteprima"],"Edit":["Modifica"]}},"comment":{"reference":"core\/app\/modules\/site-editor\/assets\/js\/pages\/import.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fabf9011de514736db7e7310b0d9b34325ac6f5f9ef708808015e0adf861cb7c
+size 651

@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-05-31 15:57:52+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"nl"},"button label\u0004Import":["Importeer"],"Reusable block imported successfully!":["Herbruikbaar blok succesvol ge\u00efmporteerd!"],"Import from JSON":["Importeer vanuit JSON"],"Invalid JSON file":["Ongeldig JSON-bestand"],"Invalid Reusable block JSON file":["Ongeldig herbruikbaar blok JSON-bestand"],"File":["Bestand"],"Unknown error":["Onbekende fout"]}},"comment":{"reference":"build\/list-reusable-blocks\/index.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a6289898b0ba707fb5cfd26a5016245fe703647ca13a9eb7c1d43fb515a434b
+size 645

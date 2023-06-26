@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-05-10 17:14:48+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n > 1;","lang":"fr"},"Recent":["R\u00e9cent"],"%s Settings":["R\u00e9glages de %s"]}},"comment":{"reference":"assets\/js\/packages\/recently-edited.strings.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ca3af9a33f6b0588237362b9f81af74f02d9cdcb20f243ee5cfa768179fa23b
+size 362

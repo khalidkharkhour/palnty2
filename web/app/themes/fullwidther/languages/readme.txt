@@ -1,7 +1,3 @@
-Place your theme language files in this directory.
-
-Please visit the following links to learn more about translating WordPress themes:
-
-https://make.wordpress.org/polyglots/teams/
-https://developer.wordpress.org/themes/functionality/localization/
-https://developer.wordpress.org/reference/functions/load_theme_textdomain/
+version https://git-lfs.github.com/spec/v1
+oid sha256:781de5d8fb9bdd29c92f0d3f777282f47fa326a6646a3c98d18b659c6d4abfff
+size 322

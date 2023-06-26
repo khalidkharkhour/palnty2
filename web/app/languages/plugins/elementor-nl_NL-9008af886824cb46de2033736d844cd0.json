@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-05-23 12:58:54+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"nl"},"Save Changes":["Wijzigingen opslaan"],"Site Settings":["Site instellingen"]}},"comment":{"reference":"assets\/js\/packages\/site-settings.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3acd5d1349e6e6395a7fde57b589ef31d201326ab5436109b3e425246b689b50
+size 367

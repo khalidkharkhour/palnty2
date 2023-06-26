@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-05-22 12:57:54+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"de"},"Your new password for %s is:":["Dein neues Passwort f\u00fcr %s lautet:"],"Be sure to save this in a safe location. You will not be able to retrieve it.":["Vergewissere dich, dass du dieses an einem sicheren Ort aufbewahrst. Du wirst es nicht wiederherstellen k\u00f6nnen."]}},"comment":{"reference":"wp-admin\/js\/auth-app.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f52204c3d6fe5071d6d4e0a4c24e4854711e6958ae552f7dbf0c3a16f169ca72
+size 553

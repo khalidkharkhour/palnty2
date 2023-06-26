@@ -1,1 +1,3 @@
-{"translation-revision-date":"2022-04-07 20:46:27+0000","generator":"GlotPress\/2.3.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"it"},"Export":["Esporta"],"Rename":["Rinomina"],"Trash":["Cestino"],"Toggle":["Commutatore"]}},"comment":{"reference":"core\/app\/modules\/site-editor\/assets\/js\/part-actions\/dialogs-and-buttons.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7defefc478fddb6578654de8105ed8ddc164de6174c9e7c7f04e943ad1c4915e
+size 413

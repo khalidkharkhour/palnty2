@@ -1,15 +1,3 @@
-#customize-controls .control-section-fullwidther .accordion-section-title:hover,
-#customize-controls .control-section-fullwidther .accordion-section-title:focus {
-	background-color: #fff;
-}
-
-.control-section-fullwidther .accordion-section-title .button {
-	margin-top:  -4px;
-	font-weight: 400;
-	margin-left: 8px;
-}
-
-	.rtl .control-section-fullwidther .accordion-section-title .button {
-		margin-left:  0;
-		margin-right: 8px;
-	}
+version https://git-lfs.github.com/spec/v1
+oid sha256:79656ca924c1f7718e5d76355eb8e8d56c0ca3849595f7efefb82ec64bec3bef
+size 429

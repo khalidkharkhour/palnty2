@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-04-08 18:18:26+0000","generator":"GlotPress\/2.3.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"Edit Conditions":["Editar condiciones"],"Instances":["Instancias"]}},"comment":{"reference":"core\/app\/modules\/site-editor\/assets\/js\/molecules\/site-template-footer.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e0849c3682184e6f83e744b80b914e0dedb191f9b4337f1fc95ce5a86e512b88
+size 391

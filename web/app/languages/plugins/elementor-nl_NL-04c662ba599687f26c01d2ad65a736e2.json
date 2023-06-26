@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-05-23 12:58:54+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"nl"},"Add Element":["Voeg element toe"],"Widgets":["Widgets"],"Elements":["Elementen"]}},"comment":{"reference":"assets\/js\/packages\/elements-panel.strings.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:52b67eb86afb528a7d1ae8e2b0312315038c9e8a699af566ed59db8325afdda7
+size 381

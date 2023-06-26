@@ -1,1 +1,3 @@
-{"translation-revision-date":"2022-04-07 20:46:27+0000","generator":"GlotPress\/2.3.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"it"},"Move Item To Trash":["Sposta nel cestino"],"Are you sure you want to move this item to trash:":["Sei sicuro di voler spostare questo elemento nel cestino:"],"Move to Trash":["Sposta nel cestino"],"Cancel":["Annulla"]}},"comment":{"reference":"core\/app\/modules\/site-editor\/assets\/js\/part-actions\/dialog-delete.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ab107ba8f1d2d4f4ec1a62098607417d0906d5bf4c1df3997a3fc2244c635fba
+size 537

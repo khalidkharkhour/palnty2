@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-06-01 11:06:16+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"Convert to regular block":["Convertir en un bloque normal"],"Create Reusable block":["Crear un bloque reutilizable"],"Manage Reusable blocks":["Gestionar bloques reutilizables"],"Reusable block created.":["Bloque reutilizable creado."],"Name":["Nombre"],"Untitled Reusable block":["Bloque reutilizable sin t\u00edtulo"],"Cancel":["Cancelar"],"Convert to regular blocks":["Convertir a bloques normales"],"Save":["Guardar"]}},"comment":{"reference":"build\/reusable-blocks\/index.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b14b7b2be74cce5fbfde99ec3101f650d125facd10e48ab584d03013e4b45d3d
+size 707

@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-05-23 21:40:53+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"Add Element":["A\u00f1adir un elemento"],"Widgets":["Widgets"],"Elements":["Elementos"]}},"comment":{"reference":"assets\/js\/packages\/elements-panel.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5decffda6cb18a68122f142a4e0adcbb58e34ff20e3884df4a3ccc423cf69538
+size 380

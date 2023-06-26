@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-05-20 10:08:07+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"it"},"Search or do anything in Elementor":["Cerca o fai qualsiasi cosa in Elementor"],"My Elementor":["Il mio Elementor"],"Connect Account":["Connetti Account"],"Connect your account to get access to Elementor's Template Library & more.":["Collega il tuo account per accedere alla libreria di template di Elementor e altro ancora."],"Finder":["Finder"]}},"comment":{"reference":"assets\/js\/admin-top-bar.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:709f69f8e1e928e6fed55ece56ea29e4ab78c89fd5bef31caa45af904cfe4ac7
+size 628

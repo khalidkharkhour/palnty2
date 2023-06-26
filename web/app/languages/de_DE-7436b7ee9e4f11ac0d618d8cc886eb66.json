@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-05-22 12:57:54+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"de"},"Plugin details":["Plugin-Details"],"Plugin: %s":["Plugin: %s"]}},"comment":{"reference":"wp-admin\/js\/plugin-install.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0632b7786e94ec0971a0ca6bdbfce3fef3b7a6b92cb91f99cee74643a1ad650c
+size 347

@@ -1,30 +1,3 @@
-<?php
-/**
- * Template part for displaying results in search pages.
- *
- * @link https://codex.wordpress.org/Template_Hierarchy
- *
- * @package fullwidther
- */
-
-?>
-
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-
-		<?php if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php fullwidther_posted_on(); ?>
-		</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
-
-	<div class="entry-summary">
-		<?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
-
-	<footer class="entry-footer">
-		<?php fullwidther_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf13c1c46a1b3002891c9449b623f0b938540f03f6f411bcb76a0dd3e5595967
+size 798

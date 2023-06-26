@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-03-30 09:54:18+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"nl"},"Could not set that as the thumbnail image. Try a different attachment.":["Niet mogelijk dit als de thumbnail-afbeelding in te stellen. Probeer een andere bijlage."]}},"comment":{"reference":"wp-includes\/js\/media-editor.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e0a102ce7f69c393a1f5bb3ace1d624d6228f8c28b3b852c292f009ed1d6f2e5
+size 450

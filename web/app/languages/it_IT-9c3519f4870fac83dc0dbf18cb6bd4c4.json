@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-05-12 13:09:27+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"it"},"Clear color":["Rimuovi colore"],"Select default color":["Seleziona il colore predefinito"],"Color value":["Valore del colore"],"Select Color":["Seleziona un colore"],"Clear":["Pulisci"],"Default":["Predefinito"]}},"comment":{"reference":"wp-admin\/js\/color-picker.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a443e6742c489ce53bf61bdf7d94d5f0a8c6d70970e8e49b4deb0b39f1bfc02d
+size 494

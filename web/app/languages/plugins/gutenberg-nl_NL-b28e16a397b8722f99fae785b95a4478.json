@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-05-31 15:57:52+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"nl"},"Convert to regular block":["Omzetten in een gewoon blok"],"Create Reusable block":["Maak herbruikbaar blok"],"Manage Reusable blocks":["Beheer herbruikbare blokken"],"Reusable block created.":["Herbruikbaar blok gemaakt."],"Name":["Naam"],"Untitled Reusable block":["Herbruikbaar blok zonder titel"],"Cancel":["Annuleer"],"Convert to regular blocks":["Converteer naar normale blokken"],"Save":["Bewaar"]}},"comment":{"reference":"build\/reusable-blocks\/index.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d3428a026cd1b66fe11e20bdbbee0323447b71cb1d1f45bc97793f953c473d65
+size 689

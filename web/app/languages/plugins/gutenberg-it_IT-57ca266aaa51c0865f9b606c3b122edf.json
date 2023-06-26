@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-06-13 07:40:04+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"it"},"Type a command or search":["Digita un comando o effettua una ricerca"],"Open the global command menu":["Apri il menu dei comandi globali"],"Global Command Menu":["Menu dei comandi globali"],"No results found.":["Nessun risultato trovato."]}},"comment":{"reference":"build\/commands\/index.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e10d8204aa6848bceefb34d5a77071825f86121fbb506b66fc31360b24309a4
+size 518

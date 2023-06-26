@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-03-29 07:11:38+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"de"},"Enable and Import":["Aktivieren und importieren"],"The file exceeds the maximum upload size for this site.":["Die Datei \u00fcberschreitet die maximale Uploadgr\u00f6\u00dfe f\u00fcr diese Website."],"Uploading...":["Hochladen\u2026"],"Enable Unfiltered File Uploads":["Ungefilterte Dateiuploads aktivieren"],"Unable to connect":["Keine Verbindung m\u00f6glich"],"Finder":["Finder"],"Enable":["Aktivieren"],"Cancel":["Abbruch"]}},"comment":{"reference":"assets\/js\/common.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ef8efb352e5b92e0e701528df64f893f2a538c5a1e3c6ad2a4fe6c035e6fa28
+size 702

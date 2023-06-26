@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-03-30 09:54:18+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"nl"},"The file URL has been copied to your clipboard":["De bestands-URL is naar je klembord gekopieerd"],"An error has occurred. Please reload the page and try again.":["Er is een fout opgetreden. Vernieuw de pagina en probeer het opnieuw."]}},"comment":{"reference":"wp-admin\/js\/media.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5873bc316579fff2047fcdb3a33e757a77ebca7caaa352b29948c2b00c64bf0
+size 511

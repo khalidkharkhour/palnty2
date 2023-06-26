@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-05-16 20:12:09+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"de"},"Something went wrong.":["Etwas ging schief."],"Sorry, you are not allowed to do that.":["Du bist leider nicht berechtigt, diese Aktion durchzuf\u00fchren."]}},"comment":{"reference":"wp-admin\/js\/tags.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d064451f49921a99a756d37d319ce5474b035dc398888e9ee45b198378bc0b8
+size 431

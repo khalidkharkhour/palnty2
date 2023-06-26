@@ -1,23 +1,3 @@
-/**
- * "Pro" theme section examples for the customizer by Justin Tadlock Copyright 2016
- * Licensed under the GNU GPL, version 2 or later.
- * Source: https://github.com/justintadlock/trt-customizer-pro
- */
-
-( function( api ) {
-
-	'use strict';
-
-	// Extends our custom "example-1" section.
-	api.sectionConstructor['fseminar'] = api.Section.extend( {
-
-		// No events for this type of section.
-		attachEvents: function () {},
-
-		// Always make the section active.
-		isContextuallyActive: function () {
-			return true;
-		}
-	} );
-
-} )( wp.customize );
+version https://git-lfs.github.com/spec/v1
+oid sha256:5069e47a9a46ceda1019c454fa32b0149ca26aa15b3204be864c483a7968ad16
+size 569

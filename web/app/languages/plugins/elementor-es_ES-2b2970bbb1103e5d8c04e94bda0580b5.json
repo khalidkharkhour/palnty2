@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-05-23 21:40:53+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"The value inserted isn't in the breakpoint boundaries":["El valor insertado no est\u00e1 en los l\u00edmites del punto de ruptura"]}},"comment":{"reference":"assets\/js\/responsive-bar.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fe87b9038b0e9eab962e3466d01338abc43de853f23d7fdc595cfb1686c3a566
+size 414

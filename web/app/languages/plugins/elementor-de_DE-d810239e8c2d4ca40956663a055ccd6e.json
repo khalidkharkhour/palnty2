@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-03-29 07:11:38+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"de"},"User Preferences":["Benutzer-Einstellungen"]}},"comment":{"reference":"assets\/js\/packages\/user-preferences.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d6a6bf80da35eed2a0ce253c92533db0f629001cd0cbb363b96de1b8e66b9f3
+size 339

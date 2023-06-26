@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-03-29 07:11:38+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"de"},"Preview Changes":["Vorschau der \u00c4nderungen"],"Save Draft":["Als Entwurf speichern"],"Save Options":["Optionen speichern"],"Save as Template":["Als Template speichern"],"Submit":["Absenden"],"Publish":["Ver\u00f6ffentlichen"]}},"comment":{"reference":"assets\/js\/packages\/documents-ui.strings.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dae3f615eda4857c2108692c729883b90ce30a174997744e07cc2a3c70dafd1a
+size 528

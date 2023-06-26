@@ -1,19 +1,3 @@
-<?php
-/**
- * The template for displaying the search form
- *
- * If you do have searchform.php in your Theme, it will be used instead. Keep in mind that 
- * the search form should do a GET to the homepage of your blog. The input text field 
- * should be named s and you should always include a label. 
- *
- * @link https://codex.wordpress.org/Function_Reference/get_search_form
- *
- */
-?>
-
-<div class="search-wrapper">
-	<form method="get" action="<?php echo esc_url( home_url('/') ); ?>">
-		<input type="text" name="s" size="20" class="search-textbox" placeholder="<?php esc_attr_e( 'Search...', 'fseminar' ); ?>" tabindex="1" value="<?php echo esc_attr( get_search_query() ); ?>" required />
-		<button type="submit" class="search-button"></button>
-	</form>
-</div><!-- .search-wrapper -->
+version https://git-lfs.github.com/spec/v1
+oid sha256:2457652375b1a0c5644892b2c835d8da4c30fc68a281e8a1f6a5c85baf15bda7
+size 802

@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-06-01 11:06:16+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"Preference deactivated - %s":["Preferencia desactivada - %s"],"Preference activated - %s":["Preferencia activada - %s"]}},"comment":{"reference":"build\/preferences\/index.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b018a0caf3348d689115dae5dd3830a1453db251a809ca72a04b44779655e208
+size 401

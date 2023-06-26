@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-06-17 23:55:54+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"de"},"Widget types":["Widget-Typen"],"Themes":["Themes"],"Base":["Basis"],"Widget areas":["Widget-Bereiche"],"Menu Location":["Men\u00fc-Position"],"Menu":["Men\u00fc"],"Post Type":["Inhaltstyp"],"User":["Benutzer"],"Site":["Website"],"Global Styles":["Globale Stile"],"Menu Item":["Men\u00fceintrag"],"Site Title":["Website-Titel"],"Taxonomy":["Taxonomie"],"Media":["Medien"],"Plugins":["Plugins"],"(no title)":["(kein Titel)"],"Widgets":["Widgets"],"Comment":["Kommentar"]}},"comment":{"reference":"build\/core-data\/index.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d9be3e73ba5314f47bf3d7b359814911e860df20048705af5263d02223cf8d8
+size 748

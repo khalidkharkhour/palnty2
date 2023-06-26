@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-05-22 12:57:54+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"de"},"%1$s is deprecated since version %2$s! Use %3$s instead. Please consider writing more inclusive code.":["%1$s ist seit Version %2$s veraltet! Benutze stattdessen %3$s. Bitte erw\u00e4ge, inklusiveren Code zu schreiben."]}},"comment":{"reference":"wp-admin\/js\/password-strength-meter.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3697ac1249aee88e416626435614530360d5289b36aca67d0b9c1a6823dfa7aa
+size 514

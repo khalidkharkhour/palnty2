@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-03-30 09:54:18+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"nl"},"Something went wrong.":["Er is iets fout gegaan."],"Sorry, you are not allowed to do that.":["Je hebt geen toestemming om dat te doen."]}},"comment":{"reference":"wp-admin\/js\/tags.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a17fc3c5a0650cde5aa00f0a536da25025b2cfbed7ed6279384ccf02f96da18b
+size 411

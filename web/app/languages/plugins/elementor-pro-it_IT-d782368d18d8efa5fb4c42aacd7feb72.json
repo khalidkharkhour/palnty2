@@ -1,1 +1,3 @@
-{"translation-revision-date":"2022-04-07 20:46:27+0000","generator":"GlotPress\/2.3.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"it"},"Back":["Dietro"]}},"comment":{"reference":"core\/app\/modules\/site-editor\/assets\/js\/molecules\/back-button.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7c948177cbc49224df573311e5f9197ab40bf157aae2747491744016a9db50db
+size 332

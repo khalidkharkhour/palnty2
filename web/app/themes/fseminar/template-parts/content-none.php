@@ -1,28 +1,3 @@
-<?php
-/**
- * The template part for displaying a message that posts cannot be found
- *
- * @link https://codex.wordpress.org/Template_Hierarchy
- *
- */
-?>
-
-<article>
-
-	<?php if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
-
-			<h1><?php esc_html_e( 'Oh no! Article not found! 404 error!', 'fseminar' ); ?></h1>
-	
-	<?php elseif ( is_search() ) : ?>
-
-			<h1><?php esc_html_e( 'No Results Found!', 'fseminar' ); ?></h1>
-			<?php get_search_form(); ?>
-
-	<?php else : ?>
-
-			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'fseminar' ); ?></p>
-			<?php get_search_form(); ?>
-
-	<?php endif; ?>
-
-</article>
+version https://git-lfs.github.com/spec/v1
+oid sha256:09ee6a57123c6e404e18bc5082574bb7358ce0ceb43d58081f9c47001414905a
+size 699

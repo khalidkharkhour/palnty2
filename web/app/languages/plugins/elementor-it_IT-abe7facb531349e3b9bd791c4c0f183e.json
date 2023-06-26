@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-05-20 10:08:07+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"it"},"Submit & Deactivate":["Invia e Disattiva"],"Skip & Deactivate":["Salta e Disattiva"]}},"comment":{"reference":"assets\/js\/admin-feedback.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:020fe81ed120d544bafe6202626a6fa10601e1e033fedf5f31ae32db65843c31
+size 367

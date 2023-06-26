@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-03-30 09:54:18+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"nl"},"Your session has expired. You can log in again from this page or go to the login page.":["Je sessie is verlopen. Je kunt opnieuw inloggen op deze pagina of naar de inlogpagina gaan."]}},"comment":{"reference":"wp-includes\/js\/wp-auth-check.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:33ed27849f74adfc639bf31fdea961bf0299b492f8d61cdca09ea3c815f156e3
+size 470

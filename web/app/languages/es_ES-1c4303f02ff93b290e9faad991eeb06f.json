@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-06-08 13:21:54+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"Submitted on:":["Enviado el:"],"%1$s %2$s, %3$s at %4$s:%5$s":["%2$s de %1$s de %3$s a las %4$s:%5$s"]}},"comment":{"reference":"wp-admin\/js\/comment.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d5b37889583515d2c52c330357b1a85ff537246729e158c5e0dbae55c740348
+size 380

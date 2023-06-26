@@ -1,1 +1,3 @@
-{"translation-revision-date":"2022-04-07 20:46:27+0000","generator":"GlotPress\/2.3.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"it"},"import":["importa"],"Theme Builder could not be loaded":["Impossibile caricare Theme Builder"],"Switch to table view":["Passare alla visualizzazione tabella"]}},"comment":{"reference":"core\/app\/modules\/site-editor\/assets\/js\/site-editor.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9965c36809fcec38d8f5e70658e65c77ec89d8945760a52351a6a4726027cd85
+size 463

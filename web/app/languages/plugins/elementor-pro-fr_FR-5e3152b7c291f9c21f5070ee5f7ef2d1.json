@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-04-21 07:57:09+0000","generator":"GlotPress\/2.3.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n > 1;","lang":"fr"},"Error:":["Erreur\u00a0:"],"Loading":["Chargement"]}},"comment":{"reference":"core\/app\/modules\/site-editor\/assets\/js\/context\/conditions.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:69e0b154b75a5591f1ff754ea1358df0d69f731baa6561dceddf32c7729d838a
+size 362

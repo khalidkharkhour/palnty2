@@ -1,15 +1,3 @@
-( function( api ) {
-
-	// Extends our custom "fullwidther" section.
-	api.sectionConstructor['fullwidther'] = api.Section.extend( {
-
-		// No events for this type of section.
-		attachEvents: function () {},
-
-		// Always make the section active.
-		isContextuallyActive: function () {
-			return true;
-		}
-	} );
-
-} )( wp.customize );
+version https://git-lfs.github.com/spec/v1
+oid sha256:701cab29f9d8373974f152d873a8e8389924a86a4d00c16ec2af7ea1bd9dc01f
+size 328

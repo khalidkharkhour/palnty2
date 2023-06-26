@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-05-10 09:29:31+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n > 1;","lang":"fr"},"Global Styles":["Styles globaux"],"Widget types":["Types de widget"],"Menu Item":["\u00c9l\u00e9ment de menu"],"Comment":["Commentaire"],"Widget areas":["Zone de widget"],"Site":["Site"],"Post Type":["Type de publication"],"Taxonomy":["Taxonomie"],"Menu Location":["Emplacements de menus"],"Menu":["Menu"],"User":["Compte"],"Base":["Base"],"Widgets":["Widgets"],"Site Title":["Titre du site"],"Themes":["Th\u00e8mes"],"(no title)":["(pas de titre)"],"Media":["M\u00e9dias"],"Plugins":["Extensions"]}},"comment":{"reference":"wp-includes\/js\/dist\/core-data.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:74984501468d144ea40a5497d6bfd3304f3890371b0ade0f1ff2d7100e54c3af
+size 786

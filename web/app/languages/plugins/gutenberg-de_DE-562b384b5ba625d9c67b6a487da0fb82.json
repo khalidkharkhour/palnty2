@@ -1,1 +1,3 @@
-{"translation-revision-date":"2023-06-17 23:55:54+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"de"},"Add new post":["Neuen Beitrag hinzuf\u00fcgen"],"Add new page":["Neue Seite hinzuf\u00fcgen"],"(no title)":["(kein Titel)"]}},"comment":{"reference":"build\/core-commands\/index.js"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2dad0bc1164fb5ceeb0fb7f2048c361bdf5eeafc58adcd8d5523ba666139d1a
+size 407
