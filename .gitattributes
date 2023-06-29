@@ -1,0 +1,4 @@
+
+web/app/ai1wm-backups/*.wpress export-ignore
+*.gif export-ignore
+planty/ export-ignore

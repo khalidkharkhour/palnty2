@@ -1,0 +1,485 @@
+# Translation of Plugins - WP Reset &#8211; Most Advanced WordPress Reset Tool - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - WP Reset &#8211; Most Advanced WordPress Reset Tool - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-12-12 09:05:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - WP Reset &#8211; Most Advanced WordPress Reset Tool - Stable (latest release)\n"
+
+#: wp-reset.php:1692
+msgid "Type in: %s"
+msgstr "Typ in: %s"
+
+#: wp-reset.php:1526
+msgid "Thank you for purchasing WP Reset PRO!"
+msgstr "Bedankt voor de aankoop van WP Reset PRO!"
+
+#: wp-reset.php:2143
+msgid "Activate PRO License"
+msgstr "PRO-licentie activeren"
+
+#: wp-reset.php:2132
+msgid "WP Reset PRO"
+msgstr "WP Reset PRO"
+
+#: wp-reset.php:2105
+msgid "Premium Email Support"
+msgstr "Premium e-mailondersteuning"
+
+#: wp-reset.php:1966
+msgid "Switch WP Version"
+msgstr "Wissel WP versie"
+
+#: wp-reset.php:1925
+msgid "Clean wp-content Folder"
+msgstr "WP-content map opschonen"
+
+#: wp-reset.php:1894
+msgid "Delete MU Plugins & Drop-ins"
+msgstr "MU-plugins en drop-ins verwijderen"
+
+#: wp-reset.php:1863
+msgid "Delete Widgets"
+msgstr "Widgets verwijderen"
+
+#: wp-reset.php:1831
+msgid "Delete Content"
+msgstr "Inhoud verwijderen"
+
+#: wp-reset.php:1821
+msgid "Delete Local Data"
+msgstr "Lokale gegevens verwijderen"
+
+#: wp-reset.php:1812
+msgid "Purge Cache"
+msgstr "Cache wissen"
+
+#: wp-reset.php:1792
+msgid "Reset User Roles"
+msgstr "Gebruikersrollen resetten"
+
+#: wp-reset.php:1715
+msgid "Reset WordPress &amp; Delete All Custom Files &amp; Data"
+msgstr "Reset WordPress & Verwijder alle aangepaste bestanden & Gegevens"
+
+#: wp-reset.php:1712
+msgid "Type <b>reset</b> in the confirmation field to confirm the reset and then click the \"Reset WordPress &amp; Delete All Custom Files &amp; Data\" button. <b>There is NO UNDO."
+msgstr "Typ <b>reset</b> in het bevestigingsveld om de reset te bevestigen en klik dan op de knop \"Reset WordPress &amp; verwijder alle aangepaste bestanden &amp; gegevens\". <b>Er is GEEN MOGELIJKHEID OM ONGEDAAN TE MAKEN."
+
+#: wp-reset.php:1701
+msgid "Nuclear Site Reset"
+msgstr "Nucleaire site reset"
+
+#: wp-reset.php:1669
+msgid "Options Reset"
+msgstr "Opties resetten"
+
+#: wp-reset.php:1651
+msgid "WP Reset plugin will be reactivated if that option is chosen"
+msgstr "De plugin WP Reset wordt opnieuw geactiveerd als die optie is gekozen"
+
+#: wp-reset.php:1648
+msgid "see the table above to find out what exactly will be reset or deleted"
+msgstr "zie de tabel hierboven om te zien wat er precies wordt gereset of verwijderd"
+
+#: wp-reset.php:1646
+msgid "remember, always <b>make a backup first</b> or use <a href=\"#\" class=\"change-tab\" data-tab=\"2\">snapshots</a>"
+msgstr "onthoud altijd <b>maak eerst een back-up</b> of gebruik <a href=\"#\" class=\"change-tab\" data-tab=\"2\">snapshots</a>"
+
+#: wp-reset.php:1644
+msgid "What happens when I run any Reset tool?"
+msgstr "Wat gebeurt er als ik een reset-tool gebruik?"
+
+#: wp-reset.php:1437
+msgid "PRO"
+msgstr "PRO"
+
+#: wp-reset.php:1342
+msgid "Open documentation for this tool"
+msgstr "Documentatie openen voor deze tool"
+
+#: wp-reset.php:401
+msgid "is already installed"
+msgstr "is al geïnstalleerd"
+
+#: wp-reset.php:400
+msgid "Could not install"
+msgstr "Kon niet installeren"
+
+#: wp-reset.php:399
+msgid "Could not delete"
+msgstr "Kan niet verwijderen"
+
+#: wp-reset.php:398
+msgid "Could not deactivate"
+msgstr "Kan niet deactiveren"
+
+#: wp-reset.php:397
+msgid "Could not activate"
+msgstr "Kan niet activeren"
+
+#: wp-reset.php:396
+msgid "Installing"
+msgstr "Installeren"
+
+#: wp-reset.php:395
+msgid "Deleting"
+msgstr "Aan het verwijderen"
+
+#: wp-reset.php:394
+msgid "Deactivating"
+msgstr "Deactiveren"
+
+#: wp-reset.php:393
+msgid "Activating"
+msgstr "Aan het activeren"
+
+#: wp-reset.php:390
+msgid "Enter snapshot name or brief description"
+msgstr "Voer de naam van de afbeelding of korte beschrijving in"
+
+#: wp-reset.php:389
+msgid "Snapshot name or brief description, ie: before plugin install"
+msgstr "Snapshotnaam of korte beschrijving, dwz: voordat plugin wordt geïnstalleerd"
+
+#: wp-reset.php:388
+msgid "Create snapshot"
+msgstr "Snapshot maken"
+
+#: wp-reset.php:387
+msgid "Creating snapshot. Please wait."
+msgstr "Snapshot aan het maken. Even geduld."
+
+#: wp-reset.php:386
+msgid "Snapshot created"
+msgstr "Snapshot gemaakt"
+
+#: wp-reset.php:1348
+msgid "Create Snapshot"
+msgstr "Snapshot maken"
+
+#: wp-reset.php:1784
+msgid "All options (mods) for all themes will be reset; not just for the active theme. The tool works only for themes that use the <a href=\"https://codex.wordpress.org/Theme_Modification_API\" target=\"_blank\">WordPress theme modification API</a>. If options are saved in some other, custom way they won't be reset.<br> Always <a href=\"#\" class=\"create-new-snapshot\" data-description=\"Before resetting theme options\">create a snapshot</a> before using this tool if you want to be able to undo its actions."
+msgstr "Alle opties (mods) voor alle thema's worden gereset; niet alleen voor het actieve thema. De tool werkt alleen voor thema's die de <a href=\"https://codex.wordpress.org/Theme_Modification_API\" target=\"_blank\">WordPress API voor thema aanpassing</a> gebruiken. Als opties op een andere, aangepaste manier worden opgeslagen, worden ze niet gereset. <br> Altijd <a href=\"#\" class=\"create-new-snapshot\" data-description=\"Before resetting theme options\">een snapshot maken</a> voordat je dit gereedschap gebruikt als je de acties ongedaan wilt maken."
+
+#: wp-reset.php:1750
+msgid "Index of Tools"
+msgstr "Index van gereedschappen"
+
+#: wp-reset.php:1693
+msgid "Reset Site"
+msgstr "Site resetten"
+
+#: wp-reset.php:1689
+msgid "Type <b>reset</b> in the confirmation field to confirm the reset and then click the \"Reset WordPress\" button.<br>Always <a href=\"#\" class=\"create-new-snapshot\" data-description=\"Before resetting the site\">create a snapshot</a> before resetting if you want to be able to undo."
+msgstr "Typ <b>reset</b> in het bevestigingsveld om de reset te bevestigen en klik vervolgens op de knop\"Reset WordPress\". <br> Altijd <a href=\"#\" class=\"create-new-snapshot\" data-description=\"Before resetting the site\">een snapshot maken</a> voordat je opnieuw instelt als je het ongedaan wilt kunnen maken."
+
+#: wp-reset.php:1683
+msgid "Site Reset"
+msgstr "Site resetten"
+
+#: wp-reset.php:1647
+msgid "you will have to confirm the action one more time"
+msgstr "je moet de actie nog een keer bevestigen"
+
+#: wp-reset.php:1573
+msgid "Please read carefully before proceeding"
+msgstr "Lees aandachtig alvorens verder te gaan"
+
+#: wp-reset.php:1434 wp-reset.php:2312
+msgid "Snapshots"
+msgstr "Snapshots"
+
+#: wp-reset.php:383
+msgid "Clicking \"Reset WordPress\" will reset your site to default values. All content will be lost. Always <a href=\"#\" class=\"create-new-snapshot\" data-description=\"Before resetting the site\">create a snapshot</a> if you want to be able to undo.</b>"
+msgstr "Als je op \"Reset WordPress\" klikt, wordt je site teruggezet naar de standaardwaarden. Alle inhoud gaat verloren. Altijd <a href=\"#\" class=\"create-new-snapshot\" data-description=\"Before resetting the site\">maak een snapshot</a> als je het ongedaan wilt maken. </b>"
+
+#. Description of the plugin
+msgid "Reset the entire site or just selected parts while reserving the option to undo by using snapshots."
+msgstr "Reset de hele site of alleen geselecteerde onderdelen terwijl je de optie reserveert om deze ongedaan te maken met snapshots."
+
+#: wp-reset.php:391
+msgid "Create a new snapshot"
+msgstr "Maak een nieuwe momentopname"
+
+#: wp-reset.php:2020
+msgid "Have a set of plugins (and themes) that you install and activate after every reset? Or on every fresh WordPress installation? Well, no more clicking install &amp; active for ten minutes! Build the collection once and install it with one click as many times as needed.</p><p>WP Reset stores collections in the cloud so they're accessible on every site you build. You can use free plugins and themes from the official repo, and PRO ones by uploading a ZIP file. We'll safely store your license keys too, so you have everything in one place."
+msgstr "Heb je een set plugins (en thema's) die je installeert en activeert na elke reset? Of op elke nieuwe WordPress installatie? Nou, niet meer klikken installeer & activeer voor tien minuten! Bouw de collectie één keer op en installeer het met één klik zo vaak als nodig is.</p> <p>WP Reset plaatst collecties in de cloud zodat ze toegankelijk zijn op elke site die je bouwt. Je kan gratis plugins en thema's gebruiken van de officiële repo en PRO plugins door een ZIP-bestand te uploaden. Ook je licentiesleutels bewaren we veilig, zodat je alles op één plek hebt."
+
+#: wp-reset.php:1554
+msgid "Please help us spread the word &amp; keep the plugin up-to-date"
+msgstr "Help ons het woord verspreiden & en de plugin up-to-date houden"
+
+#: wp-reset.php:382
+msgid "Are you sure you want to reset the site?"
+msgstr "Weet je zeker dat je de site wilt resetten?"
+
+#: wp-reset.php:2114
+msgid "No need for donations :) If you can give us a <a href=\"https://wordpress.org/support/plugin/wp-reset/reviews/#new-post\" target=\"_blank\">five star rating</a> you'll help out more than you can imagine. A public mention <a href=\"https://twitter.com/webfactoryltd\" target=\"_blank\">@webfactoryltd</a> also does wonders. Thank you!"
+msgstr "Geen donaties nodig :) Als je ons een <a href=\"https://wordpress.org/support/plugin/wp-reset/reviews/#new-post\" target=\"_blank\">vijfsterren waardering</a>, je helpt meer dan je zich kan voorstellen. Een openbare vermelding <a href=\"https://twitter.com/webfactoryltd\" target=\"_blank\">@webfactoryltd</a> doet ook wonderen. Bedankt!"
+
+#: wp-reset.php:2076
+msgid "All tools and features are explained in detail in <a href=\""
+msgstr "Alle gereedschappen en functies worden in detail uitgelegd in <a href=\""
+
+#: wp-reset.php:2074
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: wp-reset.php:1782
+msgid "Reset Theme Options"
+msgstr "Thema opties resetten"
+
+#: wp-reset.php:1435
+msgid "Collections"
+msgstr "Collecties"
+
+#: wp-reset.php:1999
+msgid "This action deletes the .htaccess file located in <code>"
+msgstr "Deze actie verwijdert het .htaccess bestand in <code>"
+
+#: wp-reset.php:1997
+msgid "Delete .htaccess File"
+msgstr ".htaccess bestand verwijderen"
+
+#: wp-reset.php:266
+msgid "Notice is already dismissed."
+msgstr "Kennisgeving is al afgewezen."
+
+#: wp-reset.php:261 wp-reset.php:858
+msgid "You are not allowed to run this action."
+msgstr "Je mag deze actie niet uitvoeren."
+
+#: wp-reset.php:1954
+msgid "There are no custom tables. There's nothing for this tool to empty or delete."
+msgstr "Er zijn geen aangepaste tabellen. Er is niets voor deze tool om te legen of te verwijderen."
+
+#: wp-reset.php:1944
+msgid "The following "
+msgstr "Het volgende "
+
+#: wp-reset.php:1942
+msgid "This action affects only custom tables with <code>"
+msgstr "Deze actie is alleen van invloed op aangepaste tabellen met <code>"
+
+#: wp-reset.php:1940
+msgid "Empty or Delete Custom Tables"
+msgstr "Aangepaste tabellen leegmaken of verwijderen"
+
+#: wp-reset.php:1887
+msgid "All plugins will be deleted except for WP Reset which will remain active.<br><b>There is NO UNDO. WP Reset does not make any file backups.</b>"
+msgstr "Alle plugins worden verwijderd, behalve WP Reset die actief blijft. <br> <b>Er is GEEN MOGELIJK OM DIT ONGEDAAN TE MAKEN. WP Reset maakt geen back-ups van bestanden.</b>"
+
+#: wp-reset.php:1885
+msgid "Delete Plugins"
+msgstr "Plugins verwijderen"
+
+#: wp-reset.php:1878
+msgid "All themes will be deleted. Including the currently active theme - "
+msgstr "Alle thema's worden verwijderd. Inclusief het momenteel actieve thema - "
+
+#: wp-reset.php:1876
+msgid "Delete Themes"
+msgstr "Thema's verwijderen"
+
+#: wp-reset.php:1914
+msgid "All files in <code>"
+msgstr "Alle bestanden in <code>"
+
+#: wp-reset.php:1912
+msgid "Clean uploads Folder"
+msgstr "Map voor uploads opschonen"
+
+#: wp-reset.php:1802
+msgid "Delete Transients"
+msgstr "Transiënten verwijderen"
+
+#: wp-reset.php:1188
+msgid "Open WP Reset Tools"
+msgstr "Open WP Reset Tools"
+
+#: wp-reset.php:2112
+msgid "Care to Help Out?"
+msgstr "Wil je helpen?"
+
+#: wp-reset.php:1542
+msgid "WP Reset is not compatible with multisite!"
+msgstr "WP Reset is niet compatibel met multisite!"
+
+#: wp-reset.php:1212 wp-reset.php:1556
+msgid "Rate the plugin ★★★★★"
+msgstr "Beoordeel de plugin ★★★★★"
+
+#: wp-reset.php:1212
+msgid "Rate the plugin"
+msgstr "Waardeer de plugin"
+
+#: wp-reset.php:371
+msgid "An error has occurred."
+msgstr "Er is een fout opgetreden."
+
+#: wp-reset.php:2100
+msgid "We are very active on the <a href=\"https://wordpress.org/support/plugin/wp-reset\" target=\"_blank\">official WP Reset support forum</a>. If you found a bug, have a feature idea or just want to say hi - please drop by. We love to hear back from our users."
+msgstr "We zijn erg actief op het <a href=\"https://wordpress.org/support/plugin/wp-reset\" target=\"_blank\">official WP Reset support forum</a>. Als je een bug hebt gevonden, een idee hebt of gewoon hallo wilt zeggen, kom dan langs. We horen graag van onze gebruikers."
+
+#: wp-reset.php:2098
+msgid "Public Support Forum"
+msgstr "Openbaar ondersteuningsforum"
+
+#: wp-reset.php:1433
+msgid "Tools"
+msgstr "Gereedschap"
+
+#: wp-reset.php:997
+msgid "Unknown tool."
+msgstr "Onbekend gereedschap."
+
+#: wp-reset.php:1688
+msgid "Reactivate all currently active plugins"
+msgstr "Activeer alle momenteel actieve plugins"
+
+#: wp-reset.php:1686 wp-reset.php:1710
+msgid "Reactivate WP Reset plugin"
+msgstr "WP Reset plugin opnieuw activeren"
+
+#: wp-reset.php:1675 wp-reset.php:1685
+msgid "Reactivate current theme"
+msgstr "Huidig ​​thema opnieuw activeren"
+
+#: wp-reset.php:1351 wp-reset.php:2313
+msgid "Collapse / expand box"
+msgstr "Box samenvouwen/uitvouwen"
+
+#: wp-reset.php:1543
+msgid "Please be careful when using WP Reset with multisite enabled. It's not recommended to reset the main site. Sub-sites should be OK. We're working on making it fully compatible with WP-MU. <b>Till then please be careful.</b> Thank you for understanding."
+msgstr "Wees voorzichtig bij het gebruik van WP Reset met multisite ingeschakeld. Het wordt niet aanbevolen om de hoofdsite opnieuw in te stellen. Subsites zouden in orde moeten zijn. We werken eraan om het volledig compatibel te maken met WP-MU. <b>Wees tot dan voorzichtig.</b> Bedankt voor je begrip."
+
+#. Plugin URI of the plugin
+msgid "https://wpreset.com/"
+msgstr "https://wpreset.com/"
+
+#: wp-reset.php:1656
+msgid "All actions have to be confirmed. If you want to skip confirmation use the standard %s option. Please be careful and backup first."
+msgstr "Alle acties moeten worden bevestigd. Als je de bevestiging wilt overslaan, gebruik dan de standaard %s optie. Wees voorzichtig en maak eerst een back-up."
+
+#: wp-reset.php:1655
+msgid "All tools available via GUI are available in WP-CLI as well. To get the list of commands run %s. Instead of the active user, the first user with admin privileges found in the database will be restored. "
+msgstr "Alle tools die via GUI beschikbaar zijn, zijn ook beschikbaar in WP-CLI. Voer %s uit om de lijst met opdrachten te krijgen. In plaats van de actieve gebruiker, wordt de eerste gebruiker met beheerdersrechten in de database hersteld. "
+
+#: wp-reset.php:1654
+msgid "WP-CLI Support"
+msgstr "WP-CLI ondersteuning"
+
+#: wp-reset.php:1556
+msgid "I've already rated it"
+msgstr "Ik heb het al beoordeeld"
+
+#: wp-reset.php:1556
+msgid "Rate WP Reset"
+msgstr "Waardeer WP Reset"
+
+#: wp-reset.php:1555
+msgid "If you use &amp; enjoy WP Reset, <b>please rate it on WordPress.org</b>. It only takes a second and helps us keep the plugin maintained. Thank you!"
+msgstr "Als je WP Reset waardeert, <b>laat dan een waardering achter op WordPress.org</b>. Het duurt maar even en helpt ons om de plugin gratis te laten en te onderhouden. Dankjewel!"
+
+#: wp-reset.php:1413
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Sorry, je hebt geen toegang tot deze pagina."
+
+#: wp-reset.php:1278
+msgid "<b>Site has been successfully reset to default settings.</b><br>User \"%s\" was restored with the password unchanged. Open <a href=\"%s\">WP Reset</a> to do another reset."
+msgstr "<b>Site is met succes gereset naar de standaardinstellingen.</b> <br> Gebruiker \"%s\" is hersteld met ongewijzigd wachtwoord. Open <a href=\"%s\">WP Reset</a> om nog een reset uit te voeren."
+
+#: wp-reset.php:1211
+msgid "Plugin Homepage"
+msgstr "Plugin homepage"
+
+#: wp-reset.php:1210 wp-reset.php:1436
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: wp-reset.php:1210
+msgid "Get help"
+msgstr "Krijg hulp"
+
+#: wp-reset.php:385
+msgid "Resetting in progress. Please wait."
+msgstr "Bezig met resetten. Even geduld."
+
+#: wp-reset.php:381
+msgid "Are you sure you want to proceed?"
+msgstr "Weet je zeker dat je verder wilt gaan?"
+
+#: wp-reset.php:379
+msgid "OK"
+msgstr "OK"
+
+#: wp-reset.php:378
+msgid "Cancel"
+msgstr "Annuleer"
+
+#: wp-reset.php:377
+msgid "Invalid confirmation"
+msgstr "Ongeldige bevestiging"
+
+#: wp-reset.php:376
+msgid "Please type \"reset\" in the confirmation field."
+msgstr "Typ reset in het bevestiging veld."
+
+#: wp-reset.php:370
+msgid "An undocumented error has occurred. Please refresh the page and try again."
+msgstr "Er is een ongedocumenteerde fout opgetreden. Vernieuw de pagina en probeer het opnieuw."
+
+#. Author URI of the plugin
+msgid "https://www.webfactoryltd.com/"
+msgstr "https://www.webfactoryltd.com/"
+
+#. Author of the plugin
+msgid "WebFactory Ltd"
+msgstr "WebFactory Ltd"
+
+#. Plugin Name of the plugin
+#: wp-reset.php:247 wp-reset.php:372 wp-reset.php:1421
+msgid "WP Reset"
+msgstr "WP Reset"
+
+#: wp-reset.php:1714
+msgid "Type in \"reset\""
+msgstr "Typ reset"
+
+#: wp-reset.php:1432
+msgid "Reset"
+msgstr "Reset"
+
+#: wp-reset.php:1650
+msgid "you will be logged out, automatically logged back in and taken to the admin dashboard"
+msgstr "je wordt uitgelogd, automatisch weer ingelogd en naar het beheer dashboard gebracht"
+
+#: wp-reset.php:1649
+msgid "site title, WordPress URL, site URL, site language, search engine visibility and current user will always be restored"
+msgstr "sitetitel, WordPress-URL, site-URL, sitetaal, zichtbaarheid van de zoekmachine en huidige gebruiker worden altijd hersteld"
+
+#: wp-reset.php:1147
+msgid "Something went wrong. Please refresh the page and try again."
+msgstr "Er is iets fout gegaan. Vernieuw de pagina en probeer het opnieuw."
+
+#: wp-reset.php:1153
+msgid "<b>Invalid confirmation code.</b> Please type \"reset\" in the confirmation field."
+msgstr "<b>Ongeldige bevestigingscode.</b> Typ\"reset\" in het bevestigingsveld."
+
+#: wp-reset.php:384
+msgid "Click \"Cancel\" to abort."
+msgstr "Klik op \"Annuleren\" om af te breken."
+
+#: wp-reset.php:1252
+msgid "Visit WP Reset page for more info"
+msgstr "Bezoek de WP Reset pagina voor meer info"
+
+#: wp-reset.php:380
+msgid "Reset WordPress"
+msgstr "WordPress opnieuw instellen"

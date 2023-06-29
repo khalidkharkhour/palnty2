@@ -1,0 +1,449 @@
+@import url(https://fonts.googleapis.com/css?family=Syne:400,700,800|Inter:400);
+
+:root {
+    --bizarre: #ece2da;
+    --black: #000000;
+    --brick-red: #d44056;
+    --contessa: #d2776a;
+    --goblin: #3b8e46;
+    --petite-orchid: #dc9f96;
+    --shilo: #e0b9b4;
+    --tom-thumb: #326238;
+    --white: #ffffff;
+    --font-size-l: 30px;
+    --font-size-m: 20px;
+    --font-size-s: 16px;
+    --font-size-xl: 38px;
+    --font-size-xs: 15px;
+    --font-size-xxl: 48px;
+    --font-size-xxs: 13px;
+    --font-family-inter: "Inter", Helvetica;
+    --font-family-syne: "Syne", Helvetica
+}
+
+.syne-normal-white-20px {
+    color: var(--white);
+    font-family: var(--font-family-syne);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400
+}
+
+.syne-normal-black-16px {
+    color: var(--black);
+    font-family: var(--font-family-syne);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 400
+}
+
+.syne-normal-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-syne);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400
+}
+
+.syne-normal-white-15px {
+    color: var(--white);
+    font-family: var(--font-family-syne);
+    font-size: var(--font-size-xs);
+    font-style: normal;
+    font-weight: 400
+}
+
+.syne-bold-goblin-30px {
+    color: var(--goblin);
+    font-family: var(--font-family-syne);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 700
+}
+
+.syne-extra-bold-white-48px {
+    color: var(--white);
+    font-family: var(--font-family-syne);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 800
+}
+
+.syne-extra-bold-white-20px {
+    color: var(--white);
+    font-family: var(--font-family-syne);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 800
+}
+
+.syne-bold-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-syne);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 700
+}
+
+.syne-bold-white-30px {
+    color: var(--white);
+    font-family: var(--font-family-syne);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 700
+}
+
+.syne-bold-black-20px {
+    color: var(--black) !important;
+    font-family: var(--font-family-syne) !important;
+    font-size: var(--font-size-m) !important;
+    font-style: normal !important;
+    font-weight: 700 !important
+}
+
+.syne-bold-black-13px {
+    color: var(--black);
+    font-family: var(--font-family-syne);
+    font-size: var(--font-size-xxs);
+    font-style: normal;
+    font-weight: 700
+}
+
+.syne-bold-black-30px {
+    color: var(--black);
+    font-family: var(--font-family-syne);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 700
+}
+
+.ce-quils-en-pensent,
+.les-gots,
+.nous-avons-une-saveu,
+.title2 {
+    font-family: var(--font-family-syne)
+}
+
+.nav-bar {
+    align-items: flex-start;
+    display: flex;
+    min-width: 100%
+}
+
+.header {
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    justify-content: space-between;
+    width: 100%;
+    position: sticky
+}
+
+.nous-rencontrer {
+    height: 5%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    min-width: 5%;
+    white-space: nowrap;
+    margin-left: 32%
+}
+
+.nous-rencontrer2 {
+    height: 5%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    min-width: 5%;
+    white-space: nowrap;
+    margin-left: 50% !important
+}
+
+.nous-rencontrer-1 {
+    height: 5%;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 0;
+    position: relative;
+    min-width: 2%;
+    white-space: nowrap
+}
+
+.bouton-nav,
+.bouton-nav-2 {
+    background-color: var(--petite-orchid);
+    height: 20%;
+    position: relative;
+    width: 16%;
+    padding: 29px 61px
+}
+
+.bouton-n {
+    background-color: var(--petite-orchid)
+}
+
+.bouton-nav-2:hover,
+.bouton-nav:hover {
+    background-color: var(--brick-red)
+}
+
+.bouton-nav-2 {
+    background-color: var(--petite-orchid);
+    height: 5rem;
+    position: relative;
+    min-width: 16%;
+    padding: 29px 61px
+}
+
+.commander {
+    height: 19px;
+    line-height: normal;
+    min-width: 5%
+}
+
+.canette {
+    position: relative !important
+}
+
+.canette::before {
+    content: "";
+    position: absolute;
+    top: 86%;
+    left: 34%;
+    width: 28%;
+    height: 3%;
+    border-radius: 47%;
+    box-shadow: inset 0 0 10px #000;
+    mix-blend-mode: multiply
+}
+
+.boisson-nergisante-100-naturelle {
+    font-family: var(--font-family-syne);
+    font-weight: 800;
+    height: 20%;
+    margin-top: 4%
+}
+
+.des-palntes {
+    height: 300px
+}
+
+.les-gots {
+    height: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 57px;
+    min-width: 287px;
+    white-space: nowrap
+}
+
+.nous-avons-une-saveu {
+    height: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -17px;
+    min-width: 548px;
+    white-space: nowrap
+}
+
+.image-grid {
+    height: 16.375rem;
+    min-width: 24.5625rem
+}
+
+.contenair1 {
+    height: fit-content;
+    margin-top: -90px !important
+}
+
+.body2 {
+    min-height: 100vh;
+    width: 1440px !important
+}
+
+body,
+html {
+    margin: 0;
+    padding: O;
+    min-height: 100vh
+}
+
+.flex-col-1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    margin-bottom: 1px;
+    min-height: 104px;
+    width: 198px
+}
+
+a {
+    text-decoration: none
+}
+
+.screen a {
+    display: contents;
+    text-decoration: none
+}
+
+.middle-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px
+}
+
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+* {
+    box-sizing: border-box
+}
+
+.logo {
+    height: 19px;
+    margin-left: 37px;
+    margin-top: 1px;
+    width: 201px
+}
+
+.footer {
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    height: 20px;
+    justify-content: center;
+    mix-blend-mode: normal;
+    padding: 0 20px;
+    width: 100%
+}
+
+.mentions-lgales {
+    height: auto;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    white-space: nowrap;
+    margin-block-end: 38px
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+.border3 {
+    border-bottom: 0 inset var(--bizarre);
+    border-radius: 174%/0 0 10% 10%
+}
+
+.border2 {
+    border-bottom: 0 inset var(--bizarre);
+    border-radius: 50%/0 0 10% 10%
+}
+
+.border {
+    border-bottom: 0 inset var(--bizarre);
+    border-radius: 50%/0 0 10% 10%;
+    box-shadow: 0 11px 6px rgba(184, 185, 180, .5)
+}
+
+.is-s {
+    height: 1px !important
+}
+
+.line-6 {
+    height: 447px;
+    width: 1px
+}
+
+.bouton-2 {
+    background-color: var(--shilo) !important;
+    border-radius: 5px;
+    height: 55px;
+    margin-left: 20px;
+    overflow: hidden;
+    padding: 8px 56px;
+    width: 198px
+}
+
+.bouton-2:hover {
+    background-color: var(--brick-red) !important
+}
+
+.wp-block-button__link {
+    border: var(--petite-orchid)
+}
+
+.custom-form {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: -88px 29px 5px 17px
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative
+}
+
+.wp-block-buttons>.wp-block-button.wp-block-button__width-50 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.minus-button,
+.plus-button {
+    width: 33px;
+    height: 35px;
+    background-color: var(--shilo);
+    color: var(--white);
+    border: solid var(--shilo)
+}
+
+.plus-button {
+    border-radius: 0 7px 0 0;
+    margin-bottom: -14px
+}
+
+.minus-button {
+    border-radius: 0 0 7px 0;
+    margin-bottom: 5px
+}
+
+.box-input {
+    display: flex;
+    justify-content: space-between
+}
+
+.input-field {
+    height: 56px;
+    width: 80px;
+    padding: 5px;
+    border: none;
+    text-align: center;
+    border-radius: 7px
+}
+
+.input-field::-webkit-inner-spin-button,
+.input-field::-webkit-outer-spin-button {
+    display: none
+}
