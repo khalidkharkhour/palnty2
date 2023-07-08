@@ -84,3 +84,86 @@ function set_page_background_color() {
 }
 add_action('wp_head', 'set_page_background_color');*/
 
+/*function custom_menu_links() {
+  if (is_user_logged_in()) {
+    echo '<div class="nous-rencontrer valign-text-middle">
+            <span><a href="/index.php/nous-rencontrer/" class="syne-normal-black-16px">Nous rencontrer</a></span>
+          </div>';
+  } else {
+    echo '<div class="nous-rencontrer2 valign-text-middle">
+            <span><a href="/index.php/nous-rencontrer/" class="syne-normal-black-16px">Nous rencontrer</a></span>
+          </div>';
+  }
+
+  if (is_user_logged_in()) {
+    echo '<div class="nous-rencontrer-1 valign-text-middle">
+            <span><a href="http://localhost:8080/wp-admin/" class="syne-normal-black-16px">Admin</a></span>
+          </div>';
+  }
+
+  if (is_user_logged_in()) {
+    echo '<div class="bouton-nav bouton-n">
+            <div class="commander valign-text-middle commander-2 syne-bold-white-16px">
+              <span><a href="/index.php/commander/" class="syne-bold-white-16px">Commander</a></span>
+            </div>
+          </div>';
+  } else {
+    echo '<div class="bouton-nav-2 bouton-1">
+            <div class="commander valign-text-middle commander-2 syne-bold-white-16px">
+              <span><a href="/index.php/commander/" class="syne-bold-white-16px">Commander</a></span>
+            </div>
+          </div>';
+  }
+}*/
+
+function displayHeader() {
+  $currentURL = $_SERVER['REQUEST_URI'];
+  ?>
+  <header class="header syne-normal-black-16px">
+    <a href="https://khalidkharkhour.com/"><img class="logo" src="<?php echo child_theme_img_directory(); ?>logo-1@2x.png" alt="Logo" /></a>
+
+    <?php
+    wp_nav_menu(array(
+      'theme_location' => 'planty',
+      'container_class' => 'nav-bar',
+      'menu_class' => 'header',
+      'fallback_cb' => false
+    ));
+    ?>
+
+    <?php if (is_user_logged_in()) : ?>
+      <div class="nous-rencontrer valign-text-middle">
+        <?php if ((is_page('nous-rencontrer') || is_page('commander'))) : ?>
+          <span ><a href="/index.php/nous-rencontrer/" class="bold-nous-rencontrer syne-normal-black-16px">Nous rencontrer</a></span>
+        <?php else : ?>
+          <span><a href="/index.php/nous-rencontrer/" class="syne-normal-black-16px">Nous rencontrer</a></span>
+        <?php endif; ?>
+      </div>
+
+      <div class="nous-rencontrer-1 valign-text-middle">
+        <span><a href="https://khalidkharkhour/wp-admin/" class="syne-normal-black-16px">Admin</a></span>
+      </div>
+
+      <div class="bouton-nav bouton-n">
+        <div class="syne-bold-white-16px">
+          <span ><a href="/index.php/commander/" class="syne-bold-white-16px">Commander</a></span>
+        </div>
+      </div>
+    <?php else : ?>
+      <div class="nous-rencontrer2 valign-text-middle">
+        <?php if ((is_page('nous-rencontrer') || is_page('commander'))) : ?>
+          <span class="bold-nous-rencontrer"><a href="/index.php/nous-rencontrer/" class="syne-normal-black-16px">Nous rencontrer</a></span>
+        <?php else : ?>
+          <span><a href="/index.php/nous-rencontrer/" class="syne-normal-black-16px">Nous rencontrer</a></span>
+        <?php endif; ?>
+      </div>
+
+      <div class="bouton-nav bouton-n">
+        <div class="syne-bold-white-16px">
+          <span><a href="/index.php/commander/" class="syne-bold-white-16px">Commander</a></span>
+        </div>
+      </div>
+    <?php endif; ?>
+  </header>
+  <?php
+}

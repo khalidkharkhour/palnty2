@@ -1,0 +1,329 @@
+# Translation of Plugins - Gutenberg Block Editor Toolkit – EditorsKit - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Gutenberg Block Editor Toolkit – EditorsKit - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-10-06 21:30:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Gutenberg Block Editor Toolkit – EditorsKit - Stable (latest release)\n"
+
+#. translators: %s: EditorsKit settings page link
+#: includes/class-editorskit-welcome.php:187
+msgid "Thank you for installing and activating EditorsKit Plugin. Please go to %1$sSettings > EditorsKit%2$s to get started."
+msgstr "Merci d’avoir installé et activé l’extension EditorsKit. Veuillez vous rendre dans %1$sRéglages > EditorsKit%2$s pour commencer."
+
+#: includes/class-editorskit-user-feedback.php:307
+#: includes/notices/class-editorskit-support-notice.php:53
+#: src/admin/index.js:129
+msgid "Leave a Review"
+msgstr "Laisser un avis"
+
+#. translators: 1. Name, 2. Time
+#: includes/class-editorskit-user-feedback.php:303
+msgid "You have been using %1$s for %2$s now. Mind leaving a review to let us know know what you think? We'd really appreciate it!"
+msgstr "Vous utilisez %1$s depuis %2$s maintenant. Pouvez-vous nous laisser un avis pour nous faire connaître vos impressions ? Nous vous en serions très reconnaissants !"
+
+#: includes/class-editorskit-user-feedback.php:146
+msgid "a second"
+msgstr "une seconde"
+
+#. translators: Number of seconds
+#: includes/class-editorskit-user-feedback.php:144
+msgid "%s seconds"
+msgstr "%s secondes"
+
+#: includes/class-editorskit-user-feedback.php:137
+msgid "a minute"
+msgstr "une minute"
+
+#. translators: Number of minutes
+#: includes/class-editorskit-user-feedback.php:135
+msgid "%s minutes"
+msgstr "%s minutes"
+
+#: includes/class-editorskit-user-feedback.php:128
+msgid "an hour"
+msgstr "une heure"
+
+#. translators: Number of hours
+#: includes/class-editorskit-user-feedback.php:126
+msgid "%s hours"
+msgstr "%s heures"
+
+#: includes/class-editorskit-user-feedback.php:119
+msgid "a day"
+msgstr "un jour"
+
+#. translators: Number of days
+#: includes/class-editorskit-user-feedback.php:117
+msgid "%s days"
+msgstr "%s jours"
+
+#: includes/class-editorskit-user-feedback.php:110
+msgid "a week"
+msgstr "une semaine"
+
+#. translators: Number of weeks
+#: includes/class-editorskit-user-feedback.php:108
+msgid "%s weeks"
+msgstr "%s semaines"
+
+#: includes/class-editorskit-user-feedback.php:101
+msgid "a year"
+msgstr "un an"
+
+#: includes/class-editorskit-user-feedback.php:308
+msgid "No thanks / I already have"
+msgstr "Non merci / Je l’ai déjà fait"
+
+#. translators: 1. Name
+#: includes/class-editorskit-user-feedback.php:296
+msgid "%s WordPress Plugin"
+msgstr "Extension %s WordPress"
+
+#. translators: 1. Name
+#: includes/class-editorskit-user-feedback.php:300
+msgid "Are you enjoying %s Plugin?"
+msgstr "Appréciez-vous l’extension %s ?"
+
+#: includes/class-editorskit-welcome.php:150
+msgid "Getting started with EditorsKit"
+msgstr "Premiers pas avec EditorsKit"
+
+#: plugin.php:74 plugin.php:86
+msgid "Cheating huh?"
+msgstr "Alors, on triche ?"
+
+#: includes/class-editorskit-features-manager.php:295
+msgid "Gradient Controls"
+msgstr "Réglages de dégradé"
+
+#: includes/class-editorskit-features-manager.php:162
+#: src/extensions/formats/charmap/controls.js:161
+#: src/extensions/formats/charmap/index.js:19
+msgid "Special Characters"
+msgstr "Caractères spéciaux"
+
+#: includes/class-editorskit-post-meta.php:109
+msgid "API key and token from shareablock.com"
+msgstr "Clé API ou jeton d'accès (token) de shareablock.com"
+
+#: includes/class-editorskit-features-manager.php:239
+msgid "Link Toolbar for Cover, Group & Column"
+msgstr "Barre d'outils de liens pour les blocs Bannière, Groupe et Colonnes"
+
+#: includes/class-editorskit-features-manager.php:142
+msgid "Indents"
+msgstr "Retraits"
+
+#: includes/class-editorskit-features-manager.php:219
+msgid "Button Block Full Width"
+msgstr "Bloc Bouton en pleine largeur"
+
+#: includes/class-editorskit-features-manager.php:127
+#: src/extensions/formats/abbreviation/components/edit.js:47
+#: src/extensions/formats/abbreviation/index.js:19
+msgid "Abbreviation"
+msgstr "Abréviation"
+
+#: includes/class-editorskit-features-manager.php:224
+msgid "Columns Block Background Color"
+msgstr "Couleur d'arrière-plan du bloc Colonnes"
+
+#: includes/class-editorskit-features-manager.php:249
+msgid "List Block Text Color"
+msgstr "Couleur du texte du bloc Liste"
+
+#: includes/class-editorskit-features-manager.php:244
+msgid "List Block Font Size"
+msgstr "Taille du texte du bloc Liste"
+
+#: includes/class-editorskit-features-manager.php:157
+#: src/extensions/formats/nbsp/index.js:19
+msgid "Nonbreaking Space"
+msgstr "Espace insécable"
+
+#: includes/class-editorskit-features-manager.php:326
+msgid "Select Parent Block"
+msgstr "Sélectionner un bloc parent"
+
+#: includes/class-editorskit-features-manager.php:322
+msgid "Shortcuts"
+msgstr "Raccourcis"
+
+#: includes/class-editorskit-features-manager.php:300
+#: src/extensions/components/help-tips/components/controls.js:105
+#: src/extensions/components/help-tips/components/controls.js:106
+msgid "Help, tips and tricks"
+msgstr "Aide, trucs et astuces"
+
+#: includes/class-editorskit-features-manager.php:208
+#: src/admin/docs/index.js:81
+msgid "Transform 3 Empty Paragraphs to Spacer Block"
+msgstr "Transformer 3 paragraphes vides en bloc Espacement"
+
+#: includes/class-editorskit-features-manager.php:229
+#: src/extensions/block-toolbar/block-navigator/components/controls.js:43
+msgid "Block Navigator"
+msgstr "Navigateur de blocs"
+
+#: includes/class-editorskit-features-manager.php:193
+msgid "Estimated Reading Time"
+msgstr "Estimation du temps de lecture"
+
+#: includes/class-editorskit-features-manager.php:254
+msgid "Media Text Block Layout"
+msgstr "Mise en page du bloc Média & texte"
+
+#: includes/class-editorskit-features-manager.php:215
+#: src/admin/docs/index.js:209
+msgid "Block Options"
+msgstr "Options du bloc"
+
+#: includes/class-editorskit-features-manager.php:152
+msgid "Link with \"rel\" Attributes"
+msgstr "Lien avec attributs \"rel\""
+
+#: includes/class-editorskit-features-manager.php:285
+#: src/admin/docs/index.js:111
+msgid "Drag and Drop Featured Image"
+msgstr "Glisser-déposer l'image mise en avant"
+
+#: includes/class-editorskit-features-manager.php:259
+msgid "Set Image Block as Featured"
+msgstr "Définir le bloc Image comme Image mise en avant"
+
+#: includes/class-editorskit-features-manager.php:198
+msgid "Heading Block Label"
+msgstr "Libellé du bloc Titre"
+
+#: includes/class-editorskit-features-manager.php:310
+#: src/extensions/components/scroll-down/components/scrolldown.js:36
+msgid "View Custom Fields"
+msgstr "Voir les champs personnalisés"
+
+#: includes/class-editorskit-features-manager.php:275
+msgid "Code Editor Syntax Highlight"
+msgstr "Coloration syntaxique de l'éditeur de code"
+
+#: includes/class-editorskit-features-manager.php:290
+msgid "Editor Min-Height"
+msgstr "Hauteur minimale de l'éditeur"
+
+#: includes/class-editorskit-features-manager.php:280
+msgid "Custom Class Names"
+msgstr "Noms de classes personnalisées"
+
+#: includes/class-editorskit-features-manager.php:234
+#: src/extensions/block-settings/export/components/export.js:77
+msgid "Export as JSON"
+msgstr "Exporter au format JSON"
+
+#. translators: Number of years
+#: includes/class-editorskit-user-feedback.php:99
+msgid "%s years"
+msgstr "%s années"
+
+#: includes/class-editorskit-features-manager.php:266
+#: src/admin/docs/index.js:226
+msgid "Tools"
+msgstr "Outils"
+
+#: includes/class-editorskit-features-manager.php:203
+msgid "Markdown"
+msgstr "Markdown"
+
+#: includes/class-editorskit-features-manager.php:189
+#: src/admin/docs/index.js:192
+msgid "Writing"
+msgstr "Écriture"
+
+#: includes/class-editorskit-features-manager.php:182
+#: src/extensions/formats/uppercase/controls.js:32
+#: src/extensions/formats/uppercase/index.js:19
+msgid "Uppercase"
+msgstr "Majuscule"
+
+#: includes/class-editorskit-features-manager.php:172
+#: src/extensions/formats/superscript/controls.js:45
+#: src/extensions/formats/superscript/index.js:19
+msgid "Superscript"
+msgstr "Exposant"
+
+#: includes/class-editorskit-features-manager.php:167
+#: src/extensions/formats/subscript/controls.js:45
+#: src/extensions/formats/subscript/index.js:19
+msgid "Subscript"
+msgstr "Indice"
+
+#: includes/class-editorskit-features-manager.php:132
+#: src/admin/docs/index.js:66 src/extensions/formats/clear/controls.js:39
+#: src/extensions/formats/clear/index.js:19
+msgid "Clear Formatting"
+msgstr "Nettoyer la mise en forme"
+
+#: includes/class-editorskit-features-manager.php:123
+msgid "Formats"
+msgstr "Formats"
+
+#: includes/class-editorskit-features-manager.php:118
+msgid "Visibility"
+msgstr "Visibilité"
+
+#: includes/class-editorskit-features-manager.php:305
+msgid "Toggle Title Visibility"
+msgstr "Modifier la visibilité du titre"
+
+#: includes/class-editorskit-features-manager.php:147
+msgid "Justified Alignment"
+msgstr "Justifier"
+
+#: includes/class-editorskit-features-manager.php:137
+msgid "Highlighted Text Color"
+msgstr "Couleur de surlignage"
+
+#: includes/class-editorskit-features-manager.php:110
+msgid "Display Logic"
+msgstr "Logique d'affichage"
+
+#: includes/class-editorskit-features-manager.php:102
+msgid "User Login State"
+msgstr "État de connexion de l'utilisateur"
+
+#: includes/class-editorskit-features-manager.php:92
+msgid "ACF Support"
+msgstr "Prise en charge d'ACF"
+
+#: includes/class-editorskit-features-manager.php:177
+#: src/extensions/formats/markdown/index.js:20
+#: src/extensions/formats/underline/index.js:17
+#: src/extensions/formats/underline/index.js:48
+msgid "Underline"
+msgstr "Souligner"
+
+#: includes/class-editorskit-features-manager.php:97
+msgid "Devices"
+msgstr "Appareils"
+
+#: includes/class-editorskit-features-manager.php:270
+#: src/extensions/components/guidelines/components/menu.js:67
+msgid "Block Guide Lines"
+msgstr "Mode d'emploi des blocs"
+
+#. Plugin Name of the plugin
+#: includes/class-editorskit-user-feedback.php:338
+#: includes/class-editorskit-welcome.php:151
+msgid "EditorsKit"
+msgstr "EditorsKit"
+
+#. Plugin URI of the plugin
+msgid "https://editorskit.com/"
+msgstr "https://editorskit.com/"
+
+#. Description of the plugin
+msgid "EditorsKit is a suite of <strong>page building block options</strong> for the Gutenberg block editor."
+msgstr "EditorsKit est un ensemble d'options de <strong>blocs pour la construction de pages page </strong> dans l'éditeur de blocs."

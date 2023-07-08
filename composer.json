@@ -40,10 +40,7 @@
     "roots/wordpress": "6.2.2",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
-    "wpackagist-theme/byvex-woocommerce-starter": "^1.2",
     "wpackagist-theme/fullwidther": "^2.4",
-    "wpackagist-plugin/wp-sweep": "^1.1",
-    "wpackagist-plugin/wp-super-cache": "^1.9",
     "wpackagist-plugin/active-campaign-wpforms": "^1.1",
     "wpackagist-plugin/all-in-one-wp-migration": "^7.75"
   },

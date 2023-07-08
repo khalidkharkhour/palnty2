@@ -11,16 +11,19 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
   <title>Planty</title>
   <?php wp_head() ?>
 </head>
 
 		
+    
 	
 <body >
    
-    
-      <div class="screen " id="global">
+
+     
 <div class="nav-bar <?php echo (is_user_logged_in()) ? '' : 'not-logged-in'; ?>">
 
 
@@ -34,3 +37,6 @@ if (has_nav_menu('planty')) {
     ));
 }
 ?>
+<header>
+  <?php displayHeader(); ?>
+</header>

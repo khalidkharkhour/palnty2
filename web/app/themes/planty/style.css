@@ -1,13 +1,10 @@
-/*
-Theme Name: Planty 
+/*Theme Name: Planty 
 Template: fullwidther
 Author: Kharkhour khalid
 Author URI: khalidkharkhour.com
 Version: 1.0
 */
 @import url("https://fonts.googleapis.com/css?family=Syne:400,700,800|Inter:400");
-/*@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");*/
-
 :root {
     --bizarre: #ece2da;
     --black: #000000;
@@ -18,342 +15,23 @@ Version: 1.0
     --shilo: #e0b9b4;
     --tom-thumb: #326238;
     --white: #ffffff;
-
-    --font-size-l: 30px;
-    --font-size-m: 20px;
-    --font-size-s: 16px;
-    --font-size-xl: 38px;
-    --font-size-xs: 15px;
-    --font-size-xxl: 48px;
-    --font-size-xxs: 13px;
-
-    --font-family-inter: "Inter", Helvetica;
-    --font-family-syne: "Syne", Helvetica;
 }
-
-.syne-normal-white-20px {
-    color: var(--white);
-    font-family: var(--font-family-syne);
-    font-size: var(--font-size-m);
-    font-style: normal;
-    font-weight: 400;
-}
-
-.syne-normal-black-16px {
-    color: var(--black);
-    font-family: var(--font-family-syne);
-    font-size: var(--font-size-s);
-    font-style: normal;
-    font-weight: 400;
-}
-
-.syne-normal-black-20px {
-    color: var(--black);
-    font-family: var(--font-family-syne);
-    font-size: var(--font-size-m);
-    font-style: normal;
-    font-weight: 400;
-}
-
-.syne-normal-white-15px {
-    color: var(--white);
-    font-family: var(--font-family-syne);
-    font-size: var(--font-size-xs);
-    font-style: normal;
-    font-weight: 400;
-}
-
-.syne-bold-goblin-30px {
-    color: var(--goblin);
-    font-family: var(--font-family-syne);
-    font-size: var(--font-size-l);
-    font-style: normal;
-    font-weight: 700;
-}
-
-.syne-extra-bold-white-48px {
-    color: var(--white);
-    font-family: var(--font-family-syne);
-    font-size: var(--font-size-xxl);
-    font-style: normal;
-    font-weight: 800;
-}
-
-.syne-extra-bold-white-20px {
-    color: var(--white);
-    font-family: var(--font-family-syne);
-    font-size: var(--font-size-m);
-    font-style: normal;
-    font-weight: 800;
-}
-
-.inter-normal-black-16px {
-    color: var(--black);
-    font-family: var(--font-family-inter);
-    font-size: var(--font-size-s);
-    font-style: normal;
-    font-weight: 400;
-}
-
-.syne-bold-white-16px {
-    color: var(--white);
-    font-family: var(--font-family-syne);
-    font-size: var(--font-size-s);
-    font-style: normal;
-    font-weight: 700;
-}
-
-.syne-bold-white-30px {
-    color: var(--white);
-    font-family: var(--font-family-syne);
-    font-size: var(--font-size-l);
-    font-style: normal;
-    font-weight: 700;
-}
-
-.syne-bold-black-20px {
-    color: var(--black) !important;
-    font-family: var(--font-family-syne) !important;
-    font-size: var(--font-size-m) !important;
-    font-style: normal !important;
-    font-weight: 700 !important;
-}
-
-.syne-bold-black-13px {
-    color: var(--black);
-    font-family: var(--font-family-syne);
-    font-size: var(--font-size-xxs);
-    font-style: normal;
-    font-weight: 700;
-}
-
-.syne-bold-black-30px {
-    color: var(--black);
-    font-family: var(--font-family-syne);
-    font-size: var(--font-size-l);
-    font-style: normal;
-    font-weight: 700;
-}
-
-.title2,
-.les-gots,
-.ce-quils-en-pensent,
-.planty-cest-la-pre,
-.nous-avons-une-saveu {
-    font-family: var(--font-family-syne);
-}
-
-.nav-bar {
-    align-items: flex-start;
-    display: flex;
-    min-width: 100%;
-}
-
-.header {
-    align-items: center;
-    background-color: var(--white);
-    display: flex;
-    flex-direction: row;
-    flex-shrink: 1;
-    justify-content: space-between;
-    width: 100%;
-    position: sticky;
-}
-
-.nous-rencontrer {
-    height: 5%;
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-    min-width: 5%;
-    white-space: nowrap;
-    margin-left: 32%;
-}
-
-.nous-rencontrer2 {
-    height: 5%;
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-    min-width: 5%;
-    white-space: nowrap;
-    margin-left: 50% !important;
-}
-
-.nous-rencontrer-1 {
-    height: 5%;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-bottom: 0%;
-    position: relative;
-    min-width: 2%;
-    white-space: nowrap;
-
-}
-
-.bouton-nav,
-.bouton-nav-2 {
-    background-color: var(--petite-orchid);
-    height: 20%;
-    position: relative;
-    width: 16%;
-    padding: 29px 61px;
-}
-
-.bouton-n {
-    background-color: var(--petite-orchid);
-}
-
-.bouton-nav:hover,
-.bouton-nav-2:hover {
-    background-color: var(--brick-red);
-}
-
-.bouton-nav-2 {
-    background-color: var(--petite-orchid);
-    height: 5rem;
-    position: relative;
-    min-width: 16%;
-    padding: 29px 61px;
-}
-
-
-.commander {
-    height: 19px;
-    line-height: normal;
-    min-width: 5%;
-}
-
-.canette {
-    position: relative !important;
-
-}
-
-.canette::before {
-    content: "";
-    position: absolute;
-    top: 86%;
-    left: 34%;
-    width: 28%;
-    height: 3%;
-    border-radius: 47%;
-    box-shadow: inset 0 0 10px rgb(0, 0, 0);
-    mix-blend-mode: multiply;
-}
-
-.boisson-nergisante-100-naturelle {
-    font-family: var(--font-family-syne);
-    font-weight: 800;
-    height: 20%;
-    margin-top: 4%;
-}
-
-.des-palntes {
-    height: 300px;
-}
-
-.les-gots {
-    height: 36px;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: 57px;
-    min-width: 287px;
-    white-space: nowrap;
-}
-
-.nous-avons-une-saveu {
-    height: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -17px;
-    min-width: 548px;
-    white-space: nowrap;
-}
-
-.image-grid {
-    height: 16.375rem;
-    min-width: 24.5625rem;
-}
-
-.contenair1 {
-    height: fit-content;
-    margin-top: -90px !important;
-}
-
-.body2 {
-    /*flex-basis:100% !important;*/
-    min-height: 100vh;
-    width: 1440px !important;
-
-}
-
-html,
 body {
+    font-family: "Syne", Helvetica;
     margin: 0;
-    padding: O;
-
     min-height: 100vh;
-    ;
-
-
+	overflow: hidden;
 }
-
-.flex-col-1 {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    gap: 11px;
-    margin-bottom: 1.0px;
-    min-height: 104px;
-    width: 198px;
-}
-
-a {
-    text-decoration: none;
-}
-
-
-/*.flex-col {
-	margin:0 10px;
-}*/
-
-
-.screen a {
-    display: contents;
-    text-decoration: none;
-
-}
-
-.middle-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 500px;
-}
-
-.valign-text-middle {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-/*.box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
 
 * {
     box-sizing: border-box;
 }
-
 .logo {
     height: 19px;
     margin-left: 37px;
-    margin-top: 1.0px;
-    width: 201px;
+    margin-top: 1px;
+    width: 12.5625rem;
 }
-
 .footer {
     align-items: center;
     background-color: var(--white);
@@ -366,7 +44,6 @@ a {
     padding: 0 20px;
     width: 100%;
 }
-
 .mentions-lgales {
     height: auto;
     letter-spacing: 0;
@@ -375,566 +52,326 @@ a {
     white-space: nowrap;
     margin-block-end: 38px;
 }
-
-
-ol,
-ul {
-    list-style: none
-}
-
-.border3 {
-    border-bottom: 0px inset var(--bizarre);
-    border-radius: 174% / 0% 0% 10% 10%;
-}
-
-.border2 {
-    border-bottom: 0px inset var(--bizarre);
-    border-radius: 50% / 0% 0% 10% 10%;
-}
-
-.border {
-    border-bottom: 0px inset var(--bizarre);
-    border-radius: 50% / 0% 0% 10% 10%;
-    box-shadow: 0px 11px 6px rgba(184, 185, 180, 0.5);
-}
-
-
-.is-s {
-    height: 1px !important;
-}
-
-
-
-.vos-informations {
-
-    white-space: nowrap;
-}
-
-.recta {
-    border-radius: 5px !important;
-    box-shadow: 0px 4px 14px #0000000a !important;
-    height: 71px;
-    width: 400px !important;
-    /*border: solid white;*/
-}
-
-.line-6 {
-    height: 447px;
-    width: 1px;
-}
-
-
-.bouton-2 {
-    background-color: var(--shilo) !important;
-    border-radius: 5px;
-    height: 55px;
-    margin-left: 20.0px;
-    overflow: hidden;
-    padding: 8px 56px;
-    width: 198px;
-}
-
-.bouton-2:hover {
-    background-color: var(--brick-red) !important;
-}
-
-
-
-.wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
-    font-size: var(--font-size-m);
+.syne-normal-black-16px {
+    color: black !important;
     font-family: var(--font-family-syne);
-    font-weight: 800;
-    max-height: 50%;
-    text-align: center;
+    font-size: medium;
+    font-style: normal;
+    font-weight: 400;
+}
+.bold-nous-rencontrer {
+	font-weight: 700 !important;
+	   color: black !important;
+	  font-family: var(--font-family-syne);
+	 font-size: medium;
+} 
+.nav-bar {
+    align-items: flex-start;
+    display: flex;
+    min-width: 100%;
+}
+header {
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    justify-content: space-between;
     width: 100%;
-    background: none !important;
+    position: sticky;
+}
+.syne-bold-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-syne);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 700;
+}
+.commander {
     display: flex;
     justify-content: center;
     align-items: center;
+	margin-top:12%;
+}
+.nous-rencontrer,
+.nous-rencontrer2,
+.nous-rencontrer-1 {
+    height: 5%;
+    letter-spacing: 0;
+    line-height: normal;
     position: relative;
-    bottom: 50%;
+    min-width: 5%;
+    white-space: nowrap;
+}
+.nous-rencontrer {
+    margin-left: auto;
 }
 
-.wp-block-button__link {
-    border: var(--petite-orchid);
+.nous-rencontrer2 {
+    margin-left: auto ;
 }
-
+.nous-rencontrer-1 {
+    margin-left:6%;
+}
+.bouton-nav
+ {
+    height: fit-content;
+    margin-left: 61px;
+    min-width: 8.5rem;
+    padding: 29px 61px;
+}
+.bouton-n {
+    background-color: var(--petite-orchid);
+}
+.bouton-nav:hover,
+.bouton-nav-2:hover {
+    background-color: var(--brick-red);
+}
+.bouton-nav-2 {
+   background-color: var(--petite-orchid);
+height: 5rem;
+position: relative;
+width: 13.3125rem;
+}
+  .commander {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12%;
+}
+a {
+    text-decoration: none;
+}
 .custom-form {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin: -88px 29px 5px 17px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+	margin-top: 15%;
 }
 
 .input-wrapper {
-    display: flex;
-    align-items: center;
-    position: relative;
-
-}
-
-.wp-block-buttons>.wp-block-button.wp-block-button__width-50 {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+  display: flex;
+  align-items: center;
 }
 
 .button-group {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    right: 0;
-    top: 0;
+  display: flex;
+  flex-direction: column;
+  order: 2;
 }
 
 .separatorr {
-    width: 33px;
-    height: 1px;
-    color: var(--white);
-    margin: 5px 0;
+  width: 28px;
+  height: 1px;
+  color: var(--white);
+  margin: 0 5px;
+  position: relative;
+  right: 75%;
 }
 
 .plus-button,
 .minus-button {
-    width: 33px;
-    height: 35px;
-    background-color: var(--shilo);
-    color: var(--white);
-    border: solid var(--shilo);
+  width: 25px;
+  height: 31px;
+  background-color: var(--shilo);
+  color: var(--white);
+  border: solid var(--shilo);
+  position: relative;
+  right: 56%;
 }
 
 .plus-button {
-    border-radius: 0 7px 0 0;
-    margin-bottom: -14px;
+  border-radius: 0 7px 0 0;
 }
 
 .minus-button {
-    border-radius: 0 0 7px 0;
-    margin-bottom: 5px;
-}
-
-.box-input {
-    display: flex;
-    justify-content: space-between;
-}
-
-.separatorr {
-    width: 33px;
-    height: 1px;
-    margin: -35px 0;
+  border-radius: 0 0 7px 0;
 }
 
 .input-field {
-    height: 56px;
-    width: 80px;
-    padding: 5px;
-    border: none;
-    text-align: center;
-    border-radius: 7px;
-
-}
-
-.input-field::-webkit-inner-spin-button,
-.input-field::-webkit-outer-spin-button {
-    display: none;
+  height: 3.75rem;
+  width: 3.75rem;
+  padding: 5px;
+  border: none;
+  text-align: center;
+  border-radius: 5px 0 0 5px;
 }
 
 .ok-button {
-    background-color: #e0b9b4;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    font-weight: bold;
-    width: 100px;
-    height: 56px;
-    border-radius: 5px;
-    margin-left: 9px;
+  background-color: #e0b9b4;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-weight: bold;
+  width: 6.25rem;
+  height: 3.5rem;
+  border-radius: 5px;
+margin-left: -16px;
 }
 
 .ok-button:hover {
     background-color: var(--brick-red);
 }
-
-
+.recta {
+    border-radius: 5px !important;
+    box-shadow: 0px 4px 14px #0000000a !important;
+    height: 4.4375rem;
+    min-width: 25rem!important;
+    border: solid white;
 }
 
-.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) img {
-    width: 15.O675rem;
-    height: 8.0537;
-}
-
-
-.submit-button {
-
-    border-color: var(--shilo);
-}
-
-.submit-button:hover {
-    background-color: var(--brick-red) !important;
-}
-
-.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) img {
-    flex: 1 0 0%;
-    height: 8rem;
-    object-fit: cover;
-    width: 13.313rem;
-    margin: 1.25rem 1.3125rem;
-}
-
-.title-ren {
-    font-size: var(--font-size-xl) !important;
-    font-family: var(--font-family-syne);
-}
-
-
-.fleur {
-    margin-bottom: 14%;
-
-}
-
-.rencontercontenair {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    height: 25rem !important;
-    gap: 43px;
-}
-
-.recta2 {
-    border-radius: 0.4375rem !important;
-    box-shadow: 0px 0.25rem 0.875rem #0000000a !important;
-    height: 3.1875rem;
-    width: 25rem !important;
-    /* border: solid white;*/
-}
-
-
-.flex3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.chez-planty-nous-som {
-    height: 90px;
-    line-height: normal;
-    font-family: var(--font-family-syne);
-}
-
-.recta3 {
-    border-radius: 0.4375rem !important;
-    box-shadow: 0px 0.25rem 0.875rem #0000000a !important;
-    height: 12.5rem;
-    width: 25rem !important;
+.line {
+    transform: rotate(90deg);
+    width: 27.6875rem;
     position: relative;
-    background-position: top 2.5rem left -1.25rem;
+    top: 15.625rem;
 }
+.border {
+    border-bottom: 0px inset var(--bizarre);
+    border-radius: 50% / 0% 0% 10% 10%;
+    box-shadow: 0px 11px 6px rgba(227, 217, 208);
+}
+.wp-container-2.wp-container-2 {
+  padding-inline-end: 14%;
+}
+.canette {
+    position: relative !important;
+}
+.canette::before {
+    content: "";
+    position: absolute;
+    top: 86%;
+    left: 34%;
+    width: 28%;
+    height: 3%;
+    border-radius: 47%;
+    box-shadow: inset 0 0 10px rgb(0, 0, 0);
+    mix-blend-mode: multiply;
+}
+.image-grid {
+    height: 16.375rem;
+    min-width: 24.5625rem;
+}
+.has-x-large-font-size {
+	padding-block: 3%
+}
+.border3 {
 
+border-radius: 50% / 0% 0% 15% 15%;
+}
+	.border2{
+border-radius: 50% / 0% 0% 3% 3%;
+
+}
+.section1 {
+	height:fit-content;
+	position: relative;
+  bottom: -20px;
+}
+}
+.wp-block-button__link:hover {
+    background-color: var(--brick-red) !important;
+	
+}
+.wp-block-button__link{
+	position: relative;
+
+}
+.recta3 {
+    position: relative;
+}
 .recta3::before {
     content: "";
     position: absolute;
-    top: 5.938rem;
-    right: 16.188rem;
+    top: 2rem;
+right: 17.5rem;
     width: 12.5rem;
     height: 12.5rem;
-    background-image: url(http://khalidkharkhour.com/wp-content/uploads/2023/06/feuille-150x150-1.png);
+    background-image: url(http://khalidkharkhour.com/wp-content/uploads/2023/07/Group6.png);
     background-repeat: no-repeat;
     background-position: top left;
 }
-
 .cont-feuille {
     height: fit-content;
     position: relative;
 }
-
 .cont-feuille::before {
     content: "";
     position: absolute;
-    top: 10%;
-
-    width: 300px;
-    height: 300px;
+    top: -8%;
+   left:68%;
+    width: 18.75rem;
+    height: 18.75rem;
     background-image: url(http://khalidkharkhour.com/wp-content/uploads/2023/06/group-4-2@2x-3.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
 
-.wp-block-button__link {
-    background-color: var(--shilo) !important;
-    height: 55px !important;
-    overflow: hidden !important;
-    padding: 8px 56px !important;
-    width: 200px !important;
-
-}
-
-.wp-block-button__link:hover {
-    background-color: var(--brick-red) !important;
-}
-
-.boxmobile {
-    display: none;
-}
-
-.box {
-    position: relative !important;
-    left: 10% !important;
-}
-
-.wp-block-buttons>.wp-block-button,
-.button-contenair {
-    display: inline-block;
-    margin: 38px;
-}
-
-.wp-image-2175,
-.cannettes1 {
-    margin-block: 0;
-}
-
-.wp-block-gutena-forms {
-    padding-bottom: 0 !important;
-    padding-top: 0 !important;
-}
-
 @media (min-width: 320px) and (max-width: 767px) {
-
-    .nav-bar,
+  .nav-bar,
     .header {
-
         display: flex;
         position: sticky;
         justify-content: center;
-
         align-items: center;
-
         flex-direction: column;
-        gap: 0.625rem;
+        gap: 1rem;
+		padding-top: 10px ;
     }
-
-    .bouton-nav:hover {
-        background-color: var(--brick-red);
-    }
-
-    .commander-2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .bouton-n,
-    .bouton-nav-2 {
-        border-radius: 0.4375rem;
-        height: 3.875rem;
-        width: 100%;
-    }
-
+.bouton-n {
+	width: 100%;}
+.bouton-nav {
+  display: flex;
+	justify-content: center;}
+    .bouton-nav,
     .nous-rencontrer {
         margin-left: 0;
     }
-
     .nous-rencontrer2 {
-
         margin-left: 0% !important;
     }
-
-    .nous-rencontrer-1 {
-        min-width: 0;
+	
+    .wp-block-cover {
+        border: solid var(--contessa:) 5px;
+		border-radius: 20px;
+		
+		display:flex;
+		flex-direction: column;
+		justify-content:center;
     }
-
-    .bouton-nav {
-        width: 100%;
-        padding: 15px 30px;
-        display: flex;
-        justify-content: center;
-    }
-
-
-
-    .wp-block-button__link {
-
-        padding: 8px 24px !important;
-
-    }
-
-    .bouton-nav-2 {
-        min-width: 100%;
-        padding: 15px 30px;
-    }
-
-    .boisson-nergisante-100-naturelle {
-        font-size: var(--font-size-m) !important;
-    }
-
-    .syne-bold-goblin-30px {
-        font-size: var(--font-size-m) !important;
-    }
-
-    .has-x-large-font-size {
-        font-size: var(--wp--preset--font-size--x-medium) !important;
-        margin-top: 20%;
-    }
-
-    .has-large-font-size {
-        font-size: var(--font-size-m) !important;
-    }
-
-    .syne-normal-black-20px {
-        font-size: var(--font-size-xxs) !important;
-    }
-
-    .title-ren {
-        font-size: var(--font-size-xxs) !important;
-    }
-
-    .nous-avons-une-saveu {
-        font-size: var(--font-size-xxs) !important;
-    }
-
-    .chez-planty-nous-som {
-        height: 237px;
-        text-align: left;
-    }
-
-
-
-    .lenergie {
-        font-size: var(--wp--preset--font-size--small) !important;
-    }
-
-    .des-palntes {
-        height: 50%;
-    }
-
-    .galerie,
-    .container-grid {
-        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
-        left: 0;
-        bottom: 0;
-    }
-
-    .image-grid {
-        min-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .contenair1,
-    .overlap-grou4,
-    .overlap-grou3,
-    .overlap-grou2,
-    .overlap-grou1 {
-        margin-top: 0 !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        direction: column;
-    }
-
-    .wp-block-button {
-        margin-right: 63% !important;
-    }
-
-    .img-fatiha {
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .text2 {
-        font-size: var(--wp--preset--font-size--small) !important;
-        text-align: center;
-    }
-
-
-
-    .overlap-grou5,
-    .overlap-grou6,
-    .overlap-grou7 {
-        display: none;
-    }
-
-    .recta,
-    .recta2,
-    .recta3 {
-        width: 17.688rem !important;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        direction: column;
-    }
-
-    .recta3::before {
-        top: 4.9375rem;
-        right: 12.188rem;
-        width: 7rem;
-        height: 11.5rem;
-    }
-
-    .line-6 {
-        display: none;
-    }
-
-
-
-
-
-
-    .fleur {
-        width: 75%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-        position: relative;
-        left: 15%;
-        bottom: 30%;
-    }
-
-    .rencontercontenair {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .cont-feuille::before {
-        width: 346px;
-    }
-
-    .recta3::before {
-        top: 5.938rem;
-        right: 11.188rem;
-        width: 7rem;
-    }
-
+	.gutena-forms-contact-form-- ,.gutena-forms-contact-form ,.has-text-align-left {
+		display:flex;
+		align-items:center;
+		flex-direction:column;
+	}
     .custom-form {
-        margin: 29px 29px 5px 17px;
+        margin: 29px 43px 15px 70px;
+    }
+	.has-large-font-size , .has-x-large-font-size , h1 {
+  font-size: 13px !important;
+  white-space: nowrap !important;
+		line-height: 2;}
+    .recta ,.gutena-forms-textarea-field {
+        min-width: 17.8125rem !important;
+        margin-left:auto !important;
     }
 
-    .box {
-        display: flex;
-
-    }
-
-    .box34 {
-        order: 1;
-
-    }
-
-    .livr {
-        order: 2;
-
-    }
-
-    .command {
-
-        order: 3;
-
-    }
-
-
-    .wp-block-gallery.wp-block-gallery-6 {
-        --wp--style--unstable-gallery-gap: var(--wp--style--gallery-gap-default, var(--gallery-block--gutter-size, var(--wp--style--block-gap, 0.em))) !important;
-    }
+    .recta3::before {
+        right: 9.188rem;
+}
+.cont-feuille::before {
+   left:30%;
+}
+	body , html{
+	 border: solid var(--shilo) 5px;
+		display:flex;
+		flex-direction: column;
+		justify-content:center;	
+	}
+	.line{
+		 transform: rotate(0deg);
+    
+		position: relative;
+   top: 33.75rem;
+	}
 }
